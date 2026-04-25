@@ -3,3 +3,5 @@ beautifulsoup4==4.14.3
 lxml==6.1.0
 selenium>=4.20.0
 webdriver-manager>=4.0.0
+anthropic>=0.49.0
+python-dotenv>=1.0.0
