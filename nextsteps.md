@@ -154,7 +154,7 @@ Running `python run_tracker.py` locally produces both HTML files and sends the m
 
 ---
 
-## Step 4 — BUY NOW email alerts
+## Step 4 — BUY NOW email alerts DONE
 
 ### Problem being solved
 A great listing can appear and sell within 24 hours. This step sends an immediate email the moment a listing crosses a BUY NOW threshold, independently of the full report.

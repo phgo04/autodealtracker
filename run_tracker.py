@@ -16,8 +16,8 @@ from pathlib import Path
 import anthropic
 from dotenv import load_dotenv
 
+from alerts import check_alerts
 from config import (
-    ALERTS_FILE,
     OUTPUT_DIR,
     RAW_LISTINGS_FILE,
     STATE_FILE,
@@ -194,6 +194,9 @@ def main():
         raw_listings = raw_listings.get("listings", [])
 
     print(f"Loaded {len(raw_listings)} listings from scraper.")
+
+    # Check BUY NOW thresholds and fire alerts before full report
+    check_alerts(raw_listings)
 
     # Merge into persistent state
     updated_state = update_state(raw_listings, prior_state)
