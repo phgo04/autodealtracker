@@ -15,7 +15,7 @@ from pathlib import Path
 from config import ALERTS_FILE, BUY_NOW
 
 
-def _classify(listing: dict) -> tuple[str, dict] | None:
+def _classify(listing: dict):
     """
     Return (threshold_key, threshold) if the listing crosses a BUY NOW threshold,
     or None if it does not qualify.
@@ -132,18 +132,29 @@ def check_alerts(listings: list) -> None:
     sent_ids = set(alerts_sent)
     newly_sent = []
 
+    qualified = []
     for listing in listings:
         lid = listing.get("listing_id") or listing.get("id")
         if not lid or lid in sent_ids:
             continue
 
         result = _classify(listing)
-        if result is None:
-            continue
+        if result is not None:
+            qualified.append((lid, listing, result))
 
-        threshold_key, threshold = result
+    if not qualified:
+        print("No new BUY NOW listings found.")
+        return
+
+    print(f"{len(qualified)} new BUY NOW listing(s) found:")
+    for lid, listing, (threshold_key, threshold) in qualified:
+        year = listing.get("year")
+        price = listing.get("price")
+        km = listing.get("mileage_km") or listing.get("km") or listing.get("mileage")
+        km_str = f"{km:,}" if km is not None else "N/A"
+        print(f"  [{threshold_key}] {year} ${price:,} / {km_str} km  id={lid}")
+
         subject, body = _format_email(listing, threshold_key, threshold)
-
         if _send_alert(subject, body):
             newly_sent.append(lid)
             sent_ids.add(lid)
@@ -155,5 +166,3 @@ def check_alerts(listings: list) -> None:
             encoding="utf-8",
         )
         print(f"Saved {len(sent_ids)} alert IDs to {ALERTS_FILE}")
-    else:
-        print("No new BUY NOW alerts triggered.")
