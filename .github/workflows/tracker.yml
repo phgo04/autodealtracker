@@ -8,6 +8,8 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # allows the workflow to commit state files back to the repo
 
     steps:
       - name: Checkout repo
