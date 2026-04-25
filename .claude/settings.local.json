@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(python -c \"import requests\")",
+      "Bash(pip install *)",
+      "Bash(python scraper.py --test)",
+      "Bash(python -c ' *)",
+      "Bash(python -m pip install --upgrade pip)",
+      "Bash(python scraper.py)",
+      "Bash(gh auth *)"
+    ]
+  }
+}

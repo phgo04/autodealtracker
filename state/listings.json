@@ -1,0 +1,90 @@
+{
+  "last_run": "2026-04-24",
+  "listings": {
+    "airport-mazda-2024-kuro-57813": {
+      "dealer": "Airport Mazda of Toronto",
+      "year": 2024,
+      "trim": "Kuro",
+      "condition": "used",
+      "km": 57813,
+      "price": 32998,
+      "first_seen": "2026-04-24",
+      "last_seen": "2026-04-24",
+      "promo": "$1,500 finance discount",
+      "rating": "Avoid",
+      "notes": "Exceeds 40,000 km hard limit"
+    },
+    "airport-mazda-2024-signature-38016": {
+      "dealer": "Airport Mazda of Toronto",
+      "year": 2024,
+      "trim": "Signature",
+      "condition": "used",
+      "km": 38016,
+      "price": 37998,
+      "first_seen": "2026-04-24",
+      "last_seen": "2026-04-24",
+      "promo": null,
+      "rating": "Overpriced",
+      "notes": "Near km hard limit, priced above market for mileage"
+    },
+    "scarboro-mazda-2025-used-43332": {
+      "dealer": "Scarboro Mazda",
+      "year": 2025,
+      "trim": "Unclear",
+      "condition": "used",
+      "km": 43332,
+      "price": 33992,
+      "first_seen": "2026-04-24",
+      "last_seen": "2026-04-24",
+      "promo": null,
+      "rating": "Avoid",
+      "notes": "Exceeds 30,000 km limit for 2025 secondary used target"
+    },
+    "mazda-of-toronto-2025-gs-new": {
+      "dealer": "Mazda of Toronto (North York)",
+      "year": 2025,
+      "trim": "GS",
+      "condition": "new",
+      "km": 0,
+      "price": 37137,
+      "first_seen": "2026-04-24",
+      "last_seen": "2026-04-24",
+      "promo": "Up to $2,750 off at Airport Mazda - verify trim",
+      "rating": "Fair",
+      "notes": "Not discounted enough at list price; Airport discount could change picture"
+    },
+    "mazda-of-toronto-2025-gt-new": {
+      "dealer": "Mazda of Toronto (North York)",
+      "year": 2025,
+      "trim": "GT",
+      "condition": "new",
+      "km": 0,
+      "price": 42187,
+      "first_seen": "2026-04-24",
+      "last_seen": "2026-04-24",
+      "promo": null,
+      "rating": "Overpriced",
+      "notes": "No clearance discount confirmed on outgoing GT"
+    },
+    "mazda-of-toronto-2026-gt-new": {
+      "dealer": "Mazda of Toronto (North York)",
+      "year": 2026,
+      "trim": "GT",
+      "condition": "new",
+      "km": 0,
+      "price": 49837,
+      "first_seen": "2026-04-24",
+      "last_seen": "2026-04-24",
+      "promo": "April 2026 Mazda promo 4.9%/72mo + $1,000 cash - ends Apr 30",
+      "rating": "Overpriced",
+      "notes": "Includes $795 admin fee. Above budget."
+    }
+  },
+  "market_context": {
+    "used_2024_ontario_avg": 32895,
+    "used_2024_gta_listings_100km": 43,
+    "new_2026_gs_msrp": 39200,
+    "new_2026_gt_msrp": 42200,
+    "active_promo": "Mazda April 2026: 4.9%/72mo + $500-$1000 cash + $500 loyalty - ends 2026-04-30"
+  }
+}
