@@ -12,7 +12,7 @@ This file is the implementation guide for Claude Code. Steps are ordered by depe
 
 ---
 
-## Step 2 — GitHub repository + Actions automation (DO NEXT)
+## Step 2 — GitHub repository + Actions automation DONE
 
 ### Problem being solved
 The tracker currently requires the user's PC to be on and Claude Code to be open. This step moves everything to the cloud so it runs automatically with no user action, and can be triggered from the GitHub mobile app.
