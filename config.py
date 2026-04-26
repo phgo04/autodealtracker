@@ -4,6 +4,7 @@ Add a new car to CARS to extend tracking without touching any other file.
 """
 
 from pathlib import Path
+from typing import Optional
 
 # ── Paths ─────────────────────────────────────────────────────────────────────
 PROJECT_ROOT = Path(__file__).parent
@@ -78,12 +79,23 @@ FINANCING = {
     "rate_used_high": 0.0849,
 }
 
-# ── Depreciation curve (used in Step 8) ──────────────────────────────────────
-# Based on 2024 CX-5 GS original MSRP ~$36,500 CAD.
-# Update every 6 months or when market shifts significantly.
+# ── Depreciation curve ────────────────────────────────────────────────────────
+# Based on Ontario market data. Update every 6 months or when market shifts.
+# Keys follow the pattern "{year}_{base_trim}" — e.g. "2024_GS", "2025_GS".
+# expected_value() tries the exact trim first, then falls back to the first
+# word of the trim string so "GS Kuro" and "GS AWD" resolve to "GS".
 DEPRECIATION_CURVE = {
     "2024_GS": {
         "msrp": 36_500,
+        "bands": [
+            {"km_max": 20_000, "retain_pct": 0.85},   # ~$31,025
+            {"km_max": 40_000, "retain_pct": 0.75},   # ~$27,375
+            {"km_max": 60_000, "retain_pct": 0.65},   # ~$23,725
+            {"km_max": 80_000, "retain_pct": 0.57},   # ~$20,805
+        ],
+    },
+    "2024_GS Kuro": {
+        "msrp": 37_800,
         "bands": [
             {"km_max": 20_000, "retain_pct": 0.85},
             {"km_max": 40_000, "retain_pct": 0.75},
@@ -91,4 +103,57 @@ DEPRECIATION_CURVE = {
             {"km_max": 80_000, "retain_pct": 0.57},
         ],
     },
+    "2025_GS": {
+        "msrp": 38_200,
+        "bands": [
+            {"km_max": 10_000, "retain_pct": 0.93},   # near-new
+            {"km_max": 20_000, "retain_pct": 0.88},
+            {"km_max": 30_000, "retain_pct": 0.82},
+        ],
+    },
 }
+
+
+def expected_value(year, trim: str, km) -> Optional[int]:
+    """
+    Return the expected fair-market value (CAD) for a listing based on the
+    depreciation curve, or None if no matching curve entry exists.
+
+    Lookup order:
+      1. f"{year}_{trim}"           exact match  (e.g. "2024_GS")
+      2. f"{year}_{trim.split()[0]}" base-trim   (e.g. "2024_GS" from "GS Kuro")
+    """
+    if year is None or km is None or trim is None:
+        return None
+
+    trim_str = str(trim).strip()
+    keys_to_try = [f"{year}_{trim_str}"]
+    base = trim_str.split()[0] if trim_str else ""
+    if base and base != trim_str:
+        keys_to_try.append(f"{year}_{base}")
+
+    curve = None
+    for key in keys_to_try:
+        curve = DEPRECIATION_CURVE.get(key)
+        if curve:
+            break
+
+    if curve is None:
+        return None
+
+    for band in curve["bands"]:
+        if km <= band["km_max"]:
+            return round(curve["msrp"] * band["retain_pct"])
+
+    return None   # km exceeds all bands — no reliable estimate
+
+
+def depreciation_delta(listing_price, expected) -> Optional[float]:
+    """
+    Return how far the listing price deviates from expected value as a
+    percentage (positive = overpriced, negative = underpriced), or None
+    if either value is unavailable.
+    """
+    if expected is None or listing_price is None:
+        return None
+    return round(((listing_price - expected) / expected) * 100, 1)

@@ -18,7 +18,7 @@ import anthropic
 from dotenv import load_dotenv
 
 from alerts import check_alerts
-from config import CARS, OUTPUT_DIR, car_paths
+from config import CARS, OUTPUT_DIR, car_paths, depreciation_delta, expected_value
 
 load_dotenv()
 
@@ -64,6 +64,25 @@ def update_state(raw_listings: list, prior_state: dict) -> dict:
         }
 
     return {"listings": listings_by_id}
+
+
+# ── Depreciation benchmark ───────────────────────────────────────────────────
+
+def annotate_depreciation(raw_listings: list) -> list:
+    """
+    Enrich each listing with two fields before it is sent to the Claude API:
+      expected_value   — fair-market price for the year/trim/km band (CAD int or None)
+      vs_expected_pct  — % deviation from expected (positive = overpriced, None if no curve)
+
+    Listings with no matching depreciation curve entry (e.g. new cars, unknown trim)
+    receive None for both fields — Claude is instructed to show '—' in that case.
+    """
+    for listing in raw_listings:
+        exp   = expected_value(listing.get("year"), listing.get("trim"), listing.get("km"))
+        delta = depreciation_delta(listing.get("price"), exp)
+        listing["expected_value"]  = exp
+        listing["vs_expected_pct"] = delta
+    return raw_listings
 
 
 # ── Dealer reputation layer ───────────────────────────────────────────────────
@@ -319,6 +338,11 @@ def run_car(car_key: str, car_config: dict) -> None:
         raw_listings = raw_listings.get("listings", [])
 
     print(f"  Loaded {len(raw_listings)} listings from scraper.")
+
+    # Annotate each listing with depreciation benchmark before sending to Claude
+    annotate_depreciation(raw_listings)
+    n_benchmarked = sum(1 for l in raw_listings if l.get("vs_expected_pct") is not None)
+    print(f"  Depreciation benchmark: {n_benchmarked}/{len(raw_listings)} listings matched a curve.")
 
     # BUY NOW alerts
     check_alerts(

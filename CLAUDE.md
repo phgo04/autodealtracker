@@ -245,12 +245,15 @@ Provide a table with the following columns:
 - Price (CAD)
 - Mileage (km)
 - Trim
+- vs. Expected — deviation from the depreciation benchmark; format as `+12%` (orange, overpriced) or `-8%` (green, underpriced); show `—` if no curve entry exists for this listing
 - Dealer
 - Location
 - Price Drop
 - Promo / Incentive
 - Value Rating
 - Notes
+
+The `vs_expected_pct` field is pre-computed and attached to each listing. Use it directly — do not recalculate. A listing priced significantly above expected should have its Value Rating penalised accordingly regardless of how it compares to the raw market average. A listing priced significantly below expected is a stronger deal signal.
 
 Sort the table by best overall value / true affordability, not simply by price.
 
@@ -359,6 +362,7 @@ A stripped-down, visually bold version designed for reading on a phone. It must 
 Design rules:
 - Use listing cards instead of tables — one card per vehicle
 - Each card shows: rating badge, year/trim, price (large and bold), mileage, estimated monthly payment, and key tags
+- If `vs_expected_pct` is present and not null, add one line below the price: "Priced X% above expected for mileage" (in orange) or "Priced X% below expected — strong value signal." (in green); omit the line entirely if the field is null or the listing is new/demo with no curve entry
 - Tapping "Details" on a card expands bullet-point notes — nothing hidden by default that the user needs immediately
 - Sections like Used vs New and Market Snapshot should be collapsed by default using native HTML `<details>`/`<summary>` — tap to expand
 - Sticky header with run number and date

@@ -338,7 +338,7 @@ After 5+ runs, the dealer table shows meaningful differentiation. At least one d
 
 ---
 
-## Step 8 — Depreciation benchmark
+## Step 8 — Depreciation benchmark DONE
 
 ### Problem being solved
 Comparing a listing's price against the market average is a weak signal. A stronger signal is: how does this price compare to where the car should be given its age and mileage?
