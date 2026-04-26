@@ -12,7 +12,7 @@ This file is the implementation guide for Claude Code. Steps are ordered by depe
 
 ---
 
-## Step 2 — GitHub repository + Actions automation DONE
+## Step 2 — GitHub repository + Actions automation DONE ✓
 
 ### Problem being solved
 The tracker currently requires the user's PC to be on and Claude Code to be open. This step moves everything to the cloud so it runs automatically with no user action, and can be triggered from the GitHub mobile app.
@@ -83,7 +83,7 @@ The workflow appears in the Actions tab. Clicking "Run workflow" on GitHub mobil
 
 ---
 
-## Step 3 — Claude API integration + email delivery DONE
+## Step 3 — Claude API integration + email delivery DONE ✓
 
 ### Problem being solved
 The manual Claude Code session for analysis is slow, interactive, and token-inefficient. This step replaces it with a direct API call that runs headlessly inside the GitHub Actions workflow.
@@ -154,7 +154,7 @@ Running `python run_tracker.py` locally produces both HTML files and sends the m
 
 ---
 
-## Step 4 — BUY NOW email alerts DONE
+## Step 4 — BUY NOW email alerts DONE ✓
 
 ### Problem being solved
 A great listing can appear and sell within 24 hours. This step sends an immediate email the moment a listing crosses a BUY NOW threshold, independently of the full report.
@@ -206,7 +206,7 @@ Add a fake listing with price $30,000 and km 10,000 to `state/raw_listings.json`
 
 ---
 
-## Step 5 — Multi-car support DONE
+## Step 5 — Multi-car support DONE ✓
 
 ### Problem being solved
 The buyer is cross-shopping across makes (e.g. CX-5 vs Honda CR-V vs Toyota RAV4). The scraper and config are hardcoded for CX-5 only.
@@ -276,7 +276,7 @@ Each car gets its own report file: `output/report_cx5_YYYY-MM-DD.html`. Email su
 
 ---
 
-## Step 6 — Price history sparklines DONE
+## Step 6 — Price history sparklines DONE ✓
 
 ### Problem being solved
 The state JSON tracks price over time per listing, but this data is invisible in the HTML output. A visual trend shows whether a car is dropping consistently, holding firm, or was re-priced upward.
@@ -306,7 +306,7 @@ After 2+ runs with the same listing at different prices, the desktop report show
 
 ---
 
-## Step 7 — Dealer reputation layer DONE
+## Step 7 — Dealer reputation layer DONE ✓
 
 ### Problem being solved
 Accumulated run data answers useful questions: Does this dealer negotiate? Do they relist the same cars? Are their prices consistently above or below market?
@@ -338,7 +338,7 @@ After 5+ runs, the dealer table shows meaningful differentiation. At least one d
 
 ---
 
-## Step 8 — Depreciation benchmark DONE
+## Step 8 — Depreciation benchmark DONE ✓
 
 ### Problem being solved
 Comparing a listing's price against the market average is a weak signal. A stronger signal is: how does this price compare to where the car should be given its age and mileage?
@@ -374,7 +374,7 @@ A used listing priced $35,000 at 38,000 km correctly shows `+28% above expected`
 
 ---
 
-## Step 9 — GitHub Pages dashboard DONE
+## Step 9 — GitHub Pages dashboard DONE ✓
 
 ### Problem being solved
 Emailed HTML attachments work but are clunky. A bookmarked URL on your phone is faster. This step makes the latest report always accessible at a stable URL — and is the foundation for a future web app.
@@ -405,14 +405,31 @@ Opening `https://{username}.github.io/{repo}/` on your phone shows the latest mo
 
 ## Implementation order summary
 
-| Step | File(s) | Depends on | Effort |
-|---|---|---|---|
-| 1 Done | `scraper.py`, `config.py` | -- | Done |
-| 2 | `.github/workflows/tracker.yml` | Step 1 | Small |
-| 3 | `run_tracker.py`, `.env` | Step 2 | Medium |
-| 4 | `alerts.py` | Step 3 | Small |
-| 5 | `config.py`, `scraper.py --car` | Step 3 | Medium |
-| 6 | HTML report updates | Steps 2-3 (needs 2+ runs) | Small |
-| 7 | `state/{car}/listings.json` schema | Step 5 (needs many runs) | Medium |
-| 8 | `config.py`, HTML updates | Step 3 | Small |
-| 9 | `.github/workflows/`, `docs/` | Step 5 | Small |
+| Step | File(s) | Status |
+|---|---|---|
+| 1 | `scraper.py`, `config.py` | ✓ Done |
+| 2 | `.github/workflows/tracker.yml` | ✓ Done |
+| 3 | `run_tracker.py`, `.env` | ✓ Done |
+| 4 | `alerts.py` | ✓ Done |
+| 5 | `config.py`, `scraper.py --car` | ✓ Done |
+| 6 | HTML report sparklines | ✓ Done |
+| 7 | `state/{car}/listings.json` dealer stats | ✓ Done |
+| 8 | `config.py` depreciation benchmark | ✓ Done |
+| 9 | `.github/workflows/`, `docs/` GitHub Pages | ✓ Done |
+
+---
+
+## Current system status (as of 2026-04-26)
+
+All 9 steps are complete and verified working end-to-end:
+
+- **Scraper** — Selenium + Chrome headless, scrapes AutoTrader.ca, handles timeouts gracefully (page load timeout 60s, saves partial results on crash)
+- **Pipeline** — `run_tracker.py` loops all CARS, two separate Claude API calls per car (desktop + mobile), prevents token truncation
+- **Email** — Gmail SMTP with App Password, confirmed delivering to `REDACTED@example.com`
+- **GitHub Pages** — Live at `https://phgo04.github.io/autodealtracker/`, updates automatically after each run
+- **Schedule** — Runs every 3 days at noon UTC (8am EDT) via GitHub Actions cron; also triggerable manually from the Actions tab
+
+### Known issues / future ideas
+- CR-V prompt file not yet written — scraper runs for CR-V but `run_tracker.py` skips it (no prompt file)
+- Sparklines and dealer stats require 2+ runs to accumulate meaningful data
+- Workflow dispatch could accept a `skip_scrape` boolean input for faster test runs (not yet implemented)

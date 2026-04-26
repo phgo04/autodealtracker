@@ -1,62 +1,105 @@
 # How to Run AutoDealTracker
 
-## Step 1 — Scrape fresh listings (run this first)
-
-Open a terminal in this folder and run:
-
-```
-python scraper.py
-```
-
-This takes about 3–4 minutes. It scrapes AutoTrader.ca for all 2024–2026 Mazda CX-5 listings in Ontario and saves them to `state/raw_listings.json` (~300 listings). You'll see a live page-by-page count as it runs.
-
-To do a quick test (first page only, no save):
-```
-python scraper.py --test
-```
+The tracker runs fully automatically on GitHub Actions — no PC needs to be on, no Claude Code session needed. Everything below is for reference or manual intervention only.
 
 ---
 
-## Step 2 — Generate the reports
+## Normal operation — fully automated
 
-After the scraper finishes, open Claude Code in this folder and paste this exact message:
+The workflow runs every **3 days at 8am EDT** (noon UTC). It:
 
----
+1. Scrapes AutoTrader.ca for all configured cars
+2. Calls the Claude API to generate desktop + mobile HTML reports
+3. Sends the mobile report by email to the configured recipient
+4. Publishes the mobile report to GitHub Pages
+5. Commits updated state files back to the repo
 
-Run the Mazda CX-5 tracker. Your master prompt and analysis rules are in CLAUDE.md — read that first. Load the previous state from state/listings.json. Load the current listings from state/raw_listings.json — do not search the web, all data is already in that file. Generate the full report as defined in the CLAUDE.md output structure. Save the updated state to state/listings.json. Save the full desktop report to output/report_YYYY-MM-DD.html and the mobile report to output/report_YYYY-MM-DD_mobile.html (use today's actual date in both filenames). All dealer names must be hyperlinks to the actual listing or dealer inventory page.
-
----
-
-## Where to find your reports:
-
-Two files are created in the `output/` folder after each run:
-
-- `report_2026-04-28.html` — full report, open this on your laptop
-- `report_2026-04-28_mobile.html` — mobile version, email this to yourself to read on your phone
-
-## How price tracking works:
-
-Each run reads `state/listings.json` to detect price drops since the last run. Do not delete or edit that file manually. Old reports in `output/` are safe to delete whenever you want.
-
-## How often to run:
-
-Every 3–4 days is ideal. The market moves slowly enough that daily runs add little value.
+**Nothing to do.** Reports arrive in your inbox and the GitHub Pages URL updates automatically.
 
 ---
 
-## GitHub Pages — bookmark your reports on your phone
+## Manual trigger (run now without waiting for the schedule)
 
-After the first workflow run, your mobile reports are available at a permanent URL:
+1. Go to your repo on GitHub
+2. Click the **Actions** tab
+3. Select **AutoDealTracker** in the left sidebar
+4. Click **Run workflow** → **Run workflow**
 
+Takes about 10–12 minutes total (scraper ~8 min, Claude API ~2 min, email + pages ~1 min).
+
+---
+
+## Where to find your reports
+
+**Email** — mobile report arrives at your configured `ALERT_RECIPIENT` after every run.
+
+**GitHub Pages** — bookmark this on your phone:
 ```
 https://{your-github-username}.github.io/{your-repo-name}/
 ```
+Links to each car's latest mobile report. Updates automatically after every run.
 
-That index page links to:
-- `/cx5.html` — Mazda CX-5 latest mobile report
-- `/crv.html` — Honda CR-V latest mobile report (once a CR-V prompt is added)
+**Local output** — if you run manually on your PC, reports are saved to the `output/` folder:
+- `report_cx5_2026-04-28.html` — full desktop report (open in laptop browser)
+- `report_cx5_2026-04-28_mobile.html` — mobile version
 
-**One-time setup (do this once, before the first run):**
+---
+
+## Running locally (optional, for development)
+
+Requires Python 3.9+, Chrome, and a `.env` file with credentials.
+
+**Step 1 — Create `.env`** (use PowerShell to avoid encoding issues):
+```powershell
+@"
+ANTHROPIC_API_KEY=sk-ant-...
+GMAIL_ADDRESS=your-email@gmail.com
+GMAIL_APP_PASSWORD=xxxx-xxxx-xxxx-xxxx
+ALERT_RECIPIENT=your-email@gmail.com
+"@ | Out-File -FilePath .env -Encoding utf8
+```
+
+**Step 2 — Install dependencies:**
+```
+pip install -r requirements.txt
+```
+
+**Step 3 — Scrape listings:**
+```
+python scraper.py --car cx5
+```
+Takes 3–8 minutes. Saves to `state/cx5/raw_listings.json`. Use `--test` for a quick single-page check.
+
+**Step 4 — Generate reports and send email:**
+```
+python run_tracker.py
+```
+
+**Test email credentials only** (without running the full pipeline):
+```
+python test_email.py
+```
+
+---
+
+## GitHub Secrets (required for Actions)
+
+Go to repo **Settings → Secrets and variables → Actions** and ensure these are set:
+
+| Secret | Value |
+|---|---|
+| `ANTHROPIC_API_KEY` | From console.anthropic.com |
+| `GMAIL_ADDRESS` | Your Gmail address |
+| `GMAIL_APP_PASSWORD` | 16-char App Password from Google Account → Security → App passwords |
+| `ALERT_RECIPIENT` | Email address to receive reports |
+
+> **App Password note:** Requires 2-Step Verification enabled on your Google account. Generate at myaccount.google.com/security → 2-Step Verification → App passwords.
+
+---
+
+## GitHub Pages — one-time setup
+
+Do this once before the first run:
 
 1. Go to your repo on GitHub
 2. Click **Settings** → **Pages** (left sidebar)
@@ -64,4 +107,25 @@ That index page links to:
 4. Set **Branch** to `main` and **Folder** to `/docs`
 5. Click **Save**
 
-GitHub Pages will be live within a minute. Bookmark the URL on your phone — it updates automatically after every workflow run. No app, no login, no attachment to open.
+GitHub Pages will be live within a minute. The tracker updates it automatically after every run.
+
+---
+
+## How price tracking works
+
+Each run reads `state/{car}/listings.json` to detect price drops since the last run. Do not delete or edit those files manually. Old reports in `output/` are safe to delete.
+
+Features that improve with more runs:
+- **Price sparklines** — appear on desktop reports after 2+ runs with the same listing at different prices
+- **Dealer reputation stats** — become meaningful after 5+ runs
+- **Price drop detection** — active from run #2 onward
+
+---
+
+## Adding a new car to track
+
+1. Add an entry to `CARS` in `config.py`
+2. Create a prompt file for the car (e.g. `prompts/crv.md`) — copy `CLAUDE.md` and adapt the vehicle preferences
+3. Add `python scraper.py --car {key}` to the scraper step in `.github/workflows/tracker.yml`
+
+The pipeline picks it up automatically on the next run.

@@ -22,3 +22,6 @@ state/raw_listings.json
 .idea/
 *.DS_Store
 Thumbs.db
+
+# Visual brainstorming companion (local dev only)
+.superpowers/
