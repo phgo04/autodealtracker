@@ -316,6 +316,10 @@ def scrape(car_config: dict, test_mode: bool = False) -> list:
         print("  Make sure Google Chrome is installed on this machine.")
         return []
 
+    # Give each page up to 60 s to load before Selenium gives up.
+    # Default is 300 s, which means a hung page blocks the whole run.
+    driver.set_page_load_timeout(60)
+
     try:
         print("  Visiting homepage to pass bot check...", end=" ", flush=True)
         driver.get(AUTOTRADER_BASE)
@@ -326,10 +330,13 @@ def scrape(car_config: dict, test_mode: bool = False) -> list:
             url = build_url(search_url, page_num)
 
             print(f"  Page {page_num} ... ", end="", flush=True)
-            driver.get(url)
-            time.sleep(3)
-
-            html = driver.page_source
+            try:
+                driver.get(url)
+                time.sleep(3)
+                html = driver.page_source
+            except WebDriverException as e:
+                print(f"timeout/error — stopping with {len(all_listings)} listings. ({e.__class__.__name__})")
+                break
 
             page_listings = extract_from_next_data(html, today)
             method = "JSON"
