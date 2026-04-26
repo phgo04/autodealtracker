@@ -1,10 +1,10 @@
-# CX-5 Tracker
+# AutoDealTracker
 
-A personal car deal tracker that scrapes AutoTrader.ca for Mazda CX-5 listings in Ontario, runs Claude AI analysis, and emails a mobile-friendly report every 3 days — automatically, with no manual steps.
+A personal car deal tracker that scrapes AutoTrader.ca for Ontario listings across multiple models, runs Claude AI analysis, and emails a mobile-friendly report every 3 days — automatically, with no manual steps.
 
 ## What it does
 
-- Scrapes ~300+ 2024–2026 Mazda CX-5 listings from 70+ Ontario dealers via AutoTrader.ca
+- Scrapes 300+ listings per car model from 70+ Ontario dealers via AutoTrader.ca
 - Detects price drops between runs
 - Ranks listings by true value (price, mileage, trim, condition)
 - Fires an immediate email alert when a listing crosses a BUY NOW threshold

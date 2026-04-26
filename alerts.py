@@ -82,7 +82,7 @@ Link:    {url}
 Threshold: {threshold_desc}.
 
 ---
-CX-5 Tracker - automated alert"""
+AutoDealTracker - automated alert"""
 
     return subject, body
 

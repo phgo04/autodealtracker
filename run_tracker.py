@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CX-5 Tracker — automated analysis pipeline (Step 3).
+AutoDealTracker — automated analysis pipeline.
 Reads scraped listings, calls Claude API, saves HTML reports, sends email.
 """
 

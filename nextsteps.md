@@ -1,4 +1,4 @@
-# Next Steps — CX-5 Tracker Roadmap
+# Next Steps — AutoDealTracker Roadmap
 
 This file is the implementation guide for Claude Code. Steps are ordered by dependency — do not skip ahead. Read `CLAUDE.md` for full context on vehicle preferences and value logic.
 
