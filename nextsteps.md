@@ -206,7 +206,7 @@ Add a fake listing with price $30,000 and km 10,000 to `state/raw_listings.json`
 
 ---
 
-## Step 5 — Multi-car support
+## Step 5 — Multi-car support DONE
 
 ### Problem being solved
 The buyer is cross-shopping across makes (e.g. CX-5 vs Honda CR-V vs Toyota RAV4). The scraper and config are hardcoded for CX-5 only.

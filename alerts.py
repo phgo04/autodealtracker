@@ -12,10 +12,8 @@ import sys
 from email.mime.text import MIMEText
 from pathlib import Path
 
-from config import ALERTS_FILE, BUY_NOW
 
-
-def _classify(listing: dict):
+def _classify(listing: dict, buy_now: dict):
     """
     Return (threshold_key, threshold) if the listing crosses a BUY NOW threshold,
     or None if it does not qualify.
@@ -31,14 +29,14 @@ def _classify(listing: dict):
 
     checks = []
 
-    if not is_new and year == 2024:
-        checks.append(("used_2024", BUY_NOW["used_2024"]))
-    if not is_new and year == 2025:
-        checks.append(("used_2025", BUY_NOW["used_2025"]))
-    if is_new and year == 2026:
-        checks.append(("new_2026", BUY_NOW["new_2026"]))
-    if is_new and year == 2025:
-        checks.append(("new_2025_clear", BUY_NOW["new_2025_clear"]))
+    if not is_new and year == 2024 and "used_2024" in buy_now:
+        checks.append(("used_2024", buy_now["used_2024"]))
+    if not is_new and year == 2025 and "used_2025" in buy_now:
+        checks.append(("used_2025", buy_now["used_2025"]))
+    if is_new and year == 2026 and "new_2026" in buy_now:
+        checks.append(("new_2026", buy_now["new_2026"]))
+    if is_new and year == 2025 and "new_2025_clear" in buy_now:
+        checks.append(("new_2025_clear", buy_now["new_2025_clear"]))
 
     for key, threshold in checks:
         if price > threshold["max_price"]:
@@ -50,7 +48,7 @@ def _classify(listing: dict):
     return None
 
 
-def _format_email(listing: dict, threshold_key: str, threshold: dict) -> tuple[str, str]:
+def _format_email(listing: dict, threshold_key: str, threshold: dict, car_label: str) -> tuple[str, str]:
     year = listing.get("year", "?")
     trim = listing.get("trim", "Unknown")
     price = listing.get("price", 0)
@@ -68,7 +66,7 @@ def _format_email(listing: dict, threshold_key: str, threshold: dict) -> tuple[s
     km_display = f"{km:,}" if km else "N/A"
     price_display = f"${price:,.0f}"
 
-    subject = f"CX-5 BUY NOW -- {year} {trim} {price_display} / {km_display} km -- {dealer}"
+    subject = f"{car_label} BUY NOW -- {year} {trim} {price_display} / {km_display} km -- {dealer}"
 
     body = f"""A listing crossed your BUY NOW threshold.
 
@@ -116,16 +114,16 @@ def _send_alert(subject: str, body: str) -> bool:
         return False
 
 
-def check_alerts(listings: list) -> None:
+def check_alerts(listings: list, buy_now: dict, alerts_file: Path, car_label: str = "AutoDealTracker") -> None:
     """
     Check listings against BUY NOW thresholds.
     Sends one email per new qualifying listing.
-    Deduplicates against state/alerts_sent.json.
+    Deduplicates against the car-specific alerts_file.
     """
     alerts_sent: list = []
-    if ALERTS_FILE.exists():
+    if alerts_file.exists():
         try:
-            alerts_sent = json.loads(ALERTS_FILE.read_text(encoding="utf-8"))
+            alerts_sent = json.loads(alerts_file.read_text(encoding="utf-8"))
         except Exception:
             alerts_sent = []
 
@@ -138,15 +136,15 @@ def check_alerts(listings: list) -> None:
         if not lid or lid in sent_ids:
             continue
 
-        result = _classify(listing)
+        result = _classify(listing, buy_now)
         if result is not None:
             qualified.append((lid, listing, result))
 
     if not qualified:
-        print("No new BUY NOW listings found.")
+        print(f"[{car_label}] No new BUY NOW listings found.")
         return
 
-    print(f"{len(qualified)} new BUY NOW listing(s) found:")
+    print(f"[{car_label}] {len(qualified)} new BUY NOW listing(s) found:")
     for lid, listing, (threshold_key, threshold) in qualified:
         year = listing.get("year")
         price = listing.get("price")
@@ -154,15 +152,15 @@ def check_alerts(listings: list) -> None:
         km_str = f"{km:,}" if km is not None else "N/A"
         print(f"  [{threshold_key}] {year} ${price:,} / {km_str} km  id={lid}")
 
-        subject, body = _format_email(listing, threshold_key, threshold)
+        subject, body = _format_email(listing, threshold_key, threshold, car_label)
         if _send_alert(subject, body):
             newly_sent.append(lid)
             sent_ids.add(lid)
 
     if newly_sent:
-        ALERTS_FILE.parent.mkdir(parents=True, exist_ok=True)
-        ALERTS_FILE.write_text(
+        alerts_file.parent.mkdir(parents=True, exist_ok=True)
+        alerts_file.write_text(
             json.dumps(sorted(sent_ids), indent=2),
             encoding="utf-8",
         )
-        print(f"Saved {len(sent_ids)} alert IDs to {ALERTS_FILE}")
+        print(f"Saved {len(sent_ids)} alert IDs to {alerts_file}")
