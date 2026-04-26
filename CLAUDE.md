@@ -313,6 +313,28 @@ Visual emphasis required for: `BUY NOW`, `Great Deal`, `Price Drop`, `Promo Avai
 
 If prior run data exists, show current price, previous price, difference, drop percentage, and first/last seen dates.
 
+#### Price history sparklines (desktop report only)
+
+Include Chart.js via CDN in the `<head>`:
+```html
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+```
+
+For every listing in the Top 10 table and Best Picks cards that has a `price_history` array with **2 or more entries** in the prior state data, render a small inline sparkline using a Chart.js line chart inside a `<canvas>` element (width: 120px, height: 40px).
+
+Sparkline rules:
+- X-axis: dates from `price_history` (hidden labels)
+- Y-axis: prices (hidden axis)
+- No legend, no grid lines, no tooltips — pure trend line
+- Line color: **green** (`#22c55e`) if the last price is lower than the first price (trending down = good), **red** (`#ef4444`) if higher (rising price = bad), **orange** (`#f97316`) if flat (no meaningful change)
+- Fill: subtle fill under the line using the same color at 15% opacity
+- Point radius: 2px (visible but not dominant)
+- Place the sparkline in the price column of the table, below the current price figure, or in the top-right corner of Best Picks cards
+- If a listing has only 1 price_history entry (first run seen), show nothing — do not render a flat single-point line
+- Each canvas must have a unique `id` (e.g. `spark-{listing_id}`) and be initialized by an inline `<script>` block at the bottom of the `<body>`
+
+Do not add sparklines to the mobile report.
+
 ### File 2: Mobile-optimized report
 Filename: `report_YYYY-MM-DD_mobile.html`
 

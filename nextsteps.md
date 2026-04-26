@@ -276,7 +276,7 @@ Each car gets its own report file: `output/report_cx5_YYYY-MM-DD.html`. Email su
 
 ---
 
-## Step 6 — Price history sparklines
+## Step 6 — Price history sparklines DONE
 
 ### Problem being solved
 The state JSON tracks price over time per listing, but this data is invisible in the HTML output. A visual trend shows whether a car is dropping consistently, holding firm, or was re-priced upward.
