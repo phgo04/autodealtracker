@@ -1,4 +1,4 @@
-# How to Run the CX-5 Tracker
+# How to Run AutoDealTracker
 
 ## Step 1 — Scrape fresh listings (run this first)
 
@@ -41,3 +41,27 @@ Each run reads `state/listings.json` to detect price drops since the last run. D
 ## How often to run:
 
 Every 3–4 days is ideal. The market moves slowly enough that daily runs add little value.
+
+---
+
+## GitHub Pages — bookmark your reports on your phone
+
+After the first workflow run, your mobile reports are available at a permanent URL:
+
+```
+https://{your-github-username}.github.io/{your-repo-name}/
+```
+
+That index page links to:
+- `/cx5.html` — Mazda CX-5 latest mobile report
+- `/crv.html` — Honda CR-V latest mobile report (once a CR-V prompt is added)
+
+**One-time setup (do this once, before the first run):**
+
+1. Go to your repo on GitHub
+2. Click **Settings** → **Pages** (left sidebar)
+3. Under **Source**, select **Deploy from a branch**
+4. Set **Branch** to `main` and **Folder** to `/docs`
+5. Click **Save**
+
+GitHub Pages will be live within a minute. Bookmark the URL on your phone — it updates automatically after every workflow run. No app, no login, no attachment to open.

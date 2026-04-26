@@ -374,7 +374,7 @@ A used listing priced $35,000 at 38,000 km correctly shows `+28% above expected`
 
 ---
 
-## Step 9 — GitHub Pages dashboard
+## Step 9 — GitHub Pages dashboard DONE
 
 ### Problem being solved
 Emailed HTML attachments work but are clunky. A bookmarked URL on your phone is faster. This step makes the latest report always accessible at a stable URL — and is the foundation for a future web app.
