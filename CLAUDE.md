@@ -286,6 +286,21 @@ Include:
 - Whether prices are trending up, down, or stable
 - Whether promos are making new cars more attractive
 
+### Section H: Dealer Intelligence
+Only include this section if the prior state data contains a `dealer_stats` block with at least 2 dealers.
+
+Render a table with the following columns:
+- **Dealer** — dealer name
+- **Listings Seen** — total unique listings ever tracked for this dealer
+- **Avg Days on Lot** — average number of days a listing stayed active (blank if only one run available)
+- **Drops Price?** — color-coded label: `Yes` (green) if `price_drop_rate` > 0.50, `Sometimes` (orange) if 0.20–0.50, `Rarely` (gray) if under 0.20
+- **Avg Drop %** — average percentage drop among listings that did drop (show `—` if none)
+- **Relists** — number of relists detected (show `—` if zero)
+
+Sort by `listings_seen` descending so the most active dealers appear first.
+
+Add a one-line note below the table: "Data accumulates across runs — dealer patterns become meaningful after 5+ runs."
+
 ---
 
 ## 10) HTML Output Requirement
@@ -307,6 +322,7 @@ Required elements:
 - Buy signal section
 - Used vs new comparison
 - Market snapshot
+- Dealer Intelligence table (Section H) — only if `dealer_stats` is present in the prior state with 2+ dealers
 - Footer with financing assumptions and data quality disclaimer
 
 Visual emphasis required for: `BUY NOW`, `Great Deal`, `Price Drop`, `Promo Available`

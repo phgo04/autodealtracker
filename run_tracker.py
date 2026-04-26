@@ -8,7 +8,8 @@ import json
 import os
 import smtplib
 import sys
-from datetime import date
+from collections import defaultdict
+from datetime import date, datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -63,6 +64,122 @@ def update_state(raw_listings: list, prior_state: dict) -> dict:
         }
 
     return {"listings": listings_by_id}
+
+
+# ── Dealer reputation layer ───────────────────────────────────────────────────
+
+def _trim_similar(t1, t2) -> bool:
+    """True if two trim strings are the same (case-insensitive) or either is unknown."""
+    if not t1 or not t2 or t1 == "Not listed" or t2 == "Not listed":
+        return True   # can't distinguish — treat as potentially the same
+    return t1.strip().lower() == t2.strip().lower()
+
+
+def _km_similar(km1, km2, tolerance: int = 2_000) -> bool:
+    """True if two mileage values are within tolerance km of each other."""
+    if km1 is None or km2 is None:
+        return True
+    return abs(km1 - km2) <= tolerance
+
+
+def update_dealer_stats(listings_by_id: dict, today: str) -> dict:
+    """
+    Compute per-dealer aggregate stats from the full listings state.
+    Returns a dealer_stats dict ready to be stored under state['dealer_stats'].
+
+    Fields per dealer:
+      listings_seen      — total unique listings ever tracked
+      avg_days_on_lot    — average (last_seen - first_seen) in days
+      price_drop_rate    — fraction of listings that had at least one price drop
+      avg_price_drop_pct — average % drop among listings that did drop
+      relists_detected   — listings that vanished then reappeared with a new ID
+    """
+    # Accumulate raw data per dealer
+    by_dealer: dict = defaultdict(lambda: {
+        "listing_ids":    set(),
+        "days_on_lot":    [],
+        "had_drop":       [],   # bool per listing with 2+ price points
+        "drop_pcts":      [],   # % drop for listings that did drop
+    })
+
+    for lid, listing in listings_by_id.items():
+        dealer = (listing.get("dealer") or "").strip()
+        if not dealer or dealer == "Not listed":
+            continue
+
+        d = by_dealer[dealer]
+        d["listing_ids"].add(lid)
+
+        # Days on lot
+        first_str = listing.get("first_seen")
+        last_str  = listing.get("last_seen")
+        if first_str and last_str:
+            try:
+                days = (datetime.fromisoformat(last_str) - datetime.fromisoformat(first_str)).days
+                d["days_on_lot"].append(days)
+            except ValueError:
+                pass
+
+        # Price drop analysis
+        ph = listing.get("price_history", [])
+        if len(ph) >= 2:
+            p0 = ph[0].get("price")
+            p1 = ph[-1].get("price")
+            if p0 and p1:
+                if p1 < p0:
+                    d["had_drop"].append(True)
+                    d["drop_pcts"].append(round((p0 - p1) / p0 * 100, 1))
+                else:
+                    d["had_drop"].append(False)
+
+    # Relist detection
+    # A relist = a listing that was NOT seen this run (last_seen < today) that
+    # matches a currently-active listing (last_seen == today) at the same dealer
+    # with the same year, similar trim, and mileage within ±2,000 km.
+    current_by_dealer: dict = defaultdict(list)
+    old_by_dealer:     dict = defaultdict(list)
+
+    for lid, listing in listings_by_id.items():
+        dealer = (listing.get("dealer") or "").strip()
+        if not dealer or dealer == "Not listed":
+            continue
+        if listing.get("last_seen") == today:
+            current_by_dealer[dealer].append(listing)
+        elif listing.get("last_seen") and listing.get("last_seen") < today:
+            old_by_dealer[dealer].append(listing)
+
+    relist_counts: dict = defaultdict(int)
+    for dealer, old_listings in old_by_dealer.items():
+        current_listings = current_by_dealer.get(dealer, [])
+        for old in old_listings:
+            for curr in current_listings:
+                if (old.get("year") == curr.get("year")
+                        and _trim_similar(old.get("trim"), curr.get("trim"))
+                        and _km_similar(old.get("km"), curr.get("km"))
+                        and old.get("listing_id") != curr.get("listing_id")):
+                    relist_counts[dealer] += 1
+                    break   # count each old listing once
+
+    # Build final stats dict
+    dealer_stats: dict = {}
+    for dealer, d in by_dealer.items():
+        n_seen    = len(d["listing_ids"])
+        avg_days  = (round(sum(d["days_on_lot"]) / len(d["days_on_lot"]), 1)
+                     if d["days_on_lot"] else None)
+        n_eligible  = len(d["had_drop"])
+        drop_rate   = round(sum(d["had_drop"]) / n_eligible, 2) if n_eligible else 0.0
+        avg_drop    = (round(sum(d["drop_pcts"]) / len(d["drop_pcts"]), 1)
+                       if d["drop_pcts"] else 0.0)
+
+        dealer_stats[dealer] = {
+            "listings_seen":      n_seen,
+            "avg_days_on_lot":    avg_days,
+            "price_drop_rate":    drop_rate,
+            "avg_price_drop_pct": avg_drop,
+            "relists_detected":   relist_counts.get(dealer, 0),
+        }
+
+    return dealer_stats
 
 
 # ── Claude API call ───────────────────────────────────────────────────────────
@@ -211,8 +328,11 @@ def run_car(car_key: str, car_config: dict) -> None:
         car_label=label,
     )
 
-    # Merge into persistent state
+    # Merge into persistent state and compute dealer reputation stats
     updated_state = update_state(raw_listings, prior_state)
+    dealer_stats  = update_dealer_stats(updated_state["listings"], TODAY)
+    updated_state["dealer_stats"] = dealer_stats
+    print(f"  Dealer stats computed for {len(dealer_stats)} dealers.")
 
     print("  Calling Claude API...")
     response_text = call_claude(system_prompt, listings_data, prior_state_text, label)

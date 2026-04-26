@@ -306,7 +306,7 @@ After 2+ runs with the same listing at different prices, the desktop report show
 
 ---
 
-## Step 7 — Dealer reputation layer
+## Step 7 — Dealer reputation layer DONE
 
 ### Problem being solved
 Accumulated run data answers useful questions: Does this dealer negotiate? Do they relist the same cars? Are their prices consistently above or below market?
