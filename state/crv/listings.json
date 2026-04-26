@@ -1,0 +1,4297 @@
+{
+  "listings": {
+    "a803165f-8450-4076-8fd3-5879658060c1": {
+      "listing_id": "a803165f-8450-4076-8fd3-5879658060c1",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-cpo--carplay--backup-cam--htd-seats-gas-electric-hybrid-blue-a803165f-8450-4076-8fd3-5879658060c1",
+      "year": 2025,
+      "trim": "EX-L AWD CPO | CarPlay | Backup Cam | Htd Seats +",
+      "condition": "used",
+      "price": 40999,
+      "km": 45326,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40999
+        }
+      ]
+    },
+    "da34cbc4-8a90-4f24-a310-9e8125cbdf00": {
+      "listing_id": "da34cbc4-8a90-4f24-a310-9e8125cbdf00",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-da34cbc4-8a90-4f24-a310-9e8125cbdf00",
+      "year": 2024,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 37995,
+      "km": 16883,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 37995
+        }
+      ]
+    },
+    "3950a69c-5d0c-4503-b40c-cbb8bb731e05": {
+      "listing_id": "3950a69c-5d0c-4503-b40c-cbb8bb731e05",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-awd-cpo--carplay--honda-sense--backup-cam-gasoline-silver-3950a69c-5d0c-4503-b40c-cbb8bb731e05",
+      "year": 2024,
+      "trim": "LX-B AWD CPO | CarPlay | Honda Sense | Backup Cam",
+      "condition": "used",
+      "price": 29499,
+      "km": 41835,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 29499
+        }
+      ]
+    },
+    "a592896c-ec0b-4c36-afbb-475040f967a2": {
+      "listing_id": "a592896c-ec0b-4c36-afbb-475040f967a2",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-heated-seats-l-heated-steering-wheel-gasoline-grey-a592896c-ec0b-4c36-afbb-475040f967a2",
+      "year": 2024,
+      "trim": "Heated Seats l Heated Steering Wheel",
+      "condition": "used",
+      "price": 34200,
+      "km": 26833,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34200
+        }
+      ]
+    },
+    "9c008077-94f5-4408-9026-99dad093979c": {
+      "listing_id": "9c008077-94f5-4408-9026-99dad093979c",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd-cpo--carplay--bose--moonroof--hond-gas-electric-hybrid-black-9c008077-94f5-4408-9026-99dad093979c",
+      "year": 2024,
+      "trim": "Touring AWD CPO | CarPlay | Bose | Moonroof | Hond",
+      "condition": "used",
+      "price": 40999,
+      "km": 24901,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40999
+        }
+      ]
+    },
+    "40c29b6b-2fca-4aeb-9127-fc110e5b19d6": {
+      "listing_id": "40c29b6b-2fca-4aeb-9127-fc110e5b19d6",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-blue-40c29b6b-2fca-4aeb-9127-fc110e5b19d6",
+      "year": 2024,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 31300,
+      "km": 52941,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 31300
+        }
+      ]
+    },
+    "e2832788-7991-4178-b604-0dae7d09e772": {
+      "listing_id": "e2832788-7991-4178-b604-0dae7d09e772",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-silver-e2832788-7991-4178-b604-0dae7d09e772",
+      "year": 2025,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 37400,
+      "km": 8798,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 37400
+        }
+      ]
+    },
+    "6a24d2b6-e9a6-421b-9d8b-62fb913df21c": {
+      "listing_id": "6a24d2b6-e9a6-421b-9d8b-62fb913df21c",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-honda-certified--all-services-completed-gasoline-black-6a24d2b6-e9a6-421b-9d8b-62fb913df21c",
+      "year": 2024,
+      "trim": "LX-B HONDA CERTIFIED | ALL SERVICES COMPLETED",
+      "condition": "used",
+      "price": 32995,
+      "km": 14236,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 32995
+        }
+      ]
+    },
+    "90073288-117c-441b-8604-de9515005a9a": {
+      "listing_id": "90073288-117c-441b-8604-de9515005a9a",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-heated-seats-auto-start-honda-sensing-good-cond-gasoline-black-90073288-117c-441b-8604-de9515005a9a",
+      "year": 2024,
+      "trim": "Heated Seats| Auto Start| Honda Sensing| Good Cond",
+      "condition": "used",
+      "price": 31973,
+      "km": 15771,
+      "dealer": "Maple Honda",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 31973
+        }
+      ]
+    },
+    "f7fa1901-64c6-4f8a-a87a-bf3d3aada1fb": {
+      "listing_id": "f7fa1901-64c6-4f8a-a87a-bf3d3aada1fb",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-white-f7fa1901-64c6-4f8a-a87a-bf3d3aada1fb",
+      "year": 2025,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 35900,
+      "km": 20373,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35900
+        }
+      ]
+    },
+    "93d8a954-b99c-4a26-9581-cfbb4e05157e": {
+      "listing_id": "93d8a954-b99c-4a26-9581-cfbb4e05157e",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-dealer-service-one-owner-low-mileage-gasoline-white-93d8a954-b99c-4a26-9581-cfbb4e05157e",
+      "year": 2024,
+      "trim": "DEALER SERVICE/ONE OWNER/LOW MILEAGE",
+      "condition": "used",
+      "price": 33801,
+      "km": 14795,
+      "dealer": "WILLOWDALE NISSAN",
+      "location": "Thornhill",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 33801
+        }
+      ]
+    },
+    "24d39677-4ffc-438c-bbe7-91c9678a64ac": {
+      "listing_id": "24d39677-4ffc-438c-bbe7-91c9678a64ac",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-24d39677-4ffc-438c-bbe7-91c9678a64ac",
+      "year": 2024,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 37495,
+      "km": 20633,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 37495
+        }
+      ]
+    },
+    "54777709-0fd5-40b7-97d0-a64cd5f9b0c6": {
+      "listing_id": "54777709-0fd5-40b7-97d0-a64cd5f9b0c6",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-gas-electric-hybrid-54777709-0fd5-40b7-97d0-a64cd5f9b0c6",
+      "year": 2024,
+      "trim": "Touring",
+      "condition": "used",
+      "price": 41195,
+      "km": 43816,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41195
+        }
+      ]
+    },
+    "58fc0f6b-9676-48cf-a472-31783bccb855": {
+      "listing_id": "58fc0f6b-9676-48cf-a472-31783bccb855",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd-cpo--honda-sense--carplay--backup-cam-gasoline-blue-58fc0f6b-9676-48cf-a472-31783bccb855",
+      "year": 2025,
+      "trim": "Sport AWD CPO | Honda Sense | CarPlay | Backup Cam",
+      "condition": "used",
+      "price": 38299,
+      "km": 27629,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 38299
+        }
+      ]
+    },
+    "7f1a1b2e-69c5-437e-9b5b-df7de24e89d5": {
+      "listing_id": "7f1a1b2e-69c5-437e-9b5b-df7de24e89d5",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-gas-electric-hybrid-white-7f1a1b2e-69c5-437e-9b5b-df7de24e89d5",
+      "year": 2024,
+      "trim": "Touring",
+      "condition": "used",
+      "price": 39200,
+      "km": 36719,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39200
+        }
+      ]
+    },
+    "d0106a6b-1228-4630-a793-281a708847cf": {
+      "listing_id": "d0106a6b-1228-4630-a793-281a708847cf",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd-cpo--carplay--honda-sense--navi--b-gas-electric-hybrid-grey-d0106a6b-1228-4630-a793-281a708847cf",
+      "year": 2026,
+      "trim": "Touring AWD CPO | CarPlay | Honda Sense | NAVI | B",
+      "condition": "used",
+      "price": 50499,
+      "km": 1299,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 50499
+        }
+      ]
+    },
+    "63b5a03b-06c0-4189-b0f8-f40a566da3e2": {
+      "listing_id": "63b5a03b-06c0-4189-b0f8-f40a566da3e2",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-awd-gasoline-black-63b5a03b-06c0-4189-b0f8-f40a566da3e2",
+      "year": 2026,
+      "trim": "LX AWD",
+      "condition": "used",
+      "price": 40895,
+      "km": 4714,
+      "dealer": "Marino's Fine Cars",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40895
+        }
+      ]
+    },
+    "014e4469-ccc5-4de7-a687-658a48fa0564": {
+      "listing_id": "014e4469-ccc5-4de7-a687-658a48fa0564",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-cpo--carplay--backup-cam--leather--ht-gas-electric-hybrid-blue-014e4469-ccc5-4de7-a687-658a48fa0564",
+      "year": 2025,
+      "trim": "EX-L AWD CPO | CarPlay | Backup Cam | Leather | Ht",
+      "condition": "used",
+      "price": 41499,
+      "km": 45488,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41499
+        }
+      ]
+    },
+    "e405d7ea-a344-4ed7-9eff-3c2e9734ae88": {
+      "listing_id": "e405d7ea-a344-4ed7-9eff-3c2e9734ae88",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gas-electric-hybrid-grey-e405d7ea-a344-4ed7-9eff-3c2e9734ae88",
+      "year": 2026,
+      "trim": "Sport",
+      "condition": "new",
+      "price": 50789,
+      "km": 10,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 50789
+        }
+      ]
+    },
+    "3101b205-849a-471e-821f-5af1e43c7496": {
+      "listing_id": "3101b205-849a-471e-821f-5af1e43c7496",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-awd-cpo--carplay--htd-seats--honda-sense--b-gasoline-white-3101b205-849a-471e-821f-5af1e43c7496",
+      "year": 2025,
+      "trim": "LX AWD CPO | CarPlay | Htd Seats | Honda Sense | B",
+      "condition": "used",
+      "price": 30999,
+      "km": 52575,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 30999
+        }
+      ]
+    },
+    "029c558b-0a40-4475-92cf-538092d2472a": {
+      "listing_id": "029c558b-0a40-4475-92cf-538092d2472a",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd-cpo--carplay--bose--honda-sense--n-gas-electric-hybrid-grey-029c558b-0a40-4475-92cf-538092d2472a",
+      "year": 2024,
+      "trim": "Touring AWD CPO | CarPlay | Bose | Honda Sense | N",
+      "condition": "used",
+      "price": 41999,
+      "km": 36787,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41999
+        }
+      ]
+    },
+    "65191965-bc1e-49d1-bf83-829e0bf9f764": {
+      "listing_id": "65191965-bc1e-49d1-bf83-829e0bf9f764",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd-cpo--carplay--honda-sense--backup-cam-gasoline-white-65191965-bc1e-49d1-bf83-829e0bf9f764",
+      "year": 2024,
+      "trim": "Sport AWD CPO | CarPlay | Honda Sense | Backup Cam",
+      "condition": "used",
+      "price": 35299,
+      "km": 43833,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35299
+        }
+      ]
+    },
+    "9fdf56da-9c01-4f64-8245-23c9b88cc11f": {
+      "listing_id": "9fdf56da-9c01-4f64-8245-23c9b88cc11f",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-gas-electric-hybrid-9fdf56da-9c01-4f64-8245-23c9b88cc11f",
+      "year": 2024,
+      "trim": "Touring",
+      "condition": "used",
+      "price": 41495,
+      "km": 52028,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41495
+        }
+      ]
+    },
+    "a41ff9a2-75c1-49bc-ae82-a665eed51ca0": {
+      "listing_id": "a41ff9a2-75c1-49bc-ae82-a665eed51ca0",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd-gas-electric-hybrid-red-a41ff9a2-75c1-49bc-ae82-a665eed51ca0",
+      "year": 2026,
+      "trim": "Sport AWD",
+      "condition": "new",
+      "price": 49876,
+      "km": 30,
+      "dealer": "PICKERING HONDA",
+      "location": "Pickering",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 49876
+        }
+      ]
+    },
+    "9ef25083-d408-49e0-a6c2-44056433e465": {
+      "listing_id": "9ef25083-d408-49e0-a6c2-44056433e465",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd--clean-vehicle--one-owner--accident-f-gasoline-black-9ef25083-d408-49e0-a6c2-44056433e465",
+      "year": 2024,
+      "trim": "Sport Awd | Clean vehicle | One Owner | Accident F",
+      "condition": "used",
+      "price": 33821,
+      "km": 54883,
+      "dealer": "401 Dixie Hyundai",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 33821
+        }
+      ]
+    },
+    "7dbe2314-6e11-4550-b6bf-7d4afeffb3c8": {
+      "listing_id": "7dbe2314-6e11-4550-b6bf-7d4afeffb3c8",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-awd-cpo--carplay--backup-cam--htd-seats--gasoline-silver-7dbe2314-6e11-4550-b6bf-7d4afeffb3c8",
+      "year": 2024,
+      "trim": "LX-B AWD CPO | CarPlay | Backup Cam | Htd Seats |",
+      "condition": "used",
+      "price": 31299,
+      "km": 55929,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 31299
+        }
+      ]
+    },
+    "4a20a1d1-7102-4416-9fa9-4348e9670c83": {
+      "listing_id": "4a20a1d1-7102-4416-9fa9-4348e9670c83",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-gas-electric-hybrid-blue-4a20a1d1-7102-4416-9fa9-4348e9670c83",
+      "year": 2025,
+      "trim": "EX-L AWD",
+      "condition": "used",
+      "price": 40400,
+      "km": 37347,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40400
+        }
+      ]
+    },
+    "053b2e07-345c-4307-a76c-a235ea9ac452": {
+      "listing_id": "053b2e07-345c-4307-a76c-a235ea9ac452",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l--leather--rmt-start-honda-certified-gas-electric-hybrid-white-053b2e07-345c-4307-a76c-a235ea9ac452",
+      "year": 2024,
+      "trim": "EX-L | LEATHER | RMT START| HONDA CERTIFIED",
+      "condition": "used",
+      "price": 40499,
+      "km": 14129,
+      "dealer": "FORMULA HONDA",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40499
+        }
+      ]
+    },
+    "266e59bd-c4a4-4919-a26c-9a0b5e35af17": {
+      "listing_id": "266e59bd-c4a4-4919-a26c-9a0b5e35af17",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd--sunroof--bsm--acc--carplay-gasoline-grey-266e59bd-c4a4-4919-a26c-9a0b5e35af17",
+      "year": 2024,
+      "trim": "SPORT AWD | Sunroof | BSM | ACC | CarPlay",
+      "condition": "used",
+      "price": 32950,
+      "km": 86000,
+      "dealer": "Autorama",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 32950
+        }
+      ]
+    },
+    "6617dd3b-d87d-443d-8101-56e3f944b6f7": {
+      "listing_id": "6617dd3b-d87d-443d-8101-56e3f944b6f7",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-leather-seats-navigation-heated-seats-sunroof-gas-electric-hybrid-black-6617dd3b-d87d-443d-8101-56e3f944b6f7",
+      "year": 2024,
+      "trim": "Leather Seats| Navigation| Heated Seats| Sunroof|",
+      "condition": "used",
+      "price": 38995,
+      "km": 40555,
+      "dealer": "Maple Honda",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 38995
+        }
+      ]
+    },
+    "bc25fc0a-12ce-4710-98e7-e5a6c15c58e3": {
+      "listing_id": "bc25fc0a-12ce-4710-98e7-e5a6c15c58e3",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd-cpo--carplay--honda-sense--backup-cam-gasoline-white-bc25fc0a-12ce-4710-98e7-e5a6c15c58e3",
+      "year": 2024,
+      "trim": "Sport AWD CPO | CarPlay | Honda Sense | Backup Cam",
+      "condition": "used",
+      "price": 33999,
+      "km": 63679,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 33999
+        }
+      ]
+    },
+    "26bb4838-5918-4f4e-9b82-797a27661e63": {
+      "listing_id": "26bb4838-5918-4f4e-9b82-797a27661e63",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-exl-siriusxmhtdseatsbkpcamrearparkingsensorsu-gas-electric-hybrid-white-26bb4838-5918-4f4e-9b82-797a27661e63",
+      "year": 2025,
+      "trim": "EXL |SiriusXM|HtdSeats|BkpCam|RearParkingSensor|Su",
+      "condition": "used",
+      "price": 45595,
+      "km": 9450,
+      "dealer": "Islington Chrysler FIAT",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 45595
+        }
+      ]
+    },
+    "db725a87-e6dc-4595-a721-b02650df23d4": {
+      "listing_id": "db725a87-e6dc-4595-a721-b02650df23d4",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-gasoline-black-db725a87-e6dc-4595-a721-b02650df23d4",
+      "year": 2025,
+      "trim": "LX",
+      "condition": "used",
+      "price": 32300,
+      "km": 21473,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 32300
+        }
+      ]
+    },
+    "0a51ed56-bd4d-4199-8578-db4db2dbe531": {
+      "listing_id": "0a51ed56-bd4d-4199-8578-db4db2dbe531",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-clean-carfax--apple-carplay-android-auto-gasoline-silver-0a51ed56-bd4d-4199-8578-db4db2dbe531",
+      "year": 2025,
+      "trim": "Sport CLEAN CARFAX | APPLE CARPLAY & ANDROID AUTO",
+      "condition": "used",
+      "price": 39688,
+      "km": 8097,
+      "dealer": "Don Valley North Toyota",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39688
+        }
+      ]
+    },
+    "e96e6f5c-50f7-40d1-bdad-006893607542": {
+      "listing_id": "e96e6f5c-50f7-40d1-bdad-006893607542",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd-cpo--carplay--backup-cam--htd-seats-gasoline-grey-e96e6f5c-50f7-40d1-bdad-006893607542",
+      "year": 2024,
+      "trim": "Sport AWD CPO | CarPlay | Backup Cam | Htd Seats +",
+      "condition": "used",
+      "price": 36999,
+      "km": 24033,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36999
+        }
+      ]
+    },
+    "a20a6679-8cd9-4654-8214-5064b4a5b849": {
+      "listing_id": "a20a6679-8cd9-4654-8214-5064b4a5b849",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-sunroof-adaptive-cruise-remote-start-gasoline-black-a20a6679-8cd9-4654-8214-5064b4a5b849",
+      "year": 2024,
+      "trim": "Sport  Sunroof Adaptive Cruise Remote Start",
+      "condition": "used",
+      "price": 34995,
+      "km": 31588,
+      "dealer": "Tabangi Motors",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34995
+        }
+      ]
+    },
+    "f07b3f7a-4b6c-4b19-a1ee-1363c2bb6e30": {
+      "listing_id": "f07b3f7a-4b6c-4b19-a1ee-1363c2bb6e30",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-gasoline-f07b3f7a-4b6c-4b19-a1ee-1363c2bb6e30",
+      "year": 2024,
+      "trim": "LX-B",
+      "condition": "used",
+      "price": 32495,
+      "km": 36310,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 32495
+        }
+      ]
+    },
+    "d27f241a-e9a3-4fcb-83ed-736ff9578060": {
+      "listing_id": "d27f241a-e9a3-4fcb-83ed-736ff9578060",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-grey-d27f241a-e9a3-4fcb-83ed-736ff9578060",
+      "year": 2024,
+      "trim": "SPORT",
+      "condition": "used",
+      "price": 34999,
+      "km": 57983,
+      "dealer": "Signature Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34999
+        }
+      ]
+    },
+    "8a96788f-60a3-4608-b2f9-7eef6787c3aa": {
+      "listing_id": "8a96788f-60a3-4608-b2f9-7eef6787c3aa",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-white-8a96788f-60a3-4608-b2f9-7eef6787c3aa",
+      "year": 2025,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 38848,
+      "km": 27026,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 38848
+        }
+      ]
+    },
+    "5a16c596-1524-441f-9878-992bd954b1fb": {
+      "listing_id": "5a16c596-1524-441f-9878-992bd954b1fb",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-hybrid-leather--sunroof--alloys-gas-electric-hybrid-grey-5a16c596-1524-441f-9878-992bd954b1fb",
+      "year": 2026,
+      "trim": "EX-L HYBRID Leather | Sunroof | Alloys",
+      "condition": "new",
+      "price": 52392,
+      "km": 99,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 52392
+        }
+      ]
+    },
+    "9f1c159e-7562-4978-bbc6-b267ed8cf5f4": {
+      "listing_id": "9f1c159e-7562-4978-bbc6-b267ed8cf5f4",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-9f1c159e-7562-4978-bbc6-b267ed8cf5f4",
+      "year": 2024,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 37395,
+      "km": 33624,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 37395
+        }
+      ]
+    },
+    "32c420f5-a71f-4e8b-98ab-0eb54a483a6b": {
+      "listing_id": "32c420f5-a71f-4e8b-98ab-0eb54a483a6b",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-red-32c420f5-a71f-4e8b-98ab-0eb54a483a6b",
+      "year": 2024,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 33100,
+      "km": 52661,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 33100
+        }
+      ]
+    },
+    "10024df6-f659-4b76-8150-0153ca5a6013": {
+      "listing_id": "10024df6-f659-4b76-8150-0153ca5a6013",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-gas-electric-hybrid-10024df6-f659-4b76-8150-0153ca5a6013",
+      "year": 2024,
+      "trim": "EX-L",
+      "condition": "used",
+      "price": 41495,
+      "km": 36731,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41495
+        }
+      ]
+    },
+    "a8e189c3-d70b-46df-9981-0e8100265fcc": {
+      "listing_id": "a8e189c3-d70b-46df-9981-0e8100265fcc",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-gasoline-white-a8e189c3-d70b-46df-9981-0e8100265fcc",
+      "year": 2024,
+      "trim": "Not listed",
+      "condition": "used",
+      "price": 34888,
+      "km": 9613,
+      "dealer": "Castle Honda",
+      "location": "Etobicoke",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34888
+        }
+      ]
+    },
+    "f98ac344-d241-4f94-a195-599147a18d1f": {
+      "listing_id": "f98ac344-d241-4f94-a195-599147a18d1f",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-awd--htd-seats--remote-start--backup-cam-gasoline-white-f98ac344-d241-4f94-a195-599147a18d1f",
+      "year": 2024,
+      "trim": "AWD | HTD seats | Remote Start | Backup Cam",
+      "condition": "used",
+      "price": 31595,
+      "km": 45304,
+      "dealer": "Meadowvale Honda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 31595
+        }
+      ]
+    },
+    "7b7850b4-8976-456f-8f3b-598389b3603c": {
+      "listing_id": "7b7850b4-8976-456f-8f3b-598389b3603c",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l--leather--awd--carplay--cpo-gas-electric-hybrid-black-7b7850b4-8976-456f-8f3b-598389b3603c",
+      "year": 2025,
+      "trim": "EX-L | LEATHER | AWD | CARPLAY | CPO",
+      "condition": "used",
+      "price": 42499,
+      "km": 29780,
+      "dealer": "FORMULA HONDA",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42499
+        }
+      ]
+    },
+    "05054da4-87eb-4744-87c8-9c9060099c9c": {
+      "listing_id": "05054da4-87eb-4744-87c8-9c9060099c9c",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-hybrid-awd--leather--sunroof-gas-electric-hybrid-black-05054da4-87eb-4744-87c8-9c9060099c9c",
+      "year": 2025,
+      "trim": "Touring Hybrid AWD | Leather | Sunroof",
+      "condition": "used",
+      "price": 42995,
+      "km": 42417,
+      "dealer": "Scarborough Toyota",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42995
+        }
+      ]
+    },
+    "766d8be1-c10c-4974-ba9a-85f7281ba242": {
+      "listing_id": "766d8be1-c10c-4974-ba9a-85f7281ba242",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-almost-new-i-moonroof-i-hybrid-tech-gas-electric-hybrid-silver-766d8be1-c10c-4974-ba9a-85f7281ba242",
+      "year": 2026,
+      "trim": "ALMOST NEW I MOONROOF I HYBRID TECH",
+      "condition": "used",
+      "price": 50999,
+      "km": 6086,
+      "dealer": "Midtown Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 50999
+        }
+      ]
+    },
+    "c6374179-29b0-40cd-982f-5b12d70a7956": {
+      "listing_id": "c6374179-29b0-40cd-982f-5b12d70a7956",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd-hybrid--leather--sunroof-gas-electric-hybrid-black-c6374179-29b0-40cd-982f-5b12d70a7956",
+      "year": 2026,
+      "trim": "Touring AWD Hybrid | Leather | Sunroof",
+      "condition": "used",
+      "price": 50995,
+      "km": 15353,
+      "dealer": "Scarborough Toyota",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 50995
+        }
+      ]
+    },
+    "fc63a63d-5fc2-4304-85a0-a0c6f9f864cc": {
+      "listing_id": "fc63a63d-5fc2-4304-85a0-a0c6f9f864cc",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-trailsport-gas-electric-hybrid-white-fc63a63d-5fc2-4304-85a0-a0c6f9f864cc",
+      "year": 2026,
+      "trim": "TrailSport",
+      "condition": "used",
+      "price": 51939,
+      "km": 10,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 51939
+        }
+      ]
+    },
+    "22a2ff0b-ca05-4e0a-9cb4-18822db94e17": {
+      "listing_id": "22a2ff0b-ca05-4e0a-9cb4-18822db94e17",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-honda-certified-with-7yr-160k-warranty-gas-electric-hybrid-blue-22a2ff0b-ca05-4e0a-9cb4-18822db94e17",
+      "year": 2024,
+      "trim": "Touring Honda Certified With 7YR/160K Warranty",
+      "condition": "used",
+      "price": 43290,
+      "km": 21033,
+      "dealer": "Roadsport Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 43290
+        }
+      ]
+    },
+    "a9c7cd0e-e4dd-4ebf-a370-a826dd79618a": {
+      "listing_id": "a9c7cd0e-e4dd-4ebf-a370-a826dd79618a",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd--multi-zone-a-c--back-up-camera--gasoline-white-a9c7cd0e-e4dd-4ebf-a370-a826dd79618a",
+      "year": 2024,
+      "trim": "Sport AWD | Multi-Zone A/C | Back-Up Camera |",
+      "condition": "used",
+      "price": 34888,
+      "km": 36521,
+      "dealer": "Honda of Thornhill",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34888
+        }
+      ]
+    },
+    "2051e776-f23c-4102-b3d3-1093a59686fa": {
+      "listing_id": "2051e776-f23c-4102-b3d3-1093a59686fa",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-honda-certified--off-lease--heated-seats-gas-electric-hybrid-blue-2051e776-f23c-4102-b3d3-1093a59686fa",
+      "year": 2024,
+      "trim": "Touring HONDA CERTIFIED | OFF LEASE | HEATED SEATS",
+      "condition": "used",
+      "price": 41495,
+      "km": 47049,
+      "dealer": "Parkway Honda",
+      "location": "North York",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41495
+        }
+      ]
+    },
+    "12f4cb1d-54aa-401a-a974-7de639d24fb4": {
+      "listing_id": "12f4cb1d-54aa-401a-a974-7de639d24fb4",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-gas-electric-hybrid-blue-12f4cb1d-54aa-401a-a974-7de639d24fb4",
+      "year": 2025,
+      "trim": "Touring",
+      "condition": "used",
+      "price": 42900,
+      "km": 31920,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42900
+        }
+      ]
+    },
+    "a7775064-a78b-42be-993b-5c71f5bb0104": {
+      "listing_id": "a7775064-a78b-42be-993b-5c71f5bb0104",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd--no-accidents--certified-pre-owned-gasoline-black-a7775064-a78b-42be-993b-5c71f5bb0104",
+      "year": 2024,
+      "trim": "Sport AWD | No Accidents | Certified Pre-Owned",
+      "condition": "used",
+      "price": 35388,
+      "km": 43435,
+      "dealer": "Honda of Thornhill",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35388
+        }
+      ]
+    },
+    "faed2f3e-fb02-4c55-8e3d-b3043b31e4ee": {
+      "listing_id": "faed2f3e-fb02-4c55-8e3d-b3043b31e4ee",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-blue-faed2f3e-fb02-4c55-8e3d-b3043b31e4ee",
+      "year": 2025,
+      "trim": "SPORT",
+      "condition": "used",
+      "price": 39500,
+      "km": 18186,
+      "dealer": "Signature Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39500
+        }
+      ]
+    },
+    "392f33ed-475f-4374-a5e8-5308482766fd": {
+      "listing_id": "392f33ed-475f-4374-a5e8-5308482766fd",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-hybrid-leather-navi-roof-gas-electric-hybrid-blue-392f33ed-475f-4374-a5e8-5308482766fd",
+      "year": 2025,
+      "trim": "EX-L AWD HYBRID LEATHER NAVI ROOF",
+      "condition": "used",
+      "price": 42998,
+      "km": 6866,
+      "dealer": "PRESTIGE AUTO GALLERY INC.",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42998
+        }
+      ]
+    },
+    "0afb6fd6-efc4-4ef4-bca6-fb76e0e81b3b": {
+      "listing_id": "0afb6fd6-efc4-4ef4-bca6-fb76e0e81b3b",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-0afb6fd6-efc4-4ef4-bca6-fb76e0e81b3b",
+      "year": 2024,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 37795,
+      "km": 30336,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 37795
+        }
+      ]
+    },
+    "3a5dfdb7-3f15-4879-8fa5-35558311cf05": {
+      "listing_id": "3a5dfdb7-3f15-4879-8fa5-35558311cf05",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-honda-certified-with-7yrs-160k-warranty-gasoline-white-3a5dfdb7-3f15-4879-8fa5-35558311cf05",
+      "year": 2024,
+      "trim": "LX-B Honda Certified With 7YRS/160K Warranty",
+      "condition": "used",
+      "price": 28990,
+      "km": 74824,
+      "dealer": "Roadsport Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 28990
+        }
+      ]
+    },
+    "2f12282d-7367-4e7f-bdb9-6fee25360299": {
+      "listing_id": "2f12282d-7367-4e7f-bdb9-6fee25360299",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-gas-electric-hybrid-black-2f12282d-7367-4e7f-bdb9-6fee25360299",
+      "year": 2025,
+      "trim": "EX-L",
+      "condition": "used",
+      "price": 41200,
+      "km": 22409,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41200
+        }
+      ]
+    },
+    "84b296f6-6c0f-4dcd-aae3-4a8fd90519db": {
+      "listing_id": "84b296f6-6c0f-4dcd-aae3-4a8fd90519db",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-1-owneraccidentfreealloysleahtercarpl-gas-electric-hybrid-black-84b296f6-6c0f-4dcd-aae3-4a8fd90519db",
+      "year": 2025,
+      "trim": "EX-L AWD 1-Owner|AccidentFree|Alloys|Leahter|Carpl",
+      "condition": "used",
+      "price": 42488,
+      "km": 26123,
+      "dealer": "Oakville Honda",
+      "location": "Oakville",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42488
+        }
+      ]
+    },
+    "444289e3-6c5b-456d-b2fc-e8c43705ef1a": {
+      "listing_id": "444289e3-6c5b-456d-b2fc-e8c43705ef1a",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-gas-electric-hybrid-white-444289e3-6c5b-456d-b2fc-e8c43705ef1a",
+      "year": 2024,
+      "trim": "Touring",
+      "condition": "used",
+      "price": 42388,
+      "km": 33969,
+      "dealer": "Don Valley North Toyota",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42388
+        }
+      ]
+    },
+    "03143a84-7019-4e5b-ad14-004457e3c8cb": {
+      "listing_id": "03143a84-7019-4e5b-ad14-004457e3c8cb",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-honda-certified--off-lease--no-accidents-gasoline-white-03143a84-7019-4e5b-ad14-004457e3c8cb",
+      "year": 2024,
+      "trim": "LX-B HONDA CERTIFIED | OFF LEASE | NO ACCIDENTS",
+      "condition": "used",
+      "price": 30992,
+      "km": 48808,
+      "dealer": "Parkway Honda",
+      "location": "North York",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 30992
+        }
+      ]
+    },
+    "52ff0edd-4044-4b64-9501-669af7bffc00": {
+      "listing_id": "52ff0edd-4044-4b64-9501-669af7bffc00",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-no-accidents--one-owner--honda-certified-gasoline-white-52ff0edd-4044-4b64-9501-669af7bffc00",
+      "year": 2024,
+      "trim": "Sport NO ACCIDENTS | ONE OWNER | HONDA CERTIFIED",
+      "condition": "used",
+      "price": 36888,
+      "km": 27771,
+      "dealer": "Parkway Honda",
+      "location": "North York",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36888
+        }
+      ]
+    },
+    "101f55a3-b040-478b-85fc-a83b635d9812": {
+      "listing_id": "101f55a3-b040-478b-85fc-a83b635d9812",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-honda-certified-with-7yr-160k-warranty-gas-electric-hybrid-white-101f55a3-b040-478b-85fc-a83b635d9812",
+      "year": 2025,
+      "trim": "Touring Honda Certified With 7YR/160K Warranty",
+      "condition": "used",
+      "price": 45490,
+      "km": 21279,
+      "dealer": "Roadsport Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 45490
+        }
+      ]
+    },
+    "30d5b597-a00b-4466-968c-ba86125c7583": {
+      "listing_id": "30d5b597-a00b-4466-968c-ba86125c7583",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-blue-30d5b597-a00b-4466-968c-ba86125c7583",
+      "year": 2025,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 36900,
+      "km": 27934,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36900
+        }
+      ]
+    },
+    "15b8c742-dbfc-4a07-b549-4701f72fb0dd": {
+      "listing_id": "15b8c742-dbfc-4a07-b549-4701f72fb0dd",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-black-15b8c742-dbfc-4a07-b549-4701f72fb0dd",
+      "year": 2026,
+      "trim": "Sport",
+      "condition": "new",
+      "price": 48114,
+      "km": 10,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 48114
+        }
+      ]
+    },
+    "aeb93dc5-d01c-4fde-b2f2-53137b1d9311": {
+      "listing_id": "aeb93dc5-d01c-4fde-b2f2-53137b1d9311",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-gas-electric-hybrid-black-aeb93dc5-d01c-4fde-b2f2-53137b1d9311",
+      "year": 2026,
+      "trim": "EX-L",
+      "condition": "used",
+      "price": 53439,
+      "km": 10,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 53439
+        }
+      ]
+    },
+    "ed7426a2-01e0-433f-bfb5-5516850886f8": {
+      "listing_id": "ed7426a2-01e0-433f-bfb5-5516850886f8",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-black-ed7426a2-01e0-433f-bfb5-5516850886f8",
+      "year": 2026,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 46000,
+      "km": 6471,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 46000
+        }
+      ]
+    },
+    "721a776c-0d94-427d-b217-41410be1cbf4": {
+      "listing_id": "721a776c-0d94-427d-b217-41410be1cbf4",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport--awd--1-5l--cpo-gasoline-white-721a776c-0d94-427d-b217-41410be1cbf4",
+      "year": 2024,
+      "trim": "SPORT |  AWD | 1.5L | CPO",
+      "condition": "used",
+      "price": 35999,
+      "km": 40227,
+      "dealer": "FORMULA HONDA",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35999
+        }
+      ]
+    },
+    "589cbdbc-57b4-457d-a8df-8627736ebc01": {
+      "listing_id": "589cbdbc-57b4-457d-a8df-8627736ebc01",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-blue-589cbdbc-57b4-457d-a8df-8627736ebc01",
+      "year": 2025,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 39600,
+      "km": 20923,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39600
+        }
+      ]
+    },
+    "88b22910-57dd-4a04-9e09-4f3347758246": {
+      "listing_id": "88b22910-57dd-4a04-9e09-4f3347758246",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-gas-electric-hybrid-blue-88b22910-57dd-4a04-9e09-4f3347758246",
+      "year": 2025,
+      "trim": "Touring",
+      "condition": "used",
+      "price": 46995,
+      "km": 10889,
+      "dealer": "Precision Honda Pre-Owned",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 46995
+        }
+      ]
+    },
+    "584e04a2-a70a-40d8-a17a-220a208b8acc": {
+      "listing_id": "584e04a2-a70a-40d8-a17a-220a208b8acc",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-honda-certified-with-7yrs-160k-warranty-gasoline-white-584e04a2-a70a-40d8-a17a-220a208b8acc",
+      "year": 2025,
+      "trim": "LX Honda Certified With 7YRS/160K Warranty",
+      "condition": "used",
+      "price": 35180,
+      "km": 22078,
+      "dealer": "Roadsport Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35180
+        }
+      ]
+    },
+    "7ef717f6-aea2-4659-946b-4a9a1b12372c": {
+      "listing_id": "7ef717f6-aea2-4659-946b-4a9a1b12372c",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-gas-electric-hybrid-black-7ef717f6-aea2-4659-946b-4a9a1b12372c",
+      "year": 2024,
+      "trim": "EX-L",
+      "condition": "used",
+      "price": 40695,
+      "km": 48500,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40695
+        }
+      ]
+    },
+    "8a06f0b3-85a2-4077-99b3-a23dba90597b": {
+      "listing_id": "8a06f0b3-85a2-4077-99b3-a23dba90597b",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l--navi--leather--moonroof--honda-certified-gas-electric-hybrid-grey-8a06f0b3-85a2-4077-99b3-a23dba90597b",
+      "year": 2026,
+      "trim": "EX-L | NAVI | LEATHER | MOONROOF | HONDA CERTIFIED",
+      "condition": "used",
+      "price": 49999,
+      "km": 1248,
+      "dealer": "FORMULA HONDA",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 49999
+        }
+      ]
+    },
+    "72620366-c99b-49f4-af83-abf81fde56a5": {
+      "listing_id": "72620366-c99b-49f4-af83-abf81fde56a5",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-carplay-heated-seats-rear-camera-gasoline-silver-72620366-c99b-49f4-af83-abf81fde56a5",
+      "year": 2024,
+      "trim": "LX-B  CarPlay  Heated Seats  Rear Camera",
+      "condition": "used",
+      "price": 33595,
+      "km": 28272,
+      "dealer": "Precision Honda Pre-Owned",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 33595
+        }
+      ]
+    },
+    "27ba53aa-b44c-411b-b127-4c420c8cd1af": {
+      "listing_id": "27ba53aa-b44c-411b-b127-4c420c8cd1af",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-white-27ba53aa-b44c-411b-b127-4c420c8cd1af",
+      "year": 2024,
+      "trim": "SPORT",
+      "condition": "used",
+      "price": 34985,
+      "km": 63875,
+      "dealer": "Signature Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34985
+        }
+      ]
+    },
+    "b708f0c1-af24-4184-bc18-2d23ca584039": {
+      "listing_id": "b708f0c1-af24-4184-bc18-2d23ca584039",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-white-b708f0c1-af24-4184-bc18-2d23ca584039",
+      "year": 2024,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 32500,
+      "km": 97371,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 32500
+        }
+      ]
+    },
+    "70871497-8074-431b-a49b-55daf3ebacca": {
+      "listing_id": "70871497-8074-431b-a49b-55daf3ebacca",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-gasoline-black-70871497-8074-431b-a49b-55daf3ebacca",
+      "year": 2025,
+      "trim": "Not listed",
+      "condition": "used",
+      "price": 36200,
+      "km": 10445,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36200
+        }
+      ]
+    },
+    "a030333c-4e53-4b2b-8edc-2b49f5e94742": {
+      "listing_id": "a030333c-4e53-4b2b-8edc-2b49f5e94742",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-extended-factory-warranty-no-reported-accide-gasoline-silver-a030333c-4e53-4b2b-8edc-2b49f5e94742",
+      "year": 2024,
+      "trim": "LX-B *EXTENDED FACTORY WARRANTY*NO REPORTED ACCIDE",
+      "condition": "used",
+      "price": 32883,
+      "km": 16516,
+      "dealer": "Number 7 Honda",
+      "location": "Woodbridge",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 32883
+        }
+      ]
+    },
+    "93341bcb-4fc9-4197-8b5f-b66ddbfa725a": {
+      "listing_id": "93341bcb-4fc9-4197-8b5f-b66ddbfa725a",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-leather-seats-sunroof-heated-seats-auto-start-gas-electric-hybrid-black-93341bcb-4fc9-4197-8b5f-b66ddbfa725a",
+      "year": 2024,
+      "trim": "Leather Seats| Sunroof| Heated Seats| Auto Start|",
+      "condition": "used",
+      "price": 40295,
+      "km": 35445,
+      "dealer": "Maple Honda",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40295
+        }
+      ]
+    },
+    "1f070675-007d-4bfb-b8ba-afc884084b61": {
+      "listing_id": "1f070675-007d-4bfb-b8ba-afc884084b61",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-leather--sunroof--memory-seats--htd-steering--gas-electric-hybrid-red-1f070675-007d-4bfb-b8ba-afc884084b61",
+      "year": 2025,
+      "trim": "Leather | Sunroof | Memory Seats | HTD Steering |",
+      "condition": "used",
+      "price": 41995,
+      "km": 35770,
+      "dealer": "Meadowvale Honda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41995
+        }
+      ]
+    },
+    "13f69481-c272-4922-bc1f-5de22c89cc95": {
+      "listing_id": "13f69481-c272-4922-bc1f-5de22c89cc95",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-hybrid-leather-carplay-sunroof-gas-electric-hybrid-black-13f69481-c272-4922-bc1f-5de22c89cc95",
+      "year": 2025,
+      "trim": "EX-L AWD HYBRID Leather CarPlay Sunroof",
+      "condition": "used",
+      "price": 44595,
+      "km": 16809,
+      "dealer": "Precision Honda Pre-Owned",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 44595
+        }
+      ]
+    },
+    "86aaa30e-1675-499d-b41b-cd79a16453ef": {
+      "listing_id": "86aaa30e-1675-499d-b41b-cd79a16453ef",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-gasoline-silver-86aaa30e-1675-499d-b41b-cd79a16453ef",
+      "year": 2025,
+      "trim": "LX",
+      "condition": "used",
+      "price": 34400,
+      "km": 37820,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34400
+        }
+      ]
+    },
+    "e0f734ea-1fed-4296-9d8e-b032f2c81465": {
+      "listing_id": "e0f734ea-1fed-4296-9d8e-b032f2c81465",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-pkg-bose-audio-navigation-heated-leather-s-gas-electric-hybrid-red-e0f734ea-1fed-4296-9d8e-b032f2c81465",
+      "year": 2024,
+      "trim": "TOURING PKG-BOSE AUDIO-NAVIGATION-HEATED LEATHER S",
+      "condition": "used",
+      "price": 41995,
+      "km": 29076,
+      "dealer": "Don Valley North Lexus",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41995
+        }
+      ]
+    },
+    "e6e60660-8e53-4972-b36b-45f2b03780d0": {
+      "listing_id": "e6e60660-8e53-4972-b36b-45f2b03780d0",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd-gasoline-black-e6e60660-8e53-4972-b36b-45f2b03780d0",
+      "year": 2024,
+      "trim": "Sport AWD",
+      "condition": "used",
+      "price": 36400,
+      "km": 31190,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36400
+        }
+      ]
+    },
+    "26b98c93-d1ac-4413-847a-a9803dbe7a96": {
+      "listing_id": "26b98c93-d1ac-4413-847a-a9803dbe7a96",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-black-26b98c93-d1ac-4413-847a-a9803dbe7a96",
+      "year": 2025,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 39200,
+      "km": 26802,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39200
+        }
+      ]
+    },
+    "9c822ae6-2e2a-4cd4-8918-f5937a1dc2d7": {
+      "listing_id": "9c822ae6-2e2a-4cd4-8918-f5937a1dc2d7",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport--sunroof--remote-start--sensing--alloys-gasoline-black-9c822ae6-2e2a-4cd4-8918-f5937a1dc2d7",
+      "year": 2026,
+      "trim": "Sport | Sunroof | Remote Start | Sensing | Alloys",
+      "condition": "used",
+      "price": 39795,
+      "km": 964,
+      "dealer": "Classic Honda",
+      "location": "Brampton",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39795
+        }
+      ]
+    },
+    "6d5a2d23-ab63-47b4-929f-aaa00775b8cb": {
+      "listing_id": "6d5a2d23-ab63-47b4-929f-aaa00775b8cb",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd-cpo--carplay--htd-seats-steering--gas-electric-hybrid-white-6d5a2d23-ab63-47b4-929f-aaa00775b8cb",
+      "year": 2025,
+      "trim": "Touring AWD CPO | CarPlay | Htd Seats + Steering |",
+      "condition": "used",
+      "price": 37999,
+      "km": 98926,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 37999
+        }
+      ]
+    },
+    "c52ce476-8c5c-41db-8164-12cfa02abaca": {
+      "listing_id": "c52ce476-8c5c-41db-8164-12cfa02abaca",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-grey-c52ce476-8c5c-41db-8164-12cfa02abaca",
+      "year": 2025,
+      "trim": "SPORT",
+      "condition": "used",
+      "price": 39499,
+      "km": 21073,
+      "dealer": "Signature Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39499
+        }
+      ]
+    },
+    "0737229c-c507-4df2-ae0b-fa274434981f": {
+      "listing_id": "0737229c-c507-4df2-ae0b-fa274434981f",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd-gas-electric-hybrid-blue-0737229c-c507-4df2-ae0b-fa274434981f",
+      "year": 2025,
+      "trim": "Touring AWD",
+      "condition": "used",
+      "price": 42900,
+      "km": 60617,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42900
+        }
+      ]
+    },
+    "3b2ad1c4-a8d9-4699-8ea9-0a23d8d8c114": {
+      "listing_id": "3b2ad1c4-a8d9-4699-8ea9-0a23d8d8c114",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-leather-seats-navigation-heated-seats-auto-star-gas-electric-hybrid-grey-3b2ad1c4-a8d9-4699-8ea9-0a23d8d8c114",
+      "year": 2024,
+      "trim": "Leather Seats| Navigation| Heated Seats| Auto Star",
+      "condition": "used",
+      "price": 41295,
+      "km": 54740,
+      "dealer": "Maple Honda",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41295
+        }
+      ]
+    },
+    "abca4775-4026-448e-b962-d72b0c5f7ab3": {
+      "listing_id": "abca4775-4026-448e-b962-d72b0c5f7ab3",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd-gas-electric-hybrid-black-abca4775-4026-448e-b962-d72b0c5f7ab3",
+      "year": 2025,
+      "trim": "Touring AWD",
+      "condition": "used",
+      "price": 46400,
+      "km": 25305,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 46400
+        }
+      ]
+    },
+    "371109ed-2a13-43e4-92c0-7d214631647c": {
+      "listing_id": "371109ed-2a13-43e4-92c0-7d214631647c",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-gas-electric-hybrid-black-371109ed-2a13-43e4-92c0-7d214631647c",
+      "year": 2025,
+      "trim": "EX-L AWD",
+      "condition": "used",
+      "price": 36900,
+      "km": 96154,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36900
+        }
+      ]
+    },
+    "13411f0b-c92a-4f40-b420-62882981ff01": {
+      "listing_id": "13411f0b-c92a-4f40-b420-62882981ff01",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd-gasoline-black-13411f0b-c92a-4f40-b420-62882981ff01",
+      "year": 2024,
+      "trim": "Sport AWD",
+      "condition": "used",
+      "price": 34500,
+      "km": 59020,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34500
+        }
+      ]
+    },
+    "0976b043-a778-4c29-87bf-f388bba7bfba": {
+      "listing_id": "0976b043-a778-4c29-87bf-f388bba7bfba",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-awd--one-owner--certified-pre-owned-gasoline-black-0976b043-a778-4c29-87bf-f388bba7bfba",
+      "year": 2024,
+      "trim": "LX-B AWD | One-Owner | Certified Pre-Owned",
+      "condition": "used",
+      "price": 32698,
+      "km": 29935,
+      "dealer": "Honda of Thornhill",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 32698
+        }
+      ]
+    },
+    "440f0b11-102e-4d30-92bf-26fd862361a8": {
+      "listing_id": "440f0b11-102e-4d30-92bf-26fd862361a8",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd--one-owner--certified-pre-owned--gasoline-black-440f0b11-102e-4d30-92bf-26fd862361a8",
+      "year": 2024,
+      "trim": "Sport AWD | One-Owner | Certified Pre-Owned |",
+      "condition": "used",
+      "price": 35388,
+      "km": 58400,
+      "dealer": "Honda of Thornhill",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35388
+        }
+      ]
+    },
+    "6e1d5b51-8076-4368-b7dc-16618e02fbb7": {
+      "listing_id": "6e1d5b51-8076-4368-b7dc-16618e02fbb7",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd-hybrid-leather-navi-roof-gas-electric-hybrid-blue-6e1d5b51-8076-4368-b7dc-16618e02fbb7",
+      "year": 2024,
+      "trim": "Touring AWD HYBRID LEATHER NAVI ROOF",
+      "condition": "used",
+      "price": 39998,
+      "km": 47659,
+      "dealer": "PRESTIGE AUTO GALLERY INC.",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39998
+        }
+      ]
+    },
+    "46ab5645-5dfc-4029-ab97-efc17206da2c": {
+      "listing_id": "46ab5645-5dfc-4029-ab97-efc17206da2c",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-cpo--carplay--backup-cam--htd-seats-gas-electric-hybrid-grey-46ab5645-5dfc-4029-ab97-efc17206da2c",
+      "year": 2024,
+      "trim": "EX-L AWD CPO | CarPlay | Backup Cam | Htd Seats +",
+      "condition": "used",
+      "price": 40999,
+      "km": 42127,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40999
+        }
+      ]
+    },
+    "06a68aca-a67d-4fd5-88b9-c87aefe8871d": {
+      "listing_id": "06a68aca-a67d-4fd5-88b9-c87aefe8871d",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-gas-electric-hybrid-06a68aca-a67d-4fd5-88b9-c87aefe8871d",
+      "year": 2024,
+      "trim": "EX-L AWD",
+      "condition": "used",
+      "price": 42999,
+      "km": 8311,
+      "dealer": "Nav Bhatia's Rexdale Hyundai",
+      "location": "Etobicoke",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42999
+        }
+      ]
+    },
+    "1e48ba9f-1203-45dc-930d-bf9f6e783659": {
+      "listing_id": "1e48ba9f-1203-45dc-930d-bf9f6e783659",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-black-1e48ba9f-1203-45dc-930d-bf9f6e783659",
+      "year": 2025,
+      "trim": "SPORT",
+      "condition": "used",
+      "price": 39890,
+      "km": 21338,
+      "dealer": "Roadsport Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39890
+        }
+      ]
+    },
+    "87779747-f3ce-49f2-bd0b-704ee6d9a645": {
+      "listing_id": "87779747-f3ce-49f2-bd0b-704ee6d9a645",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-package-heated-leather-seats-wireless-chargin-gasoline-blue-87779747-f3ce-49f2-bd0b-704ee6d9a645",
+      "year": 2024,
+      "trim": "EX-L PACKAGE-HEATED LEATHER SEATS-WIRELESS CHARGIN",
+      "condition": "used",
+      "price": 35888,
+      "km": 55039,
+      "dealer": "Don Valley North Lexus",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35888
+        }
+      ]
+    },
+    "dd691bd3-0b2e-4ea0-8128-98d052ea82a2": {
+      "listing_id": "dd691bd3-0b2e-4ea0-8128-98d052ea82a2",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-gasoline-red-dd691bd3-0b2e-4ea0-8128-98d052ea82a2",
+      "year": 2025,
+      "trim": "LX",
+      "condition": "used",
+      "price": 36500,
+      "km": 23354,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36500
+        }
+      ]
+    },
+    "313f1227-08fe-4544-9a29-df280eebb987": {
+      "listing_id": "313f1227-08fe-4544-9a29-df280eebb987",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport--awd--sunroof--htd-steering--pwr-liftgat-gasoline-grey-313f1227-08fe-4544-9a29-df280eebb987",
+      "year": 2025,
+      "trim": "Sport | AWD | Sunroof | HTD steering | PWR liftgat",
+      "condition": "used",
+      "price": 38495,
+      "km": 31685,
+      "dealer": "Meadowvale Honda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 38495
+        }
+      ]
+    },
+    "df7b59da-4d4c-443b-b180-d176c7f0be77": {
+      "listing_id": "df7b59da-4d4c-443b-b180-d176c7f0be77",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-gasoline-df7b59da-4d4c-443b-b180-d176c7f0be77",
+      "year": 2026,
+      "trim": "LX",
+      "condition": "used",
+      "price": 38600,
+      "km": 8720,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 38600
+        }
+      ]
+    },
+    "135eeef8-9b85-4156-984f-4c72bc15f712": {
+      "listing_id": "135eeef8-9b85-4156-984f-4c72bc15f712",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-gas-electric-hybrid-blue-135eeef8-9b85-4156-984f-4c72bc15f712",
+      "year": 2024,
+      "trim": "CR-V Hybrid",
+      "condition": "used",
+      "price": 42980,
+      "km": 26544,
+      "dealer": "Castle Honda",
+      "location": "Etobicoke",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42980
+        }
+      ]
+    },
+    "47bab2fc-0e13-43c6-9bbf-00bb966b7801": {
+      "listing_id": "47bab2fc-0e13-43c6-9bbf-00bb966b7801",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-red-47bab2fc-0e13-43c6-9bbf-00bb966b7801",
+      "year": 2024,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 34200,
+      "km": 46036,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34200
+        }
+      ]
+    },
+    "edabf4d4-3085-4494-981a-6cab79515a4e": {
+      "listing_id": "edabf4d4-3085-4494-981a-6cab79515a4e",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-awd-ex-l-extended-factory-warranty-no-reported-ac-gas-electric-hybrid-blue-edabf4d4-3085-4494-981a-6cab79515a4e",
+      "year": 2025,
+      "trim": "Awd Ex-L *EXTENDED FACTORY WARRANTY*NO REPORTED AC",
+      "condition": "used",
+      "price": 38995,
+      "km": 81768,
+      "dealer": "Number 7 Honda",
+      "location": "Woodbridge",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 38995
+        }
+      ]
+    },
+    "d8fdce55-9fea-46fa-a8ec-9d64c11b577e": {
+      "listing_id": "d8fdce55-9fea-46fa-a8ec-9d64c11b577e",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-gas-electric-hybrid-black-d8fdce55-9fea-46fa-a8ec-9d64c11b577e",
+      "year": 2025,
+      "trim": "TOURING",
+      "condition": "used",
+      "price": 41999,
+      "km": 68211,
+      "dealer": "Signature Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41999
+        }
+      ]
+    },
+    "86dbb3ac-60d9-4161-8423-7b0277bc983a": {
+      "listing_id": "86dbb3ac-60d9-4161-8423-7b0277bc983a",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd-gas-electric-hybrid-black-86dbb3ac-60d9-4161-8423-7b0277bc983a",
+      "year": 2024,
+      "trim": "Touring AWD",
+      "condition": "used",
+      "price": 40700,
+      "km": 39004,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40700
+        }
+      ]
+    },
+    "ddac68d0-080e-4347-9b53-bc8fd44bd455": {
+      "listing_id": "ddac68d0-080e-4347-9b53-bc8fd44bd455",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-honda-certified-with-7yr-160k-warranty-gas-electric-hybrid-black-ddac68d0-080e-4347-9b53-bc8fd44bd455",
+      "year": 2024,
+      "trim": "Touring Honda Certified With 7YR/160K Warranty",
+      "condition": "used",
+      "price": 42490,
+      "km": 33603,
+      "dealer": "Roadsport Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42490
+        }
+      ]
+    },
+    "2f20ae2b-7535-4846-a868-52fc65cb72cb": {
+      "listing_id": "2f20ae2b-7535-4846-a868-52fc65cb72cb",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd-gasoline-black-2f20ae2b-7535-4846-a868-52fc65cb72cb",
+      "year": 2024,
+      "trim": "Sport AWD",
+      "condition": "used",
+      "price": 36900,
+      "km": 33086,
+      "dealer": "Brimell Toyota",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36900
+        }
+      ]
+    },
+    "1a3f5c79-b4d7-4441-9b5e-8e5e57f93f8d": {
+      "listing_id": "1a3f5c79-b4d7-4441-9b5e-8e5e57f93f8d",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-blue-1a3f5c79-b4d7-4441-9b5e-8e5e57f93f8d",
+      "year": 2025,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 37400,
+      "km": 30140,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 37400
+        }
+      ]
+    },
+    "ca347196-fc78-41cb-94be-4e9d2e8a733c": {
+      "listing_id": "ca347196-fc78-41cb-94be-4e9d2e8a733c",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-honda-certified-with-7yr-160k-warranty-gas-electric-hybrid-grey-ca347196-fc78-41cb-94be-4e9d2e8a733c",
+      "year": 2024,
+      "trim": "Touring Honda Certified With 7YR/160K Warranty",
+      "condition": "used",
+      "price": 41590,
+      "km": 46799,
+      "dealer": "Roadsport Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41590
+        }
+      ]
+    },
+    "30ab1198-deb9-42c5-b66a-9bd50991a145": {
+      "listing_id": "30ab1198-deb9-42c5-b66a-9bd50991a145",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-trailsport-awd-gas-electric-hybrid-black-30ab1198-deb9-42c5-b66a-9bd50991a145",
+      "year": 2026,
+      "trim": "TrailSport AWD",
+      "condition": "used",
+      "price": 49900,
+      "km": 2052,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 49900
+        }
+      ]
+    },
+    "ac8678fe-b65a-4fc2-8889-e0188ba2faf5": {
+      "listing_id": "ac8678fe-b65a-4fc2-8889-e0188ba2faf5",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-awd--heated-seats--remote-starter-gasoline-black-ac8678fe-b65a-4fc2-8889-e0188ba2faf5",
+      "year": 2025,
+      "trim": "LX AWD | HEATED SEATS | REMOTE STARTER",
+      "condition": "used",
+      "price": 34998,
+      "km": 35512,
+      "dealer": "Bolton Honda",
+      "location": "Bolton",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34998
+        }
+      ]
+    },
+    "871f0afe-26d3-4048-88d3-9ca1f6afc863": {
+      "listing_id": "871f0afe-26d3-4048-88d3-9ca1f6afc863",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-gas-electric-hybrid-black-871f0afe-26d3-4048-88d3-9ca1f6afc863",
+      "year": 2025,
+      "trim": "Touring",
+      "condition": "used",
+      "price": 43900,
+      "km": 40394,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 43900
+        }
+      ]
+    },
+    "6e3da3f4-513a-4e98-9a62-8337cf41c2ef": {
+      "listing_id": "6e3da3f4-513a-4e98-9a62-8337cf41c2ef",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd--one-owner--certified-pre-owned--gasoline-red-6e3da3f4-513a-4e98-9a62-8337cf41c2ef",
+      "year": 2024,
+      "trim": "Sport AWD | One-Owner | Certified Pre-Owned |",
+      "condition": "used",
+      "price": 35076,
+      "km": 61479,
+      "dealer": "Honda of Thornhill",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35076
+        }
+      ]
+    },
+    "f08d56a1-8484-4ae8-b8e1-5d316a35566f": {
+      "listing_id": "f08d56a1-8484-4ae8-b8e1-5d316a35566f",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-gasoline-white-f08d56a1-8484-4ae8-b8e1-5d316a35566f",
+      "year": 2024,
+      "trim": "LX-B",
+      "condition": "used",
+      "price": 33800,
+      "km": 23951,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 33800
+        }
+      ]
+    },
+    "bf4e381d-7be6-4793-88ab-1aeaa06a59a1": {
+      "listing_id": "bf4e381d-7be6-4793-88ab-1aeaa06a59a1",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-gas-electric-hybrid-grey-bf4e381d-7be6-4793-88ab-1aeaa06a59a1",
+      "year": 2024,
+      "trim": "CR-V Hybrid",
+      "condition": "used",
+      "price": 42970,
+      "km": 27086,
+      "dealer": "Castle Honda",
+      "location": "Etobicoke",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42970
+        }
+      ]
+    },
+    "ccf45e80-02a2-4489-833e-d1df35e82f25": {
+      "listing_id": "ccf45e80-02a2-4489-833e-d1df35e82f25",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-extended-factory-warranty-no-reported-accid-gasoline-ccf45e80-02a2-4489-833e-d1df35e82f25",
+      "year": 2025,
+      "trim": "Sport *EXTENDED FACTORY WARRANTY*NO REPORTED ACCID",
+      "condition": "used",
+      "price": 39995,
+      "km": 26625,
+      "dealer": "Number 7 Honda",
+      "location": "Woodbridge",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39995
+        }
+      ]
+    },
+    "1ecac171-5597-414d-a241-90bd085846e3": {
+      "listing_id": "1ecac171-5597-414d-a241-90bd085846e3",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd-cpo--carplay--backup-cam--htd-seats-gasoline-grey-1ecac171-5597-414d-a241-90bd085846e3",
+      "year": 2024,
+      "trim": "Sport AWD CPO | CarPlay | Backup Cam | Htd Seats +",
+      "condition": "used",
+      "price": 34999,
+      "km": 66121,
+      "dealer": "Markham Honda",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34999
+        }
+      ]
+    },
+    "61fcec0c-b04b-4b2d-8bf1-e994125cc94c": {
+      "listing_id": "61fcec0c-b04b-4b2d-8bf1-e994125cc94c",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-gas-electric-hybrid-white-61fcec0c-b04b-4b2d-8bf1-e994125cc94c",
+      "year": 2025,
+      "trim": "EX-L AWD",
+      "condition": "used",
+      "price": 37600,
+      "km": 102652,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 37600
+        }
+      ]
+    },
+    "33126d21-8fac-42c5-a30d-ff39bee3cd70": {
+      "listing_id": "33126d21-8fac-42c5-a30d-ff39bee3cd70",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-gasoline-white-33126d21-8fac-42c5-a30d-ff39bee3cd70",
+      "year": 2025,
+      "trim": "LX",
+      "condition": "used",
+      "price": 35500,
+      "km": 20926,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35500
+        }
+      ]
+    },
+    "145cd628-17b5-40fa-8207-4e6a7f1b0f49": {
+      "listing_id": "145cd628-17b5-40fa-8207-4e6a7f1b0f49",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-gas-electric-hybrid-white-145cd628-17b5-40fa-8207-4e6a7f1b0f49",
+      "year": 2025,
+      "trim": "EX-L",
+      "condition": "used",
+      "price": 41300,
+      "km": 54987,
+      "dealer": "Signature Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41300
+        }
+      ]
+    },
+    "25bc6d37-fe90-47eb-b21d-3bfbdbd07614": {
+      "listing_id": "25bc6d37-fe90-47eb-b21d-3bfbdbd07614",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring--navi--leather--bose--awd-gas-electric-hybrid-white-25bc6d37-fe90-47eb-b21d-3bfbdbd07614",
+      "year": 2024,
+      "trim": "TOURING | NAVI | LEATHER | BOSE | AWD",
+      "condition": "used",
+      "price": 35999,
+      "km": 112043,
+      "dealer": "FORMULA HONDA",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35999
+        }
+      ]
+    },
+    "82c04b35-87c2-4adf-aecd-d848901dfcba": {
+      "listing_id": "82c04b35-87c2-4adf-aecd-d848901dfcba",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-gas-electric-hybrid-red-82c04b35-87c2-4adf-aecd-d848901dfcba",
+      "year": 2024,
+      "trim": "TOURING",
+      "condition": "used",
+      "price": 39989,
+      "km": 71744,
+      "dealer": "Signature Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39989
+        }
+      ]
+    },
+    "661f1262-0e2b-4719-a41f-d66702dbc178": {
+      "listing_id": "661f1262-0e2b-4719-a41f-d66702dbc178",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l--leather--sunroof--memory-seats--pwr-lift-gasoline-black-661f1262-0e2b-4719-a41f-d66702dbc178",
+      "year": 2024,
+      "trim": "EX-L | Leather | Sunroof | Memory Seats | PWR Lift",
+      "condition": "used",
+      "price": 40595,
+      "km": 13952,
+      "dealer": "Meadowvale Honda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40595
+        }
+      ]
+    },
+    "548cbe17-3620-44dc-9305-e269be092a6b": {
+      "listing_id": "548cbe17-3620-44dc-9305-e269be092a6b",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-gas-electric-hybrid-black-548cbe17-3620-44dc-9305-e269be092a6b",
+      "year": 2024,
+      "trim": "EX-L",
+      "condition": "used",
+      "price": 42800,
+      "km": 21085,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42800
+        }
+      ]
+    },
+    "04cb9c64-17bd-4005-b8a3-edb7890e9f97": {
+      "listing_id": "04cb9c64-17bd-4005-b8a3-edb7890e9f97",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-grey-04cb9c64-17bd-4005-b8a3-edb7890e9f97",
+      "year": 2025,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 40500,
+      "km": 24750,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40500
+        }
+      ]
+    },
+    "02157e1a-76f3-4b3d-8971-23e0fff375d4": {
+      "listing_id": "02157e1a-76f3-4b3d-8971-23e0fff375d4",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-2wd--free-oil-change--one-owner--low-milea-gasoline-black-02157e1a-76f3-4b3d-8971-23e0fff375d4",
+      "year": 2024,
+      "trim": "LX-B 2WD | FREE OIL CHANGE | One Owner | Low Milea",
+      "condition": "used",
+      "price": 30395,
+      "km": 22145,
+      "dealer": "ALTA Nissan Richmond Hill",
+      "location": "Richmond Hill",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 30395
+        }
+      ]
+    },
+    "ba72e2fd-0f5f-4b95-8103-374bbc9ea312": {
+      "listing_id": "ba72e2fd-0f5f-4b95-8103-374bbc9ea312",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-honda-certified-with-7yr-160k-warranty-gas-electric-hybrid-black-ba72e2fd-0f5f-4b95-8103-374bbc9ea312",
+      "year": 2024,
+      "trim": "Touring Honda Certified With 7YR/160K Warranty",
+      "condition": "used",
+      "price": 41290,
+      "km": 42637,
+      "dealer": "Roadsport Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41290
+        }
+      ]
+    },
+    "b60b41b3-e507-41ed-bb4e-fcea658a62b2": {
+      "listing_id": "b60b41b3-e507-41ed-bb4e-fcea658a62b2",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-hybrid-gas-electric-hybrid-red-b60b41b3-e507-41ed-bb4e-fcea658a62b2",
+      "year": 2024,
+      "trim": "TOURING HYBRID",
+      "condition": "used",
+      "price": 41990,
+      "km": 32904,
+      "dealer": "Ideal Honda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41990
+        }
+      ]
+    },
+    "a28893c2-3beb-4850-b9ab-6efbdb05c981": {
+      "listing_id": "a28893c2-3beb-4850-b9ab-6efbdb05c981",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-gasoline-black-a28893c2-3beb-4850-b9ab-6efbdb05c981",
+      "year": 2024,
+      "trim": "Not listed",
+      "condition": "used",
+      "price": 36890,
+      "km": 35862,
+      "dealer": "Castle Honda",
+      "location": "Etobicoke",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36890
+        }
+      ]
+    },
+    "6a749d92-4a5b-4538-b5f1-2b7b74e14a14": {
+      "listing_id": "6a749d92-4a5b-4538-b5f1-2b7b74e14a14",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-gasoline-black-6a749d92-4a5b-4538-b5f1-2b7b74e14a14",
+      "year": 2026,
+      "trim": "LX",
+      "condition": "new",
+      "price": 41864,
+      "km": 10,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41864
+        }
+      ]
+    },
+    "76f89304-0fdd-46c8-945e-8aa04dcc84cc": {
+      "listing_id": "76f89304-0fdd-46c8-945e-8aa04dcc84cc",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sunroof-heated-seats-apple-car-play-android-aut-gasoline-grey-76f89304-0fdd-46c8-945e-8aa04dcc84cc",
+      "year": 2024,
+      "trim": "Sunroof| Heated Seats| Apple Car Play| Android Aut",
+      "condition": "used",
+      "price": 37968,
+      "km": 35629,
+      "dealer": "Maple Honda",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 37968
+        }
+      ]
+    },
+    "1d7b8eea-e869-4a1a-9ec1-7b86dc99f745": {
+      "listing_id": "1d7b8eea-e869-4a1a-9ec1-7b86dc99f745",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-gas-electric-hybrid-black-1d7b8eea-e869-4a1a-9ec1-7b86dc99f745",
+      "year": 2024,
+      "trim": "CR-V Hybrid",
+      "condition": "used",
+      "price": 42890,
+      "km": 35943,
+      "dealer": "Castle Honda",
+      "location": "Etobicoke",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 42890
+        }
+      ]
+    },
+    "239f79e8-afea-43b0-b841-1f3e1ea80af5": {
+      "listing_id": "239f79e8-afea-43b0-b841-1f3e1ea80af5",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-gas-electric-hybrid-grey-239f79e8-afea-43b0-b841-1f3e1ea80af5",
+      "year": 2025,
+      "trim": "EX-L AWD",
+      "condition": "used",
+      "price": 37500,
+      "km": 117336,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 37500
+        }
+      ]
+    },
+    "5841690f-3b8d-47f5-b1c5-2eb918250063": {
+      "listing_id": "5841690f-3b8d-47f5-b1c5-2eb918250063",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-black-5841690f-3b8d-47f5-b1c5-2eb918250063",
+      "year": 2025,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 39600,
+      "km": 21168,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39600
+        }
+      ]
+    },
+    "d9656f42-3efd-4273-aeeb-d37b4cc87fcf": {
+      "listing_id": "d9656f42-3efd-4273-aeeb-d37b4cc87fcf",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd-gas-electric-hybrid-grey-d9656f42-3efd-4273-aeeb-d37b4cc87fcf",
+      "year": 2025,
+      "trim": "Touring AWD",
+      "condition": "used",
+      "price": 41500,
+      "km": 89606,
+      "dealer": "Toronto Honda",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41500
+        }
+      ]
+    },
+    "1b50e424-d7cd-4f65-a525-0f9f0c681adf": {
+      "listing_id": "1b50e424-d7cd-4f65-a525-0f9f0c681adf",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd--hybrid--gas-electric-hybrid-white-1b50e424-d7cd-4f65-a525-0f9f0c681adf",
+      "year": 2025,
+      "trim": "Touring AWD | HYBRID |",
+      "condition": "used",
+      "price": 45995,
+      "km": 20995,
+      "dealer": "Lexus of Vaughan",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 45995
+        }
+      ]
+    },
+    "39623e05-a3bc-4254-b8d5-8cd33be46859": {
+      "listing_id": "39623e05-a3bc-4254-b8d5-8cd33be46859",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-fwd-carplay-bluetooth-rear-camera-h-seats-gasoline-white-39623e05-a3bc-4254-b8d5-8cd33be46859",
+      "year": 2026,
+      "trim": "LX FWD CarPlay  Bluetooth Rear Camera H.Seats",
+      "condition": "used",
+      "price": 38595,
+      "km": 9359,
+      "dealer": "Precision Honda Pre-Owned",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 38595
+        }
+      ]
+    },
+    "7d81472d-da10-4a86-8dde-f8f9c22f37bb": {
+      "listing_id": "7d81472d-da10-4a86-8dde-f8f9c22f37bb",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-gasoline-red-7d81472d-da10-4a86-8dde-f8f9c22f37bb",
+      "year": 2024,
+      "trim": "Not listed",
+      "condition": "used",
+      "price": 36890,
+      "km": 28295,
+      "dealer": "Castle Honda",
+      "location": "Etobicoke",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36890
+        }
+      ]
+    },
+    "133ee8b6-8851-4e1a-a469-27c4467d92e1": {
+      "listing_id": "133ee8b6-8851-4e1a-a469-27c4467d92e1",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-pkg-heated-premium-sport-fabric-seats-backup-gasoline-red-133ee8b6-8851-4e1a-a469-27c4467d92e1",
+      "year": 2024,
+      "trim": "SPORT PKG-HEATED PREMIUM SPORT FABRIC SEATS-BACKUP",
+      "condition": "used",
+      "price": 36499,
+      "km": 19572,
+      "dealer": "Don Valley North Lexus",
+      "location": "Markham",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36499
+        }
+      ]
+    },
+    "f93ae50b-c242-4baa-8ee5-e9a08431a1ae": {
+      "listing_id": "f93ae50b-c242-4baa-8ee5-e9a08431a1ae",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-awd--no-accidents--low-kms-gasoline-black-f93ae50b-c242-4baa-8ee5-e9a08431a1ae",
+      "year": 2024,
+      "trim": "LX AWD | No Accidents | LOW KMS",
+      "condition": "used",
+      "price": 34337,
+      "km": 24906,
+      "dealer": "Erin Mills Mitsubishi (QAG)",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34337
+        }
+      ]
+    },
+    "495944d6-969b-49f9-b588-0fa762ec14c1": {
+      "listing_id": "495944d6-969b-49f9-b588-0fa762ec14c1",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-heated-seats-apple-car-play-android-auto-honda-gasoline-black-495944d6-969b-49f9-b588-0fa762ec14c1",
+      "year": 2024,
+      "trim": "Heated Seats| Apple Car Play| Android Auto| Honda",
+      "condition": "used",
+      "price": 34276,
+      "km": 36231,
+      "dealer": "Maple Honda",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34276
+        }
+      ]
+    },
+    "7bb59b44-c317-42c8-9af2-7d31bcb9db0d": {
+      "listing_id": "7bb59b44-c317-42c8-9af2-7d31bcb9db0d",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-gasoline-white-7bb59b44-c317-42c8-9af2-7d31bcb9db0d",
+      "year": 2025,
+      "trim": "Not listed",
+      "condition": "used",
+      "price": 35385,
+      "km": 25806,
+      "dealer": "Castle Honda",
+      "location": "Etobicoke",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35385
+        }
+      ]
+    },
+    "e28d463c-84f2-44d6-9bcf-323443626bda": {
+      "listing_id": "e28d463c-84f2-44d6-9bcf-323443626bda",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-extended-factory-warranty-no-reported-accident-gasoline-white-e28d463c-84f2-44d6-9bcf-323443626bda",
+      "year": 2025,
+      "trim": "LX *EXTENDED FACTORY WARRANTY*NO REPORTED ACCIDENT",
+      "condition": "used",
+      "price": 33751,
+      "km": 40168,
+      "dealer": "Number 7 Honda",
+      "location": "Woodbridge",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 33751
+        }
+      ]
+    },
+    "fee899f7-d17b-49a6-a712-6e5eb2bcd6d4": {
+      "listing_id": "fee899f7-d17b-49a6-a712-6e5eb2bcd6d4",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-hybrid-navi-leather-roof-wireless-charging-gas-electric-hybrid-fee899f7-d17b-49a6-a712-6e5eb2bcd6d4",
+      "year": 2025,
+      "trim": "Touring HYBRID Navi Leather Roof Wireless Charging",
+      "condition": "used",
+      "price": 47595,
+      "km": 19165,
+      "dealer": "Precision Honda Pre-Owned",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 47595
+        }
+      ]
+    },
+    "52c55764-4d87-4a58-b2f3-074b8504b14c": {
+      "listing_id": "52c55764-4d87-4a58-b2f3-074b8504b14c",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-white-52c55764-4d87-4a58-b2f3-074b8504b14c",
+      "year": 2024,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 36488,
+      "km": 30405,
+      "dealer": "Acura of Oakville",
+      "location": "Oakville",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36488
+        }
+      ]
+    },
+    "73816906-eda5-4031-bee1-d81d53d42e05": {
+      "listing_id": "73816906-eda5-4031-bee1-d81d53d42e05",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-gas-electric-hybrid-black-73816906-eda5-4031-bee1-d81d53d42e05",
+      "year": 2026,
+      "trim": "EX-L AWD",
+      "condition": "new",
+      "price": 49977,
+      "km": 12170,
+      "dealer": "FORMULA HONDA",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 49977
+        }
+      ]
+    },
+    "d00b9d41-2e7a-4593-8a09-a4f0ce31a4a1": {
+      "listing_id": "d00b9d41-2e7a-4593-8a09-a4f0ce31a4a1",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd--one-owner--certified-pre-owned-gas-electric-hybrid-black-d00b9d41-2e7a-4593-8a09-a4f0ce31a4a1",
+      "year": 2024,
+      "trim": "EX-L AWD | One-Owner | Certified Pre-Owned",
+      "condition": "used",
+      "price": 39988,
+      "km": 47247,
+      "dealer": "Honda of Thornhill",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39988
+        }
+      ]
+    },
+    "24904dfb-bbd7-4741-a8a0-677d1daa74f8": {
+      "listing_id": "24904dfb-bbd7-4741-a8a0-677d1daa74f8",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sportawdsunroofcarplayno-accidents-gasoline-blue-24904dfb-bbd7-4741-a8a0-677d1daa74f8",
+      "year": 2024,
+      "trim": "Sport|AWD|Sunroof|CarPlay|No Accidents",
+      "condition": "used",
+      "price": 36292,
+      "km": 41837,
+      "dealer": "PICKERING HONDA",
+      "location": "Pickering",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36292
+        }
+      ]
+    },
+    "000938b7-a369-4a78-b235-918210a1518d": {
+      "listing_id": "000938b7-a369-4a78-b235-918210a1518d",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-gasoline-white-000938b7-a369-4a78-b235-918210a1518d",
+      "year": 2024,
+      "trim": "Not listed",
+      "condition": "used",
+      "price": 37380,
+      "km": 20846,
+      "dealer": "Castle Honda",
+      "location": "Etobicoke",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 37380
+        }
+      ]
+    },
+    "cdfc6bd1-c8d9-4ff6-909f-7ba4b3316819": {
+      "listing_id": "cdfc6bd1-c8d9-4ff6-909f-7ba4b3316819",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-black-cdfc6bd1-c8d9-4ff6-909f-7ba4b3316819",
+      "year": 2024,
+      "trim": "Sport",
+      "condition": "used",
+      "price": 34995,
+      "km": 74290,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34995
+        }
+      ]
+    },
+    "412e6bc9-b391-48a9-b012-2a92545a3ef4": {
+      "listing_id": "412e6bc9-b391-48a9-b012-2a92545a3ef4",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-b-extended-factory-warranty-no-reported-accide-gasoline-black-412e6bc9-b391-48a9-b012-2a92545a3ef4",
+      "year": 2024,
+      "trim": "LX-B *EXTENDED FACTORY WARRANTY*NO REPORTED ACCIDE",
+      "condition": "used",
+      "price": 33995,
+      "km": 36130,
+      "dealer": "Number 7 Honda",
+      "location": "Woodbridge",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 33995
+        }
+      ]
+    },
+    "902f3669-f2cf-4007-a3ce-37fbf79253f0": {
+      "listing_id": "902f3669-f2cf-4007-a3ce-37fbf79253f0",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-trailsport-gas-electric-hybrid-black-902f3669-f2cf-4007-a3ce-37fbf79253f0",
+      "year": 2026,
+      "trim": "TrailSport",
+      "condition": "new",
+      "price": 52039,
+      "km": 10,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 52039
+        }
+      ]
+    },
+    "52cf1f0c-08df-48fa-9f50-2a9ef83cef0a": {
+      "listing_id": "52cf1f0c-08df-48fa-9f50-2a9ef83cef0a",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-awd--one-owner--leather--navi--hybrid-gas-electric-hybrid-white-52cf1f0c-08df-48fa-9f50-2a9ef83cef0a",
+      "year": 2024,
+      "trim": "Touring AWD | ONE-OWNER | LEATHER | NAVI | HYBRID",
+      "condition": "used",
+      "price": 38488,
+      "km": 61995,
+      "dealer": "Performance Honda",
+      "location": "Brampton",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 38488
+        }
+      ]
+    },
+    "7343a1d6-ce53-4e00-b909-daa0bb52e7fe": {
+      "listing_id": "7343a1d6-ce53-4e00-b909-daa0bb52e7fe",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-lawdleathersunroofcarplay-gas-electric-hybrid-blue-7343a1d6-ce53-4e00-b909-daa0bb52e7fe",
+      "year": 2025,
+      "trim": "EX-L|AWD|Leather|Sunroof|CarPlay",
+      "condition": "used",
+      "price": 41287,
+      "km": 36788,
+      "dealer": "PICKERING HONDA",
+      "location": "Pickering",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41287
+        }
+      ]
+    },
+    "25ab104d-e7e9-441c-be9e-3f7add156bc4": {
+      "listing_id": "25ab104d-e7e9-441c-be9e-3f7add156bc4",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-extended-factory-warranty-no-reported-accident-gasoline-black-25ab104d-e7e9-441c-be9e-3f7add156bc4",
+      "year": 2025,
+      "trim": "LX *EXTENDED FACTORY WARRANTY*NO REPORTED ACCIDENT",
+      "condition": "used",
+      "price": 34995,
+      "km": 34591,
+      "dealer": "Number 7 Honda",
+      "location": "Woodbridge",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 34995
+        }
+      ]
+    },
+    "b8ed45aa-f91e-4772-ad18-546f602c323f": {
+      "listing_id": "b8ed45aa-f91e-4772-ad18-546f602c323f",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-gasoline-white-b8ed45aa-f91e-4772-ad18-546f602c323f",
+      "year": 2024,
+      "trim": "Not listed",
+      "condition": "used",
+      "price": 38585,
+      "km": 36873,
+      "dealer": "Castle Honda",
+      "location": "Etobicoke",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 38585
+        }
+      ]
+    },
+    "27bbced2-78e2-49cd-9227-60c4b9b27270": {
+      "listing_id": "27bbced2-78e2-49cd-9227-60c4b9b27270",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-gasoline-white-27bbced2-78e2-49cd-9227-60c4b9b27270",
+      "year": 2025,
+      "trim": "LX",
+      "condition": "used",
+      "price": 32998,
+      "km": 53719,
+      "dealer": "Erin Mills Mazda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 32998
+        }
+      ]
+    },
+    "4e99795c-26c6-4898-86e5-8fc8b414868c": {
+      "listing_id": "4e99795c-26c6-4898-86e5-8fc8b414868c",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-extended-factory-warranty-no-reported-accid-gasoline-black-4e99795c-26c6-4898-86e5-8fc8b414868c",
+      "year": 2024,
+      "trim": "Sport *EXTENDED FACTORY WARRANTY*NO REPORTED ACCID",
+      "condition": "used",
+      "price": 36995,
+      "km": 35134,
+      "dealer": "Number 7 Honda",
+      "location": "Woodbridge",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 36995
+        }
+      ]
+    },
+    "124ab666-d6be-4fb1-af4a-0c159a14d32e": {
+      "listing_id": "124ab666-d6be-4fb1-af4a-0c159a14d32e",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd--clean-carfax--one-owner-gas-electric-hybrid-white-124ab666-d6be-4fb1-af4a-0c159a14d32e",
+      "year": 2024,
+      "trim": "EX-L AWD | CLEAN CARFAX | ONE OWNER",
+      "condition": "used",
+      "price": 40888,
+      "km": 49421,
+      "dealer": "Nav Bhatia's Rexdale Hyundai",
+      "location": "Etobicoke",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40888
+        }
+      ]
+    },
+    "85eb1c91-7909-47ca-a3e3-720530e43de1": {
+      "listing_id": "85eb1c91-7909-47ca-a3e3-720530e43de1",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-extended-factory-warranty-no-reported-acc-gas-electric-hybrid-black-85eb1c91-7909-47ca-a3e3-720530e43de1",
+      "year": 2024,
+      "trim": "Touring *EXTENDED FACTORY WARRANTY*NO REPORTED ACC",
+      "condition": "used",
+      "price": 38995,
+      "km": 73190,
+      "dealer": "Number 7 Honda",
+      "location": "Woodbridge",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 38995
+        }
+      ]
+    },
+    "0b94bef0-5bfc-490f-bb89-9b88e2f39beb": {
+      "listing_id": "0b94bef0-5bfc-490f-bb89-9b88e2f39beb",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd-honda-certified-extremely-low-kms-gas-electric-hybrid-black-0b94bef0-5bfc-490f-bb89-9b88e2f39beb",
+      "year": 2026,
+      "trim": "EX-L AWD - HONDA CERTIFIED ! EXTREMELY LOW KMS !",
+      "condition": "used",
+      "price": 48683,
+      "km": 10087,
+      "dealer": "Open Road Honda",
+      "location": "Brampton",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 48683
+        }
+      ]
+    },
+    "b4ae5c63-01d9-44fe-b144-f8488c0a1284": {
+      "listing_id": "b4ae5c63-01d9-44fe-b144-f8488c0a1284",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-lawdleathersunroofcarplay-gas-electric-hybrid-blue-b4ae5c63-01d9-44fe-b144-f8488c0a1284",
+      "year": 2024,
+      "trim": "EX-L|AWD|Leather|Sunroof|CarPlay",
+      "condition": "used",
+      "price": 40846,
+      "km": 31156,
+      "dealer": "PICKERING HONDA",
+      "location": "Pickering",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 40846
+        }
+      ]
+    },
+    "cd1deaf8-89aa-45a9-994d-e0217cccfd07": {
+      "listing_id": "cd1deaf8-89aa-45a9-994d-e0217cccfd07",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touringleathernavisunroofbose-gas-electric-hybrid-grey-cd1deaf8-89aa-45a9-994d-e0217cccfd07",
+      "year": 2025,
+      "trim": "Touring|Leather|Navi|Sunroof|Bose",
+      "condition": "used",
+      "price": 45232,
+      "km": 25173,
+      "dealer": "PICKERING HONDA",
+      "location": "Pickering",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 45232
+        }
+      ]
+    },
+    "09d8edd5-f982-4a92-8545-addfd22e8fdd": {
+      "listing_id": "09d8edd5-f982-4a92-8545-addfd22e8fdd",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-touring-gas-electric-hybrid-silver-09d8edd5-f982-4a92-8545-addfd22e8fdd",
+      "year": 2026,
+      "trim": "Touring",
+      "condition": "used",
+      "price": 54342,
+      "km": 12885,
+      "dealer": "Parkway Honda",
+      "location": "North York",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 54342
+        }
+      ]
+    },
+    "ae652b61-71d6-4eec-98f4-d83a1869363d": {
+      "listing_id": "ae652b61-71d6-4eec-98f4-d83a1869363d",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gasoline-white-ae652b61-71d6-4eec-98f4-d83a1869363d",
+      "year": 2026,
+      "trim": "Sport",
+      "condition": "new",
+      "price": 48114,
+      "km": 10,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 48114
+        }
+      ]
+    },
+    "6fa366df-d1e7-4546-8f19-3b71a758ca00": {
+      "listing_id": "6fa366df-d1e7-4546-8f19-3b71a758ca00",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-lx-gasoline-silver-6fa366df-d1e7-4546-8f19-3b71a758ca00",
+      "year": 2026,
+      "trim": "LX",
+      "condition": "new",
+      "price": 41314,
+      "km": 10,
+      "dealer": "Honda Downtown",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 41314
+        }
+      ]
+    },
+    "a6fecfa1-414d-4770-9e0d-bf07e573028b": {
+      "listing_id": "a6fecfa1-414d-4770-9e0d-bf07e573028b",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-lleathersunroofcarplayno-accidents-gas-electric-hybrid-blue-a6fecfa1-414d-4770-9e0d-bf07e573028b",
+      "year": 2024,
+      "trim": "EX-L|Leather|Sunroof|CarPlay|No Accidents",
+      "condition": "used",
+      "price": 35925,
+      "km": 96457,
+      "dealer": "PICKERING HONDA",
+      "location": "Pickering",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35925
+        }
+      ]
+    },
+    "5b327a89-0ded-467b-9758-9b65464f871a": {
+      "listing_id": "5b327a89-0ded-467b-9758-9b65464f871a",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-ex-l-awd--clean-carfax--certified-pre-owned-gas-electric-hybrid-black-5b327a89-0ded-467b-9758-9b65464f871a",
+      "year": 2024,
+      "trim": "EX-L AWD | Clean Carfax | Certified Pre-Owned",
+      "condition": "used",
+      "price": 39788,
+      "km": 48922,
+      "dealer": "Honda of Thornhill",
+      "location": "Vaughan",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 39788
+        }
+      ]
+    },
+    "eb9efa17-66b0-44d9-8f13-48e740bdc086": {
+      "listing_id": "eb9efa17-66b0-44d9-8f13-48e740bdc086",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-gas-electric-hybrid-black-eb9efa17-66b0-44d9-8f13-48e740bdc086",
+      "year": 2026,
+      "trim": "SPORT",
+      "condition": "used",
+      "price": 44988,
+      "km": 29248,
+      "dealer": "Signature Honda",
+      "location": "Scarborough",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 44988
+        }
+      ]
+    },
+    "371ccc6b-45bb-4945-b8c7-273acd58220b": {
+      "listing_id": "371ccc6b-45bb-4945-b8c7-273acd58220b",
+      "url": "https://www.autotrader.ca/offers/honda-cr-v-sport-awd--sold-sold-sold-sold-gasoline-grey-371ccc6b-45bb-4945-b8c7-273acd58220b",
+      "year": 2024,
+      "trim": "Sport AWD | SOLD SOLD SOLD SOLD!!!",
+      "condition": "used",
+      "price": 35988,
+      "km": 51922,
+      "dealer": "Performance Honda",
+      "location": "Brampton",
+      "is_cpo": false,
+      "scraped_at": "2026-04-26",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "price_history": [
+        {
+          "date": "2026-04-26",
+          "price": 35988
+        }
+      ]
+    }
+  },
+  "dealer_stats": {
+    "Markham Honda": {
+      "listings_seen": 16,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Honda Downtown": {
+      "listings_seen": 20,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Toronto Honda": {
+      "listings_seen": 37,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Maple Honda": {
+      "listings_seen": 6,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "WILLOWDALE NISSAN": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Marino's Fine Cars": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "PICKERING HONDA": {
+      "listings_seen": 6,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "401 Dixie Hyundai": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "FORMULA HONDA": {
+      "listings_seen": 6,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Autorama": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Islington Chrysler FIAT": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Don Valley North Toyota": {
+      "listings_seen": 2,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Tabangi Motors": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Signature Honda": {
+      "listings_seen": 8,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Castle Honda": {
+      "listings_seen": 9,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Meadowvale Honda": {
+      "listings_seen": 4,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Scarborough Toyota": {
+      "listings_seen": 2,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Midtown Honda": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Roadsport Honda": {
+      "listings_seen": 8,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Honda of Thornhill": {
+      "listings_seen": 7,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Parkway Honda": {
+      "listings_seen": 4,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "PRESTIGE AUTO GALLERY INC.": {
+      "listings_seen": 2,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Oakville Honda": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Precision Honda Pre-Owned": {
+      "listings_seen": 5,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Number 7 Honda": {
+      "listings_seen": 8,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Don Valley North Lexus": {
+      "listings_seen": 3,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Classic Honda": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Nav Bhatia's Rexdale Hyundai": {
+      "listings_seen": 2,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Brimell Toyota": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Bolton Honda": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "ALTA Nissan Richmond Hill": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Ideal Honda": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Lexus of Vaughan": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Erin Mills Mitsubishi (QAG)": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Acura of Oakville": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Performance Honda": {
+      "listings_seen": 2,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Erin Mills Mazda": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Open Road Honda": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    }
+  }
+}

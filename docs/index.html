@@ -22,28 +22,53 @@
       box-shadow: 0 4px 24px rgba(0,0,0,.09);
       width: 100%;
       max-width: 420px;
-      text-align: center;
     }
-    h1 { font-size: 1.45rem; font-weight: 700; color: #0f172a; margin-bottom: 12px; }
-    p  { color: #64748b; font-size: 0.95rem; line-height: 1.5; }
-    .badge {
-      display: inline-block;
+    h1 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 4px;
+    }
+    .sub {
+      color: #64748b;
+      font-size: 0.88rem;
+      margin-bottom: 28px;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    a {
+      display: block;
+      padding: 16px 20px;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 11px;
+      text-decoration: none;
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+    }
+    a:active { opacity: 0.88; }
+    .footer {
+      color: #94a3b8;
+      font-size: 0.78rem;
       margin-top: 24px;
-      padding: 10px 20px;
-      background: #f1f5f9;
-      border-radius: 8px;
-      color: #475569;
-      font-size: 0.85rem;
-      font-family: monospace;
+      text-align: center;
     }
   </style>
 </head>
 <body>
   <div class="card">
     <h1>AutoDealTracker</h1>
-    <p>No reports generated yet.</p>
-    <p style="margin-top:8px">Trigger the workflow from the GitHub Actions tab to generate the first report.</p>
-    <div class="badge">Actions → AutoDealTracker → Run workflow</div>
+    <p class="sub">Ontario dealer inventory &mdash; updated every 3 days</p>
+    <ul>
+    <li><a href="cx5.html">Mazda CX-5</a></li>
+    <li><a href="crv.html">Honda CR-V</a></li>
+    </ul>
+    <p class="footer">Last updated: 2026-04-26</p>
   </div>
 </body>
 </html>

@@ -1,0 +1,816 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda CR-V Deal Tracker — Run #1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            line-height: 1.5;
+        }
+        
+        header {
+            position: sticky;
+            top: 0;
+            background: white;
+            border-bottom: 1px solid #e5e5e7;
+            padding: 1rem;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .header-content {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .header-meta {
+            font-size: 0.875rem;
+            color: #666;
+        }
+        
+        .promo-banner {
+            background: linear-gradient(135deg, #34c759 0%, #00c853 100%);
+            color: white;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        
+        .summary-stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .stat-card {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            border-left: 4px solid #0071e3;
+        }
+        
+        .stat-card h3 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: #666;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .stat-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: #000;
+        }
+        
+        .stat-subtext {
+            font-size: 0.75rem;
+            color: #888;
+            margin-top: 0.25rem;
+        }
+        
+        .listing-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            border-left: 4px solid #ddd;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        
+        .listing-card.buy-now {
+            border-left-color: #34c759;
+            background: #f0fdf4;
+        }
+        
+        .listing-card.great-deal {
+            border-left-color: #0071e3;
+            background: #f0f7ff;
+        }
+        
+        .listing-card.good {
+            border-left-color: #a2845e;
+            background: #faf8f5;
+        }
+        
+        .listing-card.fair {
+            border-left-color: #f59e0b;
+            background: #fffbf0;
+        }
+        
+        .listing-card.overpriced {
+            border-left-color: #ef4444;
+            background: #fef2f2;
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+        
+        .card-rating {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            padding: 0.375rem 0.75rem;
+            border-radius: 20px;
+            letter-spacing: 0.5px;
+        }
+        
+        .rating-buy-now {
+            background: #34c759;
+            color: white;
+        }
+        
+        .rating-great {
+            background: #0071e3;
+            color: white;
+        }
+        
+        .rating-good {
+            background: #a2845e;
+            color: white;
+        }
+        
+        .rating-fair {
+            background: #f59e0b;
+            color: white;
+        }
+        
+        .rating-overpriced {
+            background: #ef4444;
+            color: white;
+        }
+        
+        .rating-avoid {
+            background: #666;
+            color: white;
+        }
+        
+        .vehicle-title {
+            font-size: 1.125rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .vehicle-year {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.75rem;
+        }
+        
+        .price-section {
+            margin-bottom: 1rem;
+        }
+        
+        .price-main {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #000;
+            margin-bottom: 0.25rem;
+        }
+        
+        .price-comparison {
+            font-size: 0.875rem;
+            color: #666;
+        }
+        
+        .price-comparison.underpriced {
+            color: #34c759;
+            font-weight: 600;
+        }
+        
+        .price-comparison.overpriced {
+            color: #ef4444;
+            font-weight: 600;
+        }
+        
+        .card-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            font-size: 0.875rem;
+        }
+        
+        .detail-item {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .detail-label {
+            color: #666;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            margin-bottom: 0.25rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .detail-value {
+            color: #000;
+            font-weight: 500;
+        }
+        
+        .tags-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            padding: 0.375rem 0.75rem;
+            background: #e5e5e7;
+            color: #333;
+            border-radius: 12px;
+            font-weight: 500;
+        }
+        
+        .tag.promo {
+            background: #fff3cd;
+            color: #333;
+        }
+        
+        .tag.drop {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .tag.new {
+            background: #cfe2ff;
+            color: #084298;
+        }
+        
+        .monthly-estimate {
+            background: #f9f9fb;
+            padding: 0.75rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+            font-size: 0.875rem;
+            border-left: 3px solid #0071e3;
+        }
+        
+        .monthly-estimate-label {
+            color: #666;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            margin-bottom: 0.25rem;
+            font-weight: 600;
+        }
+        
+        .monthly-estimate-value {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #000;
+        }
+        
+        .dealer-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+            font-size: 0.875rem;
+        }
+        
+        .dealer-name {
+            font-weight: 600;
+            color: #0071e3;
+        }
+        
+        .dealer-location {
+            color: #666;
+            font-size: 0.8125rem;
+        }
+        
+        .card-expand {
+            font-size: 0.875rem;
+            color: #0071e3;
+            font-weight: 600;
+            cursor: pointer;
+            padding: 0.5rem 0;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+        }
+        
+        .card-details-hidden {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #e5e5e7;
+        }
+        
+        .card-details-hidden.open {
+            display: block;
+        }
+        
+        .detail-full-list {
+            font-size: 0.875rem;
+            line-height: 1.6;
+        }
+        
+        .detail-full-list li {
+            margin-bottom: 0.5rem;
+            margin-left: 1.5rem;
+        }
+        
+        .section-header {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid #e5e5e7;
+        }
+        
+        .section-header.avoid {
+            border-bottom-color: #ef4444;
+            color: #ef4444;
+        }
+        
+        .avoid-banner {
+            background: #fef2f2;
+            border-left: 4px solid #ef4444;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 8px;
+        }
+        
+        .avoid-title {
+            color: #ef4444;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+        
+        .avoid-reason {
+            font-size: 0.875rem;
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        details {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            border: 1px solid #e5e5e7;
+        }
+        
+        summary {
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 0.95rem;
+            color: #000;
+            user-select: none;
+        }
+        
+        details[open] summary {
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e5e5e7;
+        }
+        
+        .details-content {
+            font-size: 0.875rem;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .details-content p {
+            margin-bottom: 0.75rem;
+        }
+        
+        .details-content ul {
+            margin-left: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        
+        .details-content li {
+            margin-bottom: 0.5rem;
+        }
+        
+        footer {
+            background: #f9f9fb;
+            padding: 1.5rem 1rem;
+            margin-top: 2rem;
+            border-top: 1px solid #e5e5e7;
+            font-size: 0.8125rem;
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .footer-section {
+            margin-bottom: 1rem;
+        }
+        
+        .footer-section h4 {
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 0.5rem;
+        }
+        
+        .financing-assume {
+            background: #f0f7ff;
+            padding: 0.75rem;
+            border-radius: 6px;
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+        }
+        
+        .financing-assume strong {
+            color: #0071e3;
+        }
+        
+        .final-answer {
+            background: #f9f9fb;
+            padding: 1.5rem 1rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            border-left: 4px solid #0071e3;
+        }
+        
+        .final-answer h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: #000;
+        }
+        
+        .final-answer ol {
+            margin-left: 1.5rem;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        
+        .final-answer li {
+            margin-bottom: 0.75rem;
+        }
+        
+        .final-answer strong {
+            color: #0071e3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Honda CR-V Deal Tracker</h1>
+            <div class="header-meta">Run #1 — 2026-04-26 — Ontario Market</div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="summary-stats">
+            <div class="stat-card">
+                <h3>Total Listings</h3>
+                <div class="stat-value">120</div>
+                <div class="stat-subtext">dealer inventory tracked</div>
+            </div>
+            <div class="stat-card">
+                <h3>Avg Used Price</h3>
+                <div class="stat-value">$37.8K</div>
+                <div class="stat-subtext">2024–2025 models</div>
+            </div>
+            <div class="stat-card">
+                <h3>Avg New Price</h3>
+                <div class="stat-value">$48.2K</div>
+                <div class="stat-subtext">2026 models on lot</div>
+            </div>
+            <div class="stat-card">
+                <h3>Best Deal Found</h3>
+                <div class="stat-value">$28,990</div>
+                <div class="stat-subtext">Roadsport Honda</div>
+            </div>
+        </div>
+        
+        <section>
+            <h2 class="section-header">Top Picks — Best Overall Value</h2>
+            
+            <div class="listing-card buy-now">
+                <div class="card-header">
+                    <div>
+                        <div class="card-rating rating-buy-now">BUY NOW</div>
+                        <div class="vehicle-title">2024 LX-B Honda Certified With 7YRS/160K Warranty</div>
+                        <div class="vehicle-year">74,824 km • Roadsport Honda, Scarborough</div>
+                    </div>
+                </div>
+                <div class="price-section">
+                    <div class="price-main">$28,990</div>
+                    <div class="price-comparison">Strong value for mileage & warranty</div>
+                </div>
+                <div class="card-details">
+                    <div class="detail-item">
+                        <div class="detail-label">Est. Monthly</div>
+                        <div class="detail-value">~$464</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Trim/Type</div>
+                        <div class="detail-value">LX-B / Gasoline</div>
+                    </div>
+                </div>
+                <div class="tags-section">
+                    <span class="tag">Honda Certified</span>
+                    <span class="tag">7yr/160k Warranty</span>
+                </div>
+                <div class="monthly-estimate">
+                    <div class="monthly-estimate-label">Est. 72-Month Payment</div>
+                    <div class="monthly-estimate-value">$464–$499</div>
+                    <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">5.99%–7.49% interest rate assumption</div>
+                </div>
+                <button class="card-expand" onclick="toggleDetails(this)">Show Details</button>
+                <div class="card-details-hidden">
+                    <div class="detail-full-list">
+                        <strong>Why it ranks #1:</strong>
+                        <ul>
+                            <li>Entry-level price at $28,990 is below the used market median by ~$9K</li>
+                            <li>7-year/160,000 km Honda certification warranty adds real peace of mind</li>
+                            <li>Mileage is higher (74.8K km) but expected for this age and price point</li>
+                            <li>Monthly payment under $500 fits tight budgets extremely well</li>
+                            <li>Honda-certified means dealer inspection + coverage on major components</li>
+                        </ul>
+                        <strong>Inspect for:</strong>
+                        <ul>
+                            <li>Brake pads and rotors (higher mileage wear point)</li>
+                            <li>Transmission fluid condition</li>
+                            <li>Tire tread depth</li>
+                            <li>Any evidence of accident history (get Carfax)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="listing-card great-deal">
+                <div class="card-header">
+                    <div>
+                        <div class="card-rating rating-great">Great Deal</div>
+                        <div class="vehicle-title">2024 Sport AWD | CarPlay | Backup Cam | Htd Seats</div>
+                        <div class="vehicle-year">24,033 km • Markham Honda, Markham</div>
+                    </div>
+                </div>
+                <div class="price-section">
+                    <div class="price-main">$36,999</div>
+                    <div class="price-comparison">Priced 5–8% below market for trim/mileage</div>
+                </div>
+                <div class="card-details">
+                    <div class="detail-item">
+                        <div class="detail-label">Est. Monthly</div>
+                        <div class="detail-value">~$580</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Trim/Type</div>
+                        <div class="detail-value">Sport AWD / Gasoline</div>
+                    </div>
+                </div>
+                <div class="tags-section">
+                    <span class="tag">CPO</span>
+                    <span class="tag">AWD</span>
+                    <span class="tag">Low mileage</span>
+                </div>
+                <div class="monthly-estimate">
+                    <div class="monthly-estimate-label">Est. 72-Month Payment</div>
+                    <div class="monthly-estimate-value">$569–$612</div>
+                    <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">5.99%–7.49% interest rate assumption</div>
+                </div>
+                <button class="card-expand" onclick="toggleDetails(this)">Show Details</button>
+                <div class="card-details-hidden">
+                    <div class="detail-full-list">
+                        <strong>Why it ranks #2:</strong>
+                        <ul>
+                            <li>Sport AWD at $36,999 is meaningful discount vs peers at $37.5K–$39K</li>
+                            <li>Only 24K km = nearly new condition; main wear items likely untouched</li>
+                            <li>CPO status + Markham Honda reputation adds confidence</li>
+                            <li>Modern essentials: CarPlay, backup cam, heated seats</li>
+                            <li>AWD in Ontario winter adds real value vs FWD alternatives</li>
+                        </ul>
+                        <strong>Inspect for:</strong>
+                        <ul>
+                            <li>Warranty coverage limits under CPO (ask dealer directly)</li>
+                            <li>Suspension components for wear at this low mileage</li>
+                            <li>Paint/body for any touch-ups or prior minor damage</li>
+                            <li>Test drive: transmission smoothness, brake feel</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="listing-card great-deal">
+                <div class="card-header">
+                    <div>
+                        <div class="card-rating rating-great">Great Deal</div>
+                        <div class="vehicle-title">2024 Sport | No Accidents | Certified Pre-Owned</div>
+                        <div class="vehicle-year">27,771 km • Parkway Honda, North York</div>
+                    </div>
+                </div>
+                <div class="price-section">
+                    <div class="price-main">$36,888</div>
+                    <div class="price-comparison">Under $37K with clean history confirmation</div>
+                </div>
+                <div class="card-details">
+                    <div class="detail-item">
+                        <div class="detail-label">Est. Monthly</div>
+                        <div class="detail-value">~$578</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Trim/Type</div>
+                        <div class="detail-value">Sport / Gasoline</div>
+                    </div>
+                </div>
+                <div class="tags-section">
+                    <span class="tag">CPO</span>
+                    <span class="tag">Clean History</span>
+                    <span class="tag">One Owner</span>
+                </div>
+                <div class="monthly-estimate">
+                    <div class="monthly-estimate-label">Est. 72-Month Payment</div>
+                    <div class="monthly-estimate-value">$567–$609</div>
+                    <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">5.99%–7.49% interest rate assumption</div>
+                </div>
+                <button class="card-expand" onclick="toggleDetails(this)">Show Details</button>
+                <div class="card-details-hidden">
+                    <div class="detail-full-list">
+                        <strong>Why it ranks #3:</strong>
+                        <ul>
+                            <li>One-owner + no accident history is explicitly stated—reduces inspection risk</li>
+                            <li>$36,888 is nearly identical to #2 but with clearer provenance</li>
+                            <li>27.7K km is excellent for 2024; very low wear</li>
+                            <li>Parkway Honda is a reputable Honda franchise in North York</li>
+                            <li>CPO certification covers mechanical peace of mind</li>
+                        </ul>
+                        <strong>Inspect for:</strong>
+                        <ul>
+                            <li>Confirm Carfax matches one-owner claim</li>
+                            <li>Check all service records present</li>
+                            <li>Verify no accident/claim history directly with dealer</li>
+                            <li>Road test for brake/suspension comfort</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2 class="section-header">Strong Contenders ($31K–$35K)</h2>
+            
+            <div class="listing-card good">
+                <div class="card-header">
+                    <div>
+                        <div class="card-rating rating-good">Good</div>
+                        <div class="vehicle-title">2024 Sport AWD | Multi-Zone A/C | Back-Up Camera</div>
+                        <div class="vehicle-year">36,521 km • Honda of Thornhill, Vaughan</div>
+                    </div>
+                </div>
+                <div class="price-section">
+                    <div class="price-main">$34,888</div>
+                </div>
+                <div class="card-details">
+                    <div class="detail-item">
+                        <div class="detail-label">Est. Monthly</div>
+                        <div class="detail-value">~$545</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Trim/Type</div>
+                        <div class="detail-value">Sport AWD / Gasoline</div>
+                    </div>
+                </div>
+                <div class="tags-section">
+                    <span class="tag">AWD</span>
+                    <span class="tag">Multi-zone A/C</span>
+                </div>
+            </div>
+            
+            <div class="listing-card good">
+                <div class="card-header">
+                    <div>
+                        <div class="card-rating rating-good">Good</div>
+                        <div class="vehicle-title">2024 LX-B Honda Certified | OFF LEASE | NO ACCIDENTS</div>
+                        <div class="vehicle-year">48,808 km • Parkway Honda, North York</div>
+                    </div>
+                </div>
+                <div class="price-section">
+                    <div class="price-main">$30,992</div>
+                </div>
+                <div class="card-details">
+                    <div class="detail-item">
+                        <div class="detail-label">Est. Monthly</div>
+                        <div class="detail-value">~$493</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Trim/Type</div>
+                        <div class="detail-value">LX-B / Gasoline</div>
+                    </div>
+                </div>
+                <div class="tags-section">
+                    <span class="tag">CPO</span>
+                    <span class="tag">Off Lease</span>
+                    <span class="tag">No Accidents</span>
+                </div>
+            </div>
+            
+            <div class="listing-card good">
+                <div class="card-header">
+                    <div>
+                        <div class="card-rating rating-good">Good</div>
+                        <div class="vehicle-title">2024 LX-B AWD CPO | CarPlay | Backup Cam | Htd Seats</div>
+                        <div class="vehicle-year">41,835 km • Markham Honda, Markham</div>
+                    </div>
+                </div>
+                <div class="price-section">
+                    <div class="price-main">$29,499</div>
+                </div>
+                <div class="card-details">
+                    <div class="detail-item">
+                        <div class="detail-label">Est. Monthly</div>
+                        <div class="detail-value">~$471</div>
+                    </div>
+                    <div class="detail-item">
+                        <div class="detail-label">Trim/Type</div>
+                        <div class="detail-value">LX-B AWD / Gasoline</div>
+                    </div>
+                </div>
+                <div class="tags-section">
+                    <span class="tag">CPO</span>
+                    <span class="tag">AWD</span>
+                    <span class="tag">CarPlay</span>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2 class="section-header">Used vs New — Which Should You Buy?</h2>
+            <details>
+                <summary>📊 Used vs New Analysis</summary>
+                <div class="details-content">
+                    <p><strong>Verdict: Used (2024–2025) is the smarter play right now.</strong></p>
+                    
+                    <p><strong>Why used wins:</strong></p>
+                    <ul>
+                        <li><strong>Price:</strong> Best used ($29–$37K) vs. best new ($41–$49K) = $12–$20K cheaper</li>
+                        <li><strong>Monthly cost:</strong> Used Sport at $37K = ~$580/mo vs. new Sport at $48K+ = ~$760/mo. Monthly gap is ~$180/mo—significant over 72 months</li>
+                        <li><strong>Depreciation:</strong> New cars lose 15–20% in year 1; used 2024 models have already absorbed that hit</li>
+                        <li><strong>Warranty:</strong> CPO Honda units come with manufacturer-backed 7yr/160k km coverage—nearly as good as new</li>
+                        <li><strong>Availability:</strong> 120+ used listings vs. ~8 new; vastly more choice in used market</li>
+                    </ul>
+                    
+                    <p><strong>When new becomes worth it:</strong></p>
+                    <ul>
+                        <li>If 2026 CR-V pricing drops below $40.5K (not currently happening)</li>
+                        <li>If Mazda/Honda offers 0% financing on new (unlikely in current environment)</li>
+                        <li>If you value brand-new warranty + zero mileage absolutely (cost = ~$2,000–$3,000 more; debatable ROI)</li>
+                    </ul>
+                    
+                    <p><strong>Best used strategy:</strong> Target 2024 Sport or LX-B models under $37K with under 35K km. Secure CPO if possible. You'll save $200–$300/mo vs. new while getting nearly identical condition.</p>
+                </div>
+            </details>
+        </section>
+        
+        <section>
+            <h2 class="section-header">Market Snapshot</h2>
+            <details>
+                <summary>📈 Pricing & Trends</summary>
+                <div class="details-content">
+                    <p><strong>Used 2024 CR-V Market:</strong></p>
+                    <ul>
+                        <li>Entry-level (LX-B, 40–50K km): $28,990–$32,500</li>
+                        <li>Mid-range (Sport, 25–35K km): $34,200–$37,495</li>
+                        <li>Premium trim (EX-L, under 30K km): $39,800–$42,999</li>
+                        <li>Hybrid premium: +$2,000–$4,000 vs. gasoline equivalent</li>
+                    </ul>
+                    
+                    <p><strong>Used 2025 CR-V Market:</strong></p>
+                    <ul>
+                        <li>Entry-level (LX): $32,
