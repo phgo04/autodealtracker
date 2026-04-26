@@ -23,7 +23,6 @@ from config import CARS, OUTPUT_DIR, car_paths, depreciation_delta, expected_val
 load_dotenv()
 
 TODAY = date.today().isoformat()
-DELIMITER = "===MOBILE_REPORT==="
 
 
 # ── State management ──────────────────────────────────────────────────────────
@@ -201,23 +200,23 @@ def update_dealer_stats(listings_by_id: dict, today: str) -> dict:
     return dealer_stats
 
 
-# ── Claude API call ───────────────────────────────────────────────────────────
+# ── Claude API calls ──────────────────────────────────────────────────────────
+# Two separate calls — one per report — so each gets the full 8192-token budget.
+# A single call for both reports caused the response to be truncated mid-CSS,
+# producing a blank page with no <body> content.
 
-def call_claude(system_prompt: str, listings_data: str, prior_state_text: str, car_label: str) -> str:
-    client = anthropic.Anthropic()
-
-    run_number = _estimate_run_number(prior_state_text)
-
-    user_content = (
+def _base_user_content(listings_data: str, prior_state_text: str, car_label: str, run_number: int) -> str:
+    return (
         f"Today's date: {TODAY}\n"
         f"Run number: {run_number}\n"
         f"Vehicle: {car_label}\n\n"
         f"Current listings (from scraper):\n{listings_data}\n\n"
         f"Prior state (for price drop detection):\n{prior_state_text}\n\n"
-        "Generate both HTML reports exactly as defined in the master prompt (Sections 9-10). "
-        f"Separate the two reports with this exact delimiter on its own line: {DELIMITER}"
     )
 
+
+def _call_claude(system_prompt: str, user_content: str) -> str:
+    client = anthropic.Anthropic()
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=8192,
@@ -230,8 +229,29 @@ def call_claude(system_prompt: str, listings_data: str, prior_state_text: str, c
         ],
         messages=[{"role": "user", "content": user_content}],
     )
-
     return response.content[0].text
+
+
+def call_claude_desktop(system_prompt: str, listings_data: str, prior_state_text: str, car_label: str) -> str:
+    run_number = _estimate_run_number(prior_state_text)
+    user_content = (
+        _base_user_content(listings_data, prior_state_text, car_label, run_number)
+        + "Generate ONLY the full desktop HTML report as defined in Section 10 of the master prompt "
+        + "(File 1: Full desktop report). Output raw HTML starting with <!DOCTYPE html>. "
+        + "Do not include the mobile report or any delimiter."
+    )
+    return _call_claude(system_prompt, user_content)
+
+
+def call_claude_mobile(system_prompt: str, listings_data: str, prior_state_text: str, car_label: str) -> str:
+    run_number = _estimate_run_number(prior_state_text)
+    user_content = (
+        _base_user_content(listings_data, prior_state_text, car_label, run_number)
+        + "Generate ONLY the mobile-optimized HTML report as defined in Section 10 of the master prompt "
+        + "(File 2: Mobile-optimized report). Output raw HTML starting with <!DOCTYPE html>. "
+        + "Do not include the desktop report or any delimiter."
+    )
+    return _call_claude(system_prompt, user_content)
 
 
 def _estimate_run_number(prior_state_text: str) -> int:
@@ -248,15 +268,8 @@ def _estimate_run_number(prior_state_text: str) -> int:
 
 # ── HTML output ───────────────────────────────────────────────────────────────
 
-def save_reports(full_text: str, car_key: str) -> tuple[Path, Path]:
+def save_reports(desktop_html: str, mobile_html: str, car_key: str) -> tuple[Path, Path]:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    if DELIMITER in full_text:
-        desktop_html, mobile_html = full_text.split(DELIMITER, 1)
-    else:
-        print(f"WARNING: delimiter not found in Claude response for {car_key} — saving full text as desktop only.")
-        desktop_html = full_text
-        mobile_html = "<html><body><p>Mobile report not generated — delimiter missing from API response.</p></body></html>"
 
     desktop_path = OUTPUT_DIR / f"report_{car_key}_{TODAY}.html"
     mobile_path  = OUTPUT_DIR / f"report_{car_key}_{TODAY}_mobile.html"
@@ -358,10 +371,12 @@ def run_car(car_key: str, car_config: dict) -> None:
     updated_state["dealer_stats"] = dealer_stats
     print(f"  Dealer stats computed for {len(dealer_stats)} dealers.")
 
-    print("  Calling Claude API...")
-    response_text = call_claude(system_prompt, listings_data, prior_state_text, label)
+    print("  Calling Claude API — desktop report...")
+    desktop_html = call_claude_desktop(system_prompt, listings_data, prior_state_text, label)
+    print("  Calling Claude API — mobile report...")
+    mobile_html = call_claude_mobile(system_prompt, listings_data, prior_state_text, label)
 
-    desktop_path, mobile_path = save_reports(response_text, car_key)
+    desktop_path, mobile_path = save_reports(desktop_html, mobile_html, car_key)
 
     # Persist updated state
     paths["state_dir"].mkdir(parents=True, exist_ok=True)
