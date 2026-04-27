@@ -416,6 +416,8 @@ Opening `https://{username}.github.io/{repo}/` on your phone shows the latest mo
 | 7 | `state/{car}/listings.json` dealer stats | ✓ Done |
 | 8 | `config.py` depreciation benchmark | ✓ Done |
 | 9 | `.github/workflows/`, `docs/` GitHub Pages | ✓ Done |
+| 10 | `tests/test_config_consistency.py` | ◯ Planned |
+| 11 | `config.py` curve timestamp + report banner | ◯ Planned |
 
 ---
 
@@ -433,3 +435,52 @@ All 9 steps are complete and verified working end-to-end:
 - CR-V prompt file not yet written — scraper runs for CR-V but `run_tracker.py` skips it (no prompt file)
 - Sparklines and dealer stats require 2+ runs to accumulate meaningful data
 - Workflow dispatch could accept a `skip_scrape` boolean input for faster test runs (not yet implemented)
+
+---
+
+## Step 10 — Config-consistency CI lint (planned)
+
+### Problem being solved
+Numerical thresholds (price targets, mileage limits, BUY NOW criteria) currently live in **two** places that must stay in sync: `config.py` (machine-readable, drives alerts) and `CLAUDE.md` (prose, drives AI report logic). A drift between them is a silent bug — a listing could trigger a BUY NOW email but be rated only "Fair" in the report, or vice versa.
+
+### What to build
+A small test that fails CI when the two sources disagree.
+
+- Add `tests/test_config_consistency.py`
+- Parse `CLAUDE.md` and extract the numerical thresholds it cites (Sections 2 and 5)
+- Compare against the corresponding values in `config.py` (`CARS[<key>]["buy_now"]`, `USED_FILTERS`, `NEW_FILTERS`)
+- Assert each match — fail with a clear message naming the diverging value
+- Add a "test" step to `.github/workflows/tracker.yml` **before** the scraper step so a broken commit can't burn an 8-minute scrape run
+
+### Why this approach over a unified config
+A single-source-of-truth refactor (YAML + templating, or stripping numbers from CLAUDE.md entirely) is cleaner but ~1 day of work and requires rewriting prose. The CI lint is ~1 hour and gets 80% of the benefit — drift becomes loud instead of silent. Promote to a unified config later if thresholds start changing more than 2–3 times a year.
+
+### Success criteria
+A deliberate mismatch (change `max_price` in `config.py` but not in `CLAUDE.md`) causes CI to fail with a message like `Mismatch: CARS["cx5"]["buy_now"]["used_2024"]["max_price"] = 31500 but CLAUDE.md cites $32,000 in Section 5`.
+
+---
+
+## Step 11 — Stale depreciation curve warning (planned)
+
+### Problem being solved
+The depreciation curve in `config.py` reflects the Ontario market at a point in time. Mazda raises CX-5 MSRPs ~2–3% annually, and used market dynamics shift faster. The comment says "Update every 6 months" but there is no enforcement — a 2-year-old curve will silently produce misleading "vs. expected" percentages, and the user might never notice.
+
+### What to build
+A timestamped curve with a runtime staleness check.
+
+- Add a `last_updated: "YYYY-MM-DD"` field to each curve entry (or a single top-level field) in `config.py`
+- In `run_tracker.py`, compute the age of the curve at the start of each run
+- If age > 180 days, prepend a warning banner to the report:
+  > ⚠️ Depreciation curve is N days old — the "vs. expected" column may be unreliable. Refresh `DEPRECIATION_CURVE` in `config.py`.
+- Optionally: have GitHub Actions auto-open an issue on the 180-day anniversary tagged `maintenance`
+
+### Why not auto-update the curve
+- Self-fitting against scraped listings is a feedback loop — if the market is over- or under-pricing, the curve absorbs the bias and the "vs expected" signal disappears
+- Authoritative third-party sources (Black Book, etc.) require paid API access
+- A 5–10 entry curve is small enough that human judgment is appropriate; automation here would replace 30 minutes of refresh work every 6 months with much more code to maintain
+
+### Eventual replacement (not part of this step)
+Long-term, the depreciation curve could be replaced by a quartile signal: "this listing is in the bottom 25% of comparable listings (same year, similar mileage)." That's purely computed, self-updating, and generalizes to any car make. But it loses the absolute-MSRP anchor — defer this decision until adding a second car make exposes the curve's scaling problem.
+
+### Success criteria
+After 180 simulated days, the next run produces a report with a visible "curve is stale" banner. After updating `last_updated` to a recent date, the banner disappears.
