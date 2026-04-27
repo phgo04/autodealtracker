@@ -427,7 +427,7 @@ All 9 steps are complete and verified working end-to-end:
 
 - **Scraper** — Selenium + Chrome headless, scrapes AutoTrader.ca, handles timeouts gracefully (page load timeout 60s, saves partial results on crash)
 - **Pipeline** — `run_tracker.py` loops all CARS, two separate Claude API calls per car (desktop + mobile), prevents token truncation
-- **Email** — Gmail SMTP with App Password, confirmed delivering to `REDACTED@example.com`
+- **Email** — Gmail SMTP with App Password, confirmed delivering to the configured `ALERT_RECIPIENT`
 - **GitHub Pages** — Live at `https://phgo04.github.io/autodealtracker/`, updates automatically after each run
 - **Schedule** — Runs every 3 days at noon UTC (8am EDT) via GitHub Actions cron; also triggerable manually from the Actions tab
 
