@@ -8,6 +8,7 @@ import json
 import os
 import smtplib
 import sys
+import time
 from collections import defaultdict
 from datetime import date, datetime
 from email.mime.multipart import MIMEMultipart
@@ -216,7 +217,9 @@ def _base_user_content(listings_data: str, prior_state_text: str, car_label: str
 
 
 def _call_claude(system_prompt: str, user_content: str) -> str:
-    client = anthropic.Anthropic()
+    # max_retries=5 lets the SDK back off on transient 429s (the default of 2
+    # is too few when each call is ~35K input tokens against a 50K TPM limit).
+    client = anthropic.Anthropic(max_retries=5)
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=8192,
@@ -373,6 +376,11 @@ def run_car(car_key: str, car_config: dict) -> None:
 
     print("  Calling Claude API — desktop report...")
     desktop_html = call_claude_desktop(system_prompt, listings_data, prior_state_text, label)
+    # Sleep between calls to stay under Haiku 4.5's 50K input-tokens-per-minute
+    # rate limit. Each call sends ~35K input tokens; back-to-back calls exceed
+    # the rolling 60s window. Long-term fix: trim CLAUDE.md (see Step 12).
+    print("  Waiting 65s to clear input-token rate window...")
+    time.sleep(65)
     print("  Calling Claude API — mobile report...")
     mobile_html = call_claude_mobile(system_prompt, listings_data, prior_state_text, label)
 

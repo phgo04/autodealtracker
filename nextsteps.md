@@ -418,6 +418,7 @@ Opening `https://{username}.github.io/{repo}/` on your phone shows the latest mo
 | 9 | `.github/workflows/`, `docs/` GitHub Pages | ✓ Done |
 | 10 | `tests/test_config_consistency.py` | ◯ Planned |
 | 11 | `config.py` curve timestamp + report banner | ◯ Planned |
+| 12 | trim `CLAUDE.md` to halve input tokens | ◯ Planned |
 
 ---
 
@@ -484,3 +485,42 @@ Long-term, the depreciation curve could be replaced by a quartile signal: "this 
 
 ### Success criteria
 After 180 simulated days, the next run produces a report with a visible "curve is stale" banner. After updating `last_updated` to a recent date, the banner disappears.
+
+---
+
+## Step 12 — Trim CLAUDE.md to fit comfortably under input rate limit (planned)
+
+### Problem being solved
+On 2026-04-28, the workflow started failing with `RateLimitError: 429` on the second of the two Claude API calls per car. Anthropic's Tier 1 input rate limit on Haiku 4.5 is 50,000 tokens per minute. Each call sends ~35K input tokens (CLAUDE.md ~30K + listings ~5K). Two back-to-back calls = 70K within a rolling 60s window → over the limit.
+
+A short-term fix has shipped: `time.sleep(65)` between the two calls plus `max_retries=5` on the SDK client. This works but adds 65 seconds of dead time per car. With CR-V eventually enabled (and 4 calls per run), the dead time grows linearly.
+
+### What to build
+Trim CLAUDE.md from ~30K tokens to ~15K tokens by collapsing redundant or low-value sections, so each call drops to ~20K input tokens. Two back-to-back calls = 40K, comfortably under 50K. The `time.sleep(65)` can then be removed.
+
+Sections that are *guidance/philosophy* the model already absorbs from training and likely doesn't need spelled out:
+- Section 1 (goal narrative) — collapse to 2 sentences
+- Sections 14–18 (buyer guidance, inspection mindset, output tone, decision philosophy) — most of this is implicit in any analytical car-shopping prompt
+- Section 19 (implementation notes) — pure dev metadata, the runtime model doesn't need it
+- Section 20 (scope summary) — already covered by Section 2
+
+Sections that should *not* be trimmed:
+- Section 2 (user constraints/preferences) — drives every decision
+- Section 5 (value classification thresholds) — concrete logic
+- Section 9 (output structure) — drives report shape
+- Section 10 (HTML output spec) — drives rendering
+- Sections 6, 7, 8 (price drop, promo, financing) — concrete rules
+
+### How to verify quality didn't regress
+1. Save the current CLAUDE.md as `CLAUDE-v1.md` and the trimmed version as `CLAUDE.md`
+2. Run both versions against an identical `state/cx5/raw_listings.json` snapshot
+3. Diff the resulting reports. Acceptable: minor wording differences. Unacceptable: missing sections, different value ratings, missing dealer links.
+4. If it regresses, identify which trimmed section the model was actually using and restore just that part.
+
+### Bonus
+Halves the monthly Claude API cost (input tokens dominate the bill). At current cadence: $0.20/mo → $0.12/mo. Adds headroom to enable CR-V analysis without rate-limit gymnastics.
+
+### Success criteria
+- A run completes without `time.sleep` between the two API calls
+- Reports are visually and analytically equivalent to the v1 outputs
+- Total per-run input tokens drops from ~70K to ~40K (verifiable in workflow logs)
