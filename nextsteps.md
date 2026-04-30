@@ -418,7 +418,7 @@ Opening `https://{username}.github.io/{repo}/` on your phone shows the latest mo
 | 9 | `.github/workflows/`, `docs/` GitHub Pages | ✓ Done |
 | 10 | `tests/test_config_consistency.py` | ◯ Planned |
 | 11 | `config.py` curve timestamp + report banner | ◯ Planned |
-| 12 | trim `CLAUDE.md` to halve input tokens | ◯ Planned |
+| 12 | send state summary instead of full state file | ◯ Planned |
 
 ---
 
@@ -488,39 +488,92 @@ After 180 simulated days, the next run produces a report with a visible "curve i
 
 ---
 
-## Step 12 — Trim CLAUDE.md to fit comfortably under input rate limit (planned)
+## Step 12 — Send a state summary, not the full state file (planned)
 
 ### Problem being solved
-On 2026-04-28, the workflow started failing with `RateLimitError: 429` on the second of the two Claude API calls per car. Anthropic's Tier 1 input rate limit on Haiku 4.5 is 50,000 tokens per minute. Each call sends ~35K input tokens (CLAUDE.md ~30K + listings ~5K). Two back-to-back calls = 70K within a rolling 60s window → over the limit.
+On 2026-04-28, the workflow started failing with `RateLimitError: 429`. Anthropic's Tier 1 input rate limit on Haiku 4.5 is 50,000 tokens per minute. The actual per-call breakdown (measured 2026-04-29):
 
-A short-term fix has shipped: `time.sleep(65)` between the two calls plus `max_retries=5` on the SDK client. This works but adds 65 seconds of dead time per car. With CR-V eventually enabled (and 4 calls per run), the dead time grows linearly.
+```
+CLAUDE.md (system):      ~5,500 tokens
+raw_listings (input):    ~33,600 tokens
+prior_state (input):    ~48,600 tokens   ← 55% of input, dominant cost
+─────────────────────────────────────────
+TOTAL per call:         ~87,700 tokens   (76% over the 50K limit on its own)
+```
 
-### What to build
-Trim CLAUDE.md from ~30K tokens to ~15K tokens by collapsing redundant or low-value sections, so each call drops to ~20K input tokens. Two back-to-back calls = 40K, comfortably under 50K. The `time.sleep(65)` can then be removed.
+A short-term fix has shipped (`time.sleep(65)` + `max_retries=5`) and works because the SDK retries with `retry-after` backoff until the rolling 60s window clears. But each call is still 88K tokens against a 50K window, which costs real wall-clock time per run.
 
-Sections that are *guidance/philosophy* the model already absorbs from training and likely doesn't need spelled out:
-- Section 1 (goal narrative) — collapse to 2 sentences
-- Sections 14–18 (buyer guidance, inspection mindset, output tone, decision philosophy) — most of this is implicit in any analytical car-shopping prompt
-- Section 19 (implementation notes) — pure dev metadata, the runtime model doesn't need it
-- Section 20 (scope summary) — already covered by Section 2
+**Why state grew so quickly:** the system bootstraps its own undoing. Run #1 had `prior_state = {}` (~0 tokens, total per-call ~38K). Run #2 onwards must send the full state file from the previous run as `prior_state_text`. That file accumulates monotonically — every new listing, every price change, every dealer stat. Within a single successful run it crossed the rate limit.
 
-Sections that should *not* be trimmed:
-- Section 2 (user constraints/preferences) — drives every decision
-- Section 5 (value classification thresholds) — concrete logic
-- Section 9 (output structure) — drives report shape
-- Section 10 (HTML output spec) — drives rendering
-- Sections 6, 7, 8 (price drop, promo, financing) — concrete rules
+### What to build (corrected from the earlier "trim CLAUDE.md" plan)
+
+The earlier draft of this step proposed trimming CLAUDE.md. That was based on a wrong token estimate (CLAUDE.md is actually only ~5.5K tokens, not 30K — there is no fat to trim there). The real opportunity is the state file.
+
+**Replace `prior_state_text = json.dumps(prior_state)` with a much smaller summary that contains only what Claude actually uses:**
+
+For each listing currently in `raw_listings.json` (the active set), include from prior state:
+- Previous price (single value, not the full `price_history`)
+- `first_seen` date (to compute "days on market")
+- Whether the listing is `New` / `Same` / `Price Drop` / `Relisted`
+
+Drop entirely from the input:
+- Inactive listings (anything not in this run's `raw_listings.json`)
+- Full `price_history` arrays (Claude only needs current vs. previous, not the full curve)
+- `dealer_stats` (these are generated server-side from full state, then *included in the report* by the renderer — Claude doesn't need to re-derive them)
+- Sparkline data (rendered client-side from full state via Chart.js)
+
+### Estimated impact
+
+| Metric | Current | After Step 12 |
+|---|---|---|
+| `prior_state_text` size | ~49K tokens | ~6–8K tokens |
+| Per-call input | ~88K tokens | ~45K tokens |
+| Two calls in 60s window | ~176K tokens | ~90K tokens |
+| Need `time.sleep(65)`? | Yes | No (still over 50K once but SDK retry handles cleanly) |
+| Headroom for CR-V | None — would 4× the problem | Comfortable |
+| Monthly API cost | ~$0.20 | ~$0.10 |
+
+Note: even after Step 12, two back-to-back calls (~90K combined) still exceed 50K TPM. The SDK's `retry-after` backoff will handle the 2nd call gracefully (probably ~10s wait instead of 65s). To eliminate the wait entirely, would need either (a) Anthropic Tier 2 (100K TPM, granted automatically after $5 spend + 7 days), or (b) consolidating to a single API call by reducing report scope. Tier 2 is the cleanest path.
+
+### Implementation sketch
+
+```python
+def build_state_summary(raw_listings: list, prior_state: dict) -> str:
+    """Return a minimal state summary keyed by current listings only."""
+    prior_listings = prior_state.get("listings", {})
+    summary = {}
+    for listing in raw_listings:
+        lid = listing.get("id") or listing.get("listing_id")
+        if not lid:
+            continue
+        prev = prior_listings.get(lid)
+        if not prev:
+            summary[lid] = {"status": "new"}
+            continue
+        prev_price = prev.get("price_history", [{}])[-1].get("price")
+        curr_price = listing.get("price")
+        status = "same"
+        if prev_price and curr_price and curr_price < prev_price:
+            status = "price_drop"
+        elif prev_price and curr_price and curr_price > prev_price:
+            status = "price_increase"
+        summary[lid] = {
+            "status": status,
+            "prev_price": prev_price,
+            "first_seen": prev.get("first_seen"),
+        }
+    return json.dumps(summary, ensure_ascii=False)
+```
+
+Wire this into `_base_user_content()` in place of the current `prior_state_text` argument.
 
 ### How to verify quality didn't regress
-1. Save the current CLAUDE.md as `CLAUDE-v1.md` and the trimmed version as `CLAUDE.md`
-2. Run both versions against an identical `state/cx5/raw_listings.json` snapshot
-3. Diff the resulting reports. Acceptable: minor wording differences. Unacceptable: missing sections, different value ratings, missing dealer links.
-4. If it regresses, identify which trimmed section the model was actually using and restore just that part.
-
-### Bonus
-Halves the monthly Claude API cost (input tokens dominate the bill). At current cadence: $0.20/mo → $0.12/mo. Adds headroom to enable CR-V analysis without rate-limit gymnastics.
+1. Take an existing `state/cx5/raw_listings.json` and `state/cx5/listings.json` snapshot
+2. Generate reports under both the old (full state) and new (summary state) input strategies
+3. Diff the rendered reports. Acceptable: minor wording in the price-drop callouts. Unacceptable: missing price-drop indicators, wrong "days on market" math, dealer stats vanishing from the report
 
 ### Success criteria
-- A run completes without `time.sleep` between the two API calls
-- Reports are visually and analytically equivalent to the v1 outputs
-- Total per-run input tokens drops from ~70K to ~40K (verifiable in workflow logs)
+- Per-call input drops below 50K tokens (verifiable in API response headers or workflow logs)
+- The `time.sleep(65)` becomes optional and can be reduced to `time.sleep(10)` or removed entirely depending on Tier 2 status
+- CR-V can be enabled without further rate-limit work
+- Reports remain analytically equivalent to v1 (price-drop detection, days-on-lot, dealer rankings all intact)
