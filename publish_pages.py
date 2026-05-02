@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Publish the latest mobile reports to docs/ for GitHub Pages.
+Publish the latest desktop reports to docs/ for GitHub Pages.
 Called from the GitHub Actions workflow after run_tracker.py.
 
 For each car in CARS:
-  - Copies output/report_{car}_{date}_mobile.html  ->  docs/{car}.html
+  - Copies output/report_{car}_{date}.html  ->  docs/{car}.html
   - Generates docs/index.html linking to all published car pages
 
 GitHub Pages must be enabled on the repo:
@@ -27,15 +27,18 @@ def main() -> None:
 
     for car_key, car_config in CARS.items():
         label = car_config["label"]
-        # Find the most-recent mobile report for this car (sorted by filename = by date)
-        candidates = sorted(OUTPUT_DIR.glob(f"report_{car_key}_*_mobile.html"))
+        # Find the most-recent desktop report for this car (sorted by filename = by date)
+        candidates = sorted(
+            f for f in OUTPUT_DIR.glob(f"report_{car_key}_*.html")
+            if not f.name.endswith("_mobile.html")
+        )
         if not candidates:
-            print(f"  [{car_key}] No mobile report found — skipping.")
+            print(f"  [{car_key}] No desktop report found — skipping.")
             continue
         latest = candidates[-1]
         dest = DOCS_DIR / f"{car_key}.html"
         dest.write_bytes(latest.read_bytes())
-        print(f"  [{car_key}] {latest.name} -> docs/{car_key}.html")
+        print(f"  [{car_key}] {latest.name} → docs/{car_key}.html")
         published.append((car_key, label))
 
     if not published:

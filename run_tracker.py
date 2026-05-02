@@ -8,7 +8,6 @@ import json
 import os
 import smtplib
 import sys
-import time
 from collections import defaultdict
 from datetime import date, datetime
 from email.mime.multipart import MIMEMultipart
@@ -202,9 +201,10 @@ def update_dealer_stats(listings_by_id: dict, today: str) -> dict:
 
 
 # ── Claude API calls ──────────────────────────────────────────────────────────
-# Two separate calls — one per report — so each gets the full 8192-token budget.
-# A single call for both reports caused the response to be truncated mid-CSS,
-# producing a blank page with no <body> content.
+# One call per car — desktop report only.
+# Mobile report generation disabled: prior_state is ~48K tokens; two back-to-back
+# calls exceed Haiku 4.5's 50K input-tokens-per-minute limit on any run after #1.
+# Step 12 (state summary) will cut input to ~45K and allow re-enabling mobile.
 
 def _base_user_content(listings_data: str, prior_state_text: str, car_label: str, run_number: int) -> str:
     return (
@@ -217,9 +217,7 @@ def _base_user_content(listings_data: str, prior_state_text: str, car_label: str
 
 
 def _call_claude(system_prompt: str, user_content: str) -> str:
-    # max_retries=5 lets the SDK back off on transient 429s (the default of 2
-    # is too few when each call is ~35K input tokens against a 50K TPM limit).
-    client = anthropic.Anthropic(max_retries=5)
+    client = anthropic.Anthropic()
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=8192,
@@ -232,6 +230,8 @@ def _call_claude(system_prompt: str, user_content: str) -> str:
         ],
         messages=[{"role": "user", "content": user_content}],
     )
+    usage = response.usage
+    print(f"  tokens: in={usage.input_tokens}  out={usage.output_tokens}")
     return response.content[0].text
 
 
@@ -242,17 +242,6 @@ def call_claude_desktop(system_prompt: str, listings_data: str, prior_state_text
         + "Generate ONLY the full desktop HTML report as defined in Section 10 of the master prompt "
         + "(File 1: Full desktop report). Output raw HTML starting with <!DOCTYPE html>. "
         + "Do not include the mobile report or any delimiter."
-    )
-    return _call_claude(system_prompt, user_content)
-
-
-def call_claude_mobile(system_prompt: str, listings_data: str, prior_state_text: str, car_label: str) -> str:
-    run_number = _estimate_run_number(prior_state_text)
-    user_content = (
-        _base_user_content(listings_data, prior_state_text, car_label, run_number)
-        + "Generate ONLY the mobile-optimized HTML report as defined in Section 10 of the master prompt "
-        + "(File 2: Mobile-optimized report). Output raw HTML starting with <!DOCTYPE html>. "
-        + "Do not include the desktop report or any delimiter."
     )
     return _call_claude(system_prompt, user_content)
 
@@ -271,23 +260,17 @@ def _estimate_run_number(prior_state_text: str) -> int:
 
 # ── HTML output ───────────────────────────────────────────────────────────────
 
-def save_reports(desktop_html: str, mobile_html: str, car_key: str) -> tuple[Path, Path]:
+def save_report(desktop_html: str, car_key: str) -> Path:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
     desktop_path = OUTPUT_DIR / f"report_{car_key}_{TODAY}.html"
-    mobile_path  = OUTPUT_DIR / f"report_{car_key}_{TODAY}_mobile.html"
-
     desktop_path.write_text(desktop_html.strip(), encoding="utf-8")
-    mobile_path.write_text(mobile_html.strip(), encoding="utf-8")
-
     print(f"  Saved: {desktop_path}")
-    print(f"  Saved: {mobile_path}")
-    return desktop_path, mobile_path
+    return desktop_path
 
 
 # ── Email delivery ────────────────────────────────────────────────────────────
 
-def send_email(mobile_path: Path, car_label: str) -> None:
+def send_email(report_path: Path, car_label: str) -> None:
     gmail_address = os.getenv("GMAIL_ADDRESS", "")
     app_password  = os.getenv("GMAIL_APP_PASSWORD", "")
     recipient     = os.getenv("ALERT_RECIPIENT", "")
@@ -300,7 +283,7 @@ def send_email(mobile_path: Path, car_label: str) -> None:
         print("  Email skipped — placeholder credentials detected.")
         return
 
-    html_body = mobile_path.read_text(encoding="utf-8")
+    html_body = report_path.read_text(encoding="utf-8")
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = f"{car_label} — {TODAY}"
@@ -376,15 +359,8 @@ def run_car(car_key: str, car_config: dict) -> None:
 
     print("  Calling Claude API — desktop report...")
     desktop_html = call_claude_desktop(system_prompt, listings_data, prior_state_text, label)
-    # Sleep between calls to stay under Haiku 4.5's 50K input-tokens-per-minute
-    # rate limit. Each call sends ~35K input tokens; back-to-back calls exceed
-    # the rolling 60s window. Long-term fix: trim CLAUDE.md (see Step 12).
-    print("  Waiting 65s to clear input-token rate window...")
-    time.sleep(65)
-    print("  Calling Claude API — mobile report...")
-    mobile_html = call_claude_mobile(system_prompt, listings_data, prior_state_text, label)
 
-    desktop_path, mobile_path = save_reports(desktop_html, mobile_html, car_key)
+    desktop_path = save_report(desktop_html, car_key)
 
     # Persist updated state
     paths["state_dir"].mkdir(parents=True, exist_ok=True)
@@ -394,7 +370,7 @@ def run_car(car_key: str, car_config: dict) -> None:
     )
     print(f"  State updated: {paths['state_file']}")
 
-    send_email(mobile_path, label)
+    send_email(desktop_path, label)
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
