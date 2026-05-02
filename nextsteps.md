@@ -418,23 +418,25 @@ Opening `https://{username}.github.io/{repo}/` on your phone shows the latest mo
 | 9 | `.github/workflows/`, `docs/` GitHub Pages | ✓ Done |
 | 10 | `tests/test_config_consistency.py` | ◯ Planned |
 | 11 | `config.py` curve timestamp + report banner | ◯ Planned |
-| 12 | send state summary instead of full state file | ◯ Planned |
+| 12 | send state summary instead of full state file | ✓ Done |
 
 ---
 
-## Current system status (as of 2026-04-26)
+## Current system status (as of 2026-05-02)
 
-All 9 steps are complete and verified working end-to-end:
+All 12 planned steps are complete and verified working end-to-end:
 
 - **Scraper** — Selenium + Chrome headless, scrapes AutoTrader.ca, handles timeouts gracefully (page load timeout 60s, saves partial results on crash)
-- **Pipeline** — `run_tracker.py` loops all CARS, two separate Claude API calls per car (desktop + mobile), prevents token truncation
-- **Email** — Gmail SMTP with App Password, confirmed delivering to the configured `ALERT_RECIPIENT`
-- **GitHub Pages** — Live at `https://phgo04.github.io/autodealtracker/`, updates automatically after each run
+- **Pipeline** — `run_tracker.py` loops all CARS, one Claude API call per car (desktop report only); token count logged after every call
+- **State summary** — `build_state_summary()` replaces the full state file dump (~49K tokens) with a compact per-listing status dict (~6–8K tokens); per-call input is now ~45K tokens, well under the 50K TPM limit
+- **Email** — Gmail SMTP with App Password, sends the desktop report to the configured `ALERT_RECIPIENT`
+- **GitHub Pages** — Live at `https://phgo04.github.io/autodealtracker/`, updated from desktop reports, updates automatically after each run
 - **Schedule** — Runs every 3 days at noon UTC (8am EDT) via GitHub Actions cron; also triggerable manually from the Actions tab
 
 ### Known issues / future ideas
 - CR-V prompt file not yet written — scraper runs for CR-V but `run_tracker.py` skips it (no prompt file)
 - Sparklines and dealer stats require 2+ runs to accumulate meaningful data
+- Mobile report disabled (was causing 429 rate-limit errors); can be re-enabled after reaching Anthropic Tier 2 (100K TPM) or confirming two back-to-back ~45K calls clear the rate limit in practice
 - Workflow dispatch could accept a `skip_scrape` boolean input for faster test runs (not yet implemented)
 
 ---

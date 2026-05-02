@@ -65,6 +65,55 @@ def update_state(raw_listings: list, prior_state: dict) -> dict:
     return {"listings": listings_by_id}
 
 
+# ── State summary (Step 12) ──────────────────────────────────────────────────
+
+def build_state_summary(raw_listings: list, prior_state: dict) -> str:
+    """
+    Build a minimal prior-state summary for the Claude API call.
+
+    Replaces json.dumps(prior_state) (~49K tokens) with a compact per-listing
+    dict containing only what Claude uses: status, prev_price, first_seen.
+    Inactive listings, full price_history arrays, dealer_stats, and sparkline
+    data are all dropped — they are not needed by the report renderer.
+
+    Estimated output: ~6–8K tokens regardless of how long the tracker has run.
+    """
+    prior_listings = prior_state.get("listings", {})
+    summary: dict = {}
+
+    for listing in raw_listings:
+        lid = listing.get("id") or listing.get("listing_id")
+        if not lid:
+            continue
+
+        prev = prior_listings.get(lid)
+        if not prev:
+            summary[lid] = {"status": "new"}
+            continue
+
+        ph         = prev.get("price_history", [])
+        prev_price = ph[-1].get("price") if ph else prev.get("price")
+        curr_price = listing.get("price")
+
+        if prev_price and curr_price:
+            if curr_price < prev_price:
+                status = "price_drop"
+            elif curr_price > prev_price:
+                status = "price_increase"
+            else:
+                status = "same"
+        else:
+            status = "same"
+
+        summary[lid] = {
+            "status":     status,
+            "prev_price": prev_price,
+            "first_seen": prev.get("first_seen"),
+        }
+
+    return json.dumps(summary, ensure_ascii=False)
+
+
 # ── Depreciation benchmark ───────────────────────────────────────────────────
 
 def annotate_depreciation(raw_listings: list) -> list:
@@ -201,19 +250,27 @@ def update_dealer_stats(listings_by_id: dict, today: str) -> dict:
 
 
 # ── Claude API calls ──────────────────────────────────────────────────────────
-# One call per car — desktop report only.
-# Mobile report generation disabled: prior_state is ~48K tokens; two back-to-back
-# calls exceed Haiku 4.5's 50K input-tokens-per-minute limit on any run after #1.
-# Step 12 (state summary) will cut input to ~45K and allow re-enabling mobile.
+# One call per car — desktop report only (mobile disabled; see Step 12 comment above).
+# Step 12 (build_state_summary) drops prior_state from ~49K to ~6–8K tokens,
+# bringing per-call input from ~88K to ~45K — safely under the 50K TPM limit.
 
-def _base_user_content(listings_data: str, prior_state_text: str, car_label: str, run_number: int) -> str:
-    return (
+def _base_user_content(
+    listings_data: str,
+    prior_state_text: str,
+    car_label: str,
+    run_number: int,
+    dealer_stats_text: str = "",
+) -> str:
+    content = (
         f"Today's date: {TODAY}\n"
         f"Run number: {run_number}\n"
         f"Vehicle: {car_label}\n\n"
         f"Current listings (from scraper):\n{listings_data}\n\n"
-        f"Prior state (for price drop detection):\n{prior_state_text}\n\n"
+        f"Prior state summary (status/prev_price/first_seen per active listing):\n{prior_state_text}\n\n"
     )
+    if dealer_stats_text:
+        content += f"Dealer statistics (pre-computed across all runs):\n{dealer_stats_text}\n\n"
+    return content
 
 
 def _call_claude(system_prompt: str, user_content: str) -> str:
@@ -235,10 +292,16 @@ def _call_claude(system_prompt: str, user_content: str) -> str:
     return response.content[0].text
 
 
-def call_claude_desktop(system_prompt: str, listings_data: str, prior_state_text: str, car_label: str) -> str:
-    run_number = _estimate_run_number(prior_state_text)
+def call_claude_desktop(
+    system_prompt: str,
+    listings_data: str,
+    prior_state_text: str,
+    car_label: str,
+    run_number: int,
+    dealer_stats_text: str = "",
+) -> str:
     user_content = (
-        _base_user_content(listings_data, prior_state_text, car_label, run_number)
+        _base_user_content(listings_data, prior_state_text, car_label, run_number, dealer_stats_text)
         + "Generate ONLY the full desktop HTML report as defined in Section 10 of the master prompt "
         + "(File 1: Full desktop report). Output raw HTML starting with <!DOCTYPE html>. "
         + "Do not include the mobile report or any delimiter."
@@ -246,10 +309,10 @@ def call_claude_desktop(system_prompt: str, listings_data: str, prior_state_text
     return _call_claude(system_prompt, user_content)
 
 
-def _estimate_run_number(prior_state_text: str) -> int:
+def _estimate_run_number(prior_state: dict) -> int:
+    """Estimate run number from the full prior-state dict (not the summary)."""
     try:
-        state = json.loads(prior_state_text)
-        listings = state.get("listings", {})
+        listings = prior_state.get("listings", {})
         if not listings:
             return 1
         dates = [e.get("first_seen") for e in listings.values() if e.get("first_seen")]
@@ -330,7 +393,6 @@ def run_car(car_key: str, car_config: dict) -> None:
 
     listings_data = raw_listings_file.read_text(encoding="utf-8")
     prior_state   = load_json(paths["state_file"], {"listings": {}})
-    prior_state_text = json.dumps(prior_state, ensure_ascii=False)
 
     raw_listings = json.loads(listings_data)
     if isinstance(raw_listings, dict):
@@ -342,6 +404,12 @@ def run_car(car_key: str, car_config: dict) -> None:
     annotate_depreciation(raw_listings)
     n_benchmarked = sum(1 for l in raw_listings if l.get("vs_expected_pct") is not None)
     print(f"  Depreciation benchmark: {n_benchmarked}/{len(raw_listings)} listings matched a curve.")
+
+    # Build compact state summary (Step 12 — replaces full json.dumps of prior_state)
+    run_number       = _estimate_run_number(prior_state)
+    prior_state_text = build_state_summary(raw_listings, prior_state)
+    print(f"  State summary: {len(prior_state_text):,} chars "
+          f"({len(prior_state.get('listings', {})):,} prior / {len(raw_listings)} current listings).")
 
     # BUY NOW alerts
     check_alerts(
@@ -355,10 +423,13 @@ def run_car(car_key: str, car_config: dict) -> None:
     updated_state = update_state(raw_listings, prior_state)
     dealer_stats  = update_dealer_stats(updated_state["listings"], TODAY)
     updated_state["dealer_stats"] = dealer_stats
+    dealer_stats_text = json.dumps(dealer_stats, ensure_ascii=False)
     print(f"  Dealer stats computed for {len(dealer_stats)} dealers.")
 
     print("  Calling Claude API — desktop report...")
-    desktop_html = call_claude_desktop(system_prompt, listings_data, prior_state_text, label)
+    desktop_html = call_claude_desktop(
+        system_prompt, listings_data, prior_state_text, label, run_number, dealer_stats_text
+    )
 
     desktop_path = save_report(desktop_html, car_key)
 
