@@ -13,6 +13,14 @@ OUTPUT_DIR   = PROJECT_ROOT / "output"
 
 MAX_PAGES = 30   # Safety cap per-car (30 pages × 20 listings = 600 raw)
 
+# Catastrophic-failure floor for the scraper. If the scrape produces fewer
+# listings than this, scraper.py exits non-zero WITHOUT overwriting raw_listings.json
+# (which would otherwise wipe history on the next run_tracker pass). Cars can
+# override per-entry via CARS[<key>]["min_listings"]; CX-5 baseline is 320+, so
+# a per-car override of 250 catches truncations like the 2026-04-28 incident
+# (which bottomed out at 200) with comfortable margin.
+DEFAULT_MIN_LISTINGS = 50
+
 
 def car_paths(car_key: str) -> dict:
     """Return resolved Path objects for a car's state files."""
@@ -32,11 +40,13 @@ def car_paths(car_key: str) -> dict:
 #   properly tuned analysis (see CLAUDE.md for the CX-5 template).
 CARS = {
     "cx5": {
-        "label":       "Mazda CX-5",
-        "search_url":  "https://www.autotrader.ca/cars/mazda/cx-5/reg_on/cit_toronto/",
-        "year_min":    2024,
-        "year_max":    2026,
-        "prompt_file": "CLAUDE.md",
+        "label":         "Mazda CX-5",
+        "search_url":    "https://www.autotrader.ca/cars/mazda/cx-5/reg_on/cit_toronto/",
+        "year_min":      2024,
+        "year_max":      2026,
+        "prompt_file":   "CLAUDE.md",
+        "min_listings":  250,   # CX-5 baseline is 320+; under 250 = scraper truncation
+                                #   (the 4-28 incident bottomed out at 200; 250 catches that with margin)
         "buy_now": {
             "used_2024":      {"max_price": 31_500, "max_km": 25_000},
             "used_2025":      {"max_price": 35_000, "max_km": 15_000},
@@ -44,16 +54,10 @@ CARS = {
             "new_2025_clear": {"max_price": 34_500, "max_km": None},
         },
     },
-    "crv": {
-        "label":       "Honda CR-V",
-        "search_url":  "https://www.autotrader.ca/cars/honda/cr-v/reg_on/cit_toronto/",
-        "year_min":    2024,
-        "year_max":    2026,
-        "prompt_file": None,   # create prompts/crv.md to enable Claude analysis
-        "buy_now": {
-            "used_2024": {"max_price": 33_000, "max_km": 30_000},
-        },
-    },
+    # CR-V removed 2026-05-02 (RCA Path A §A4). Was silently using CLAUDE.md
+    # (CX-5 master prompt) — every CR-V report ever produced was wrong.
+    # state/crv/ left on disk; restore by re-adding entry + adding prompts/crv.md
+    # + a CR-V depreciation curve + a CR-V min_listings value.
 }
 
 # ── CX-5 vehicle filters (referenced by CLAUDE.md / Claude analysis) ──────────

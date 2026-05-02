@@ -4,6 +4,18 @@ on:
   schedule:
     - cron: '0 12 */3 * *'   # every 3 days at noon UTC (8am EDT)
   workflow_dispatch:           # manual trigger from GitHub mobile app
+    inputs:
+      pre_call_delay_seconds:
+        description: 'Seconds to sleep before each Claude API call (rollback hatch — set to 60-120 if 429s recur)'
+        required: false
+        default: '0'
+
+# Prevent two runs (e.g. cron + manual) racing on `git push` of state/ and docs/.
+# `cancel-in-progress: false` keeps the running workflow alive — losing a run is
+# worse than queueing a second one.
+concurrency:
+  group: tracker
+  cancel-in-progress: false
 
 jobs:
   run:
@@ -20,16 +32,16 @@ jobs:
         with:
           python-version: '3.11'
 
+      # Pinned to v1.7.3 SHA (RCA §A8). Re-pin when bumping; never use @latest
+      # in CI — it's a supply-chain risk the maintainer can't undo from your repo.
       - name: Install Chrome
-        uses: browser-actions/setup-chrome@latest
+        uses: browser-actions/setup-chrome@c785b87e244131f27c9f19c1a33e2ead956ab7ce  # v1.7.3
 
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run scraper for all cars
-        run: |
-          python scraper.py --car cx5
-          python scraper.py --car crv
+      - name: Run scraper
+        run: python scraper.py --car cx5
 
       - name: Run tracker
         env:
@@ -37,12 +49,23 @@ jobs:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           ALERT_RECIPIENT: ${{ secrets.ALERT_RECIPIENT }}
+          # §11.4 rollback hatch. Default 0 = no throttle. On a manual retry,
+          # pass pre_call_delay_seconds=120 via workflow_dispatch input to throttle.
+          PRE_CALL_DELAY_SECONDS: ${{ github.event.inputs.pre_call_delay_seconds || '0' }}
         run: python run_tracker.py
 
+      # `if: always()` ensures docs/ refreshes even if `Run tracker` failed.
+      # Safe because publish_pages.py is idempotent and reads from output/ only.
       - name: Publish to GitHub Pages
+        if: always()
         run: python publish_pages.py
 
+      # `if: always()` here is safe because of the `git diff --staged --quiet`
+      # guard below: if the tracker failed and produced no new files, the diff
+      # is empty and we skip the commit. Only `state/` and `docs/` are added,
+      # so unrelated files outside those paths cannot accidentally be committed.
       - name: Commit state and pages
+        if: always()
         run: |
           git config user.name "autodealtracker-bot"
           git config user.email "bot@users.noreply.github.com"

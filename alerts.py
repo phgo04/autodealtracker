@@ -12,6 +12,8 @@ import sys
 from email.mime.text import MIMEText
 from pathlib import Path
 
+from config import EXCLUDED_TRIMS
+
 
 def _classify(listing: dict, buy_now: dict):
     """
@@ -26,6 +28,17 @@ def _classify(listing: dict, buy_now: dict):
 
     if price is None:
         return None
+
+    # Reject excluded trims (e.g. GX) — base-trim match, case-insensitive.
+    # Per RCA §11.2: only filter when trim is present and parseable. A missing,
+    # empty, or "Not listed" trim must NOT be auto-excluded — it could be a real
+    # GS/GT listing the scraper failed to parse, and dropping it would silently
+    # lose legitimate BUY NOW alerts.
+    trim = (listing.get("trim") or "").strip()
+    if trim and trim.lower() != "not listed":
+        base_trim = trim.split()[0].lower()
+        if base_trim in {t.lower() for t in EXCLUDED_TRIMS}:
+            return None
 
     checks = []
 

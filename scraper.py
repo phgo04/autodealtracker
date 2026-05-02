@@ -15,6 +15,7 @@ Usage:
 import argparse
 import json
 import re
+import sys
 import time
 from datetime import date
 from typing import Optional
@@ -26,7 +27,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.common.exceptions import WebDriverException
 from webdriver_manager.chrome import ChromeDriverManager
 
-from config import CARS, MAX_PAGES, car_paths
+from config import CARS, DEFAULT_MIN_LISTINGS, MAX_PAGES, car_paths
 
 AUTOTRADER_BASE = "https://www.autotrader.ca"
 
@@ -468,9 +469,20 @@ def main():
         print("Test mode — raw_listings.json not updated.\n")
         return
 
-    if not listings:
-        print("Nothing scraped — raw_listings.json unchanged.\n")
-        return
+    # Catastrophic-failure guard (RCA §A6). A truncated scrape (e.g. Selenium
+    # timeout at page 20 returning 200/350 listings) must NOT overwrite the
+    # last-known-good raw_listings.json — the run_tracker pass would otherwise
+    # treat the partial set as ground truth and drop history.
+    threshold = car_config.get("min_listings", DEFAULT_MIN_LISTINGS)
+    if len(listings) < threshold:
+        print(
+            f"\nERROR: scraper produced only {len(listings)} listings "
+            f"(min_listings={threshold} for {args.car}).\n"
+            f"raw_listings.json NOT updated — likely a Selenium timeout or AutoTrader "
+            f"block. Investigate before re-running.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     paths["state_dir"].mkdir(parents=True, exist_ok=True)
     with open(paths["raw_listings"], "w", encoding="utf-8") as f:

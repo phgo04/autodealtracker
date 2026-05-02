@@ -8,6 +8,7 @@ import json
 import os
 import smtplib
 import sys
+import time
 from collections import defaultdict
 from datetime import date, datetime
 from email.mime.multipart import MIMEMultipart
@@ -274,7 +275,15 @@ def _base_user_content(
 
 
 def _call_claude(system_prompt: str, user_content: str) -> str:
-    client = anthropic.Anthropic()
+    # max_retries=5 — load-bearing. SDK applies exponential backoff on 429s.
+    # Removing this previously (commit dfddbf0) is what made transient throttling fatal.
+    client = anthropic.Anthropic(max_retries=5)
+    # §11.4 rollback hatch: set PRE_CALL_DELAY_SECONDS=120 (or any non-zero) on a
+    # workflow_dispatch run to throttle calls if a future cron starts 429ing again.
+    wait = int(os.getenv("PRE_CALL_DELAY_SECONDS", "0") or "0")
+    if wait > 0:
+        print(f"  PRE_CALL_DELAY_SECONDS={wait}s — sleeping before API call...")
+        time.sleep(wait)
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=8192,
@@ -433,13 +442,18 @@ def run_car(car_key: str, car_config: dict) -> None:
 
     desktop_path = save_report(desktop_html, car_key)
 
-    # Persist updated state
+    # Persist updated state — atomic write (tmp + os.replace) so a crash mid-write
+    # cannot corrupt listings.json. A partial write would otherwise lose all history
+    # on the next load (json.loads on truncated file).
     paths["state_dir"].mkdir(parents=True, exist_ok=True)
-    paths["state_file"].write_text(
+    state_final = paths["state_file"]
+    state_tmp   = state_final.with_suffix(state_final.suffix + ".tmp")
+    state_tmp.write_text(
         json.dumps(updated_state, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"  State updated: {paths['state_file']}")
+    os.replace(state_tmp, state_final)
+    print(f"  State updated: {state_final}")
 
     send_email(desktop_path, label)
 
