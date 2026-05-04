@@ -331,12 +331,36 @@ def scrape(car_config: dict, test_mode: bool = False) -> list:
             url = build_url(search_url, page_num)
 
             print(f"  Page {page_num} ... ", end="", flush=True)
-            try:
-                driver.get(url)
-                time.sleep(3)
-                html = driver.page_source
-            except WebDriverException as e:
-                print(f"timeout/error — stopping with {len(all_listings)} listings. ({e.__class__.__name__})")
+            # Retry-on-timeout per RCA §12 follow-up. AutoTrader/Selenium has
+            # been observed to time out on individual pages 19-20 intermittently
+            # (4-28 bottomed at 200 listings, 5-3 dispatch at 204 — both blocked
+            # by the min_listings=250 guard). One retry after a 5-second sleep
+            # absorbs transient hiccups without masking a genuinely-broken
+            # AutoTrader (where both attempts fail and we still bail with the
+            # original break behavior).
+            html = None
+            for attempt in (1, 2):
+                try:
+                    driver.get(url)
+                    time.sleep(3)
+                    html = driver.page_source
+                    if attempt == 2:
+                        print("(recovered after retry) ", end="", flush=True)
+                    break
+                except WebDriverException as e:
+                    if attempt == 1:
+                        print(
+                            f"timeout on attempt 1 ({e.__class__.__name__}) — sleeping 5s and retrying once... ",
+                            end="", flush=True,
+                        )
+                        time.sleep(5)
+                        continue
+                    print(
+                        f"timeout/error on retry — stopping with {len(all_listings)} listings. "
+                        f"({e.__class__.__name__})"
+                    )
+                    html = None
+            if html is None:
                 break
 
             page_listings = extract_from_next_data(html, today)
