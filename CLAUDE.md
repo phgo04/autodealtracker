@@ -257,11 +257,15 @@ The `vs_expected_pct` field is pre-computed and attached to each listing. Use it
 
 Sort the table by best overall value / true affordability, not simply by price.
 
+**Sparkline placeholder (Top 10 table):** In the Price cell, on a separate line below the current price figure, emit the literal string `<!-- SPARKLINE:{listing_id} -->` with `{listing_id}` replaced by the listing's actual id (no quotes around the id, no whitespace inside the comment). Python post-processes the HTML and substitutes a Chart.js canvas + init script for any listing with 2+ price-history points. Do **NOT** generate `<canvas>` elements, Chart.js script tags, or sparkline init code yourself — the renderer depends on this exact placeholder string. If a listing has fewer than 2 price points, still emit the placeholder; the renderer will strip orphans silently.
+
 ### Section C: Best Picks
 List the top 3 picks and explain:
 - Why they rank high
 - Why they beat comparable listings
 - Whether they are likely to sell quickly
+
+**Sparkline placeholder (Best Picks cards):** In the price area of each card, emit `<!-- SPARKLINE:{listing_id} -->` (same rules as §9B above). Python substitutes the rendered chart post-call. Do not generate canvases or scripts inline.
 
 ### Section D: Avoid / Watchlist
 Call out:
@@ -269,6 +273,8 @@ Call out:
 - Cars with concerning history
 - Listings with weak value despite attractive monthly payments
 - Cars that look good on paper but are not worth the money
+
+**Scope note:** Section D operates on the candidate set you receive (top ~50 after Python pre-screen), not the full Ontario inventory. Listings filtered out before you see them — excluded trims (e.g. GX), off-spec years, used listings exceeding the published km hard-limit — are not surfaced here because the buyer would not consider them. Use Section D to flag concerns within the listings actually presented to you.
 
 ### Section E: Buy Signal
 Explicitly state:
@@ -289,20 +295,13 @@ Include:
 - Whether prices are trending up, down, or stable
 - Whether promos are making new cars more attractive
 
+**Data source:** Use the pre-computed "Market digest" block in the user content. It is computed from the **full inventory** (not the pre-screened candidate set) and contains per-`(year, condition)` count, mean, median, min, max price, and km mean. Do not derive these stats from the candidate listings — those are filtered.
+
 ### Section H: Dealer Intelligence
-Only include this section if the prior state data contains a `dealer_stats` block with at least 2 dealers.
 
-Render a table with the following columns:
-- **Dealer** — dealer name
-- **Listings Seen** — total unique listings ever tracked for this dealer
-- **Avg Days on Lot** — average number of days a listing stayed active (blank if only one run available)
-- **Drops Price?** — color-coded label: `Yes` (green) if `price_drop_rate` > 0.50, `Sometimes` (orange) if 0.20–0.50, `Rarely` (gray) if under 0.20
-- **Avg Drop %** — average percentage drop among listings that did drop (show `—` if none)
-- **Relists** — number of relists detected (show `—` if zero)
+**Render via placeholder.** Emit the literal string `<!-- DEALER_TABLE -->` (verbatim, character-for-character, on its own line) at the position where Section H belongs in the report. Python post-processes the HTML and substitutes the fully rendered table from precomputed `dealer_stats`. The renderer handles the "≥2 dealers" rule, sort order, color-coding (Yes / Sometimes / Rarely), and the "data accumulates across runs" footnote — you should NOT generate any of that yourself.
 
-Sort by `listings_seen` descending so the most active dealers appear first.
-
-Add a one-line note below the table: "Data accumulates across runs — dealer patterns become meaningful after 5+ runs."
+The placeholder string must match exactly: `<!-- DEALER_TABLE -->`. Any deviation (extra spaces, different casing, html-escaped characters) will be treated as a missing placeholder and the renderer will append a fallback section with a warning logged to stderr.
 
 ---
 
@@ -325,7 +324,7 @@ Required elements:
 - Buy signal section
 - Used vs new comparison
 - Market snapshot
-- Dealer Intelligence table (Section H) — only if `dealer_stats` is present in the prior state with 2+ dealers
+- Dealer Intelligence section (Section H) — emit the `<!-- DEALER_TABLE -->` placeholder; Python renders the table
 - Footer with financing assumptions and data quality disclaimer
 
 Visual emphasis required for: `BUY NOW`, `Great Deal`, `Price Drop`, `Promo Available`
@@ -334,25 +333,13 @@ If prior run data exists, show current price, previous price, difference, drop p
 
 #### Price history sparklines (desktop report only)
 
-Include Chart.js via CDN in the `<head>`:
-```html
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
-```
+**Sparklines are rendered by Python post-call** — you do NOT generate `<canvas>` elements, Chart.js script tags, or sparkline init code. The Chart.js CDN tag is injected by the renderer only when at least one sparkline is needed.
 
-For every listing in the Top 10 table and Best Picks cards that has a `price_history` array with **2 or more entries** in the prior state data, render a small inline sparkline using a Chart.js line chart inside a `<canvas>` element (width: 120px, height: 40px).
+Your job: emit the placeholder `<!-- SPARKLINE:{listing_id} -->` (with `{listing_id}` replaced by the actual id, no quotes, no whitespace inside the comment) in the price column of every Top 10 row and the price area of every Best Picks card. Emit the placeholder regardless of whether the listing has 2+ price points — the renderer will substitute a chart for listings that have history and silently strip placeholders for listings that don't.
 
-Sparkline rules:
-- X-axis: dates from `price_history` (hidden labels)
-- Y-axis: prices (hidden axis)
-- No legend, no grid lines, no tooltips — pure trend line
-- Line color: **green** (`#22c55e`) if the last price is lower than the first price (trending down = good), **red** (`#ef4444`) if higher (rising price = bad), **orange** (`#f97316`) if flat (no meaningful change)
-- Fill: subtle fill under the line using the same color at 15% opacity
-- Point radius: 2px (visible but not dominant)
-- Place the sparkline in the price column of the table, below the current price figure, or in the top-right corner of Best Picks cards
-- If a listing has only 1 price_history entry (first run seen), show nothing — do not render a flat single-point line
-- Each canvas must have a unique `id` (e.g. `spark-{listing_id}`) and be initialized by an inline `<script>` block at the bottom of the `<body>`
+The renderer applies the documented visual rules automatically: green / red / orange line color based on price trend, hidden axes, no legend or tooltips, 120×40 canvas, 15% fill, 2px point radius.
 
-Do not add sparklines to the mobile report.
+Sparklines are not added to the mobile report.
 
 ### File 2: Mobile-optimized report
 Filename: `report_YYYY-MM-DD_mobile.html`

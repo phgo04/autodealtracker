@@ -63,6 +63,25 @@ CARS = {
 # ── CX-5 vehicle filters (referenced by CLAUDE.md / Claude analysis) ──────────
 EXCLUDED_TRIMS = ["GX"]
 
+
+def is_excluded_trim(listing: dict) -> bool:
+    """
+    Single source of truth for trim exclusion. Used by both alerts._classify
+    (BUY NOW filter) and run_tracker.select_candidates (prompt pre-screen).
+
+    Defensive form per RCA §11.2: only filter when trim is present and parseable.
+    A missing, empty, or "Not listed" trim must NOT be auto-excluded — it could
+    be a real GS/GT listing the scraper failed to parse, and dropping it would
+    silently lose legitimate alerts and candidates.
+
+    Match is base-trim, case-insensitive: "GX", "GX AWD", "GX 2.5L" all match.
+    """
+    trim = (listing.get("trim") or "").strip()
+    if not trim or trim.lower() == "not listed":
+        return False
+    base = trim.split()[0].lower()
+    return base in {t.lower() for t in EXCLUDED_TRIMS}
+
 USED_FILTERS = {
     2024: {"km_preferred": 35_000, "km_hard_limit": 40_000, "price_target": 34_000},
     2025: {"km_preferred": 20_000, "km_hard_limit": 30_000, "price_target": 36_500},
