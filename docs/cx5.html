@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mazda CX-5 Deal Tracker — Mobile Report</title>
+    <title>Mazda CX-5 Deal Tracker — Run #1 — 2026-05-04</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -14,749 +15,654 @@
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background: #f5f5f5;
-            color: #333;
-            font-size: 16px;
-            line-height: 1.5;
+            background: #f5f7fa;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
         }
         
         header {
-            position: sticky;
-            top: 0;
-            background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%);
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             color: white;
-            padding: 1.5rem 1rem;
-            z-index: 100;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         
         header h1 {
-            font-size: 1.5rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
+            font-size: 28px;
+            margin-bottom: 8px;
         }
         
         header .meta {
-            font-size: 0.875rem;
-            opacity: 0.95;
+            font-size: 14px;
+            opacity: 0.9;
         }
         
         .promo-banner {
-            background: #fef3c7;
-            border-left: 4px solid #f59e0b;
-            padding: 1rem;
-            margin: 1rem 1rem 0;
-            border-radius: 4px;
-            font-size: 0.95rem;
-            color: #92400e;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-weight: 600;
+            display: none;
+        }
+        
+        .promo-banner.active {
+            display: block;
         }
         
         .summary-cards {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.75rem;
-            padding: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
         }
         
-        .summary-card {
+        .card {
             background: white;
-            padding: 1rem;
+            padding: 20px;
             border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-left: 4px solid #2a5298;
         }
         
-        .summary-card strong {
-            display: block;
-            color: #c41e3a;
-            font-size: 1.25rem;
-            margin-bottom: 0.25rem;
-        }
-        
-        .summary-card small {
-            display: block;
+        .card h3 {
+            font-size: 14px;
             color: #666;
-            font-size: 0.8rem;
-        }
-        
-        .container {
-            padding: 1rem;
-            max-width: 100%;
-        }
-        
-        .section-title {
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: #1f2937;
-            margin: 1.5rem 0 1rem 0;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid #c41e3a;
-        }
-        
-        .listing-card {
-            background: white;
-            border-radius: 8px;
-            padding: 1rem;
-            margin-bottom: 1rem;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-            border-left: 4px solid #c41e3a;
-        }
-        
-        .listing-card.great {
-            border-left-color: #22c55e;
-            background: #f0fdf4;
-        }
-        
-        .listing-card.good {
-            border-left-color: #3b82f6;
-            background: #f0f9ff;
-        }
-        
-        .listing-card.fair {
-            border-left-color: #f59e0b;
-        }
-        
-        .listing-card.avoid {
-            border-left-color: #ef4444;
-            background: #fef2f2;
-        }
-        
-        .rating-badge {
-            display: inline-block;
-            font-size: 0.75rem;
-            font-weight: 700;
-            padding: 0.4rem 0.75rem;
-            border-radius: 4px;
-            margin-bottom: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 10px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
         
-        .badge-buy-now {
-            background: #22c55e;
-            color: white;
-        }
-        
-        .badge-great {
-            background: #10b981;
-            color: white;
-        }
-        
-        .badge-good {
-            background: #3b82f6;
-            color: white;
-        }
-        
-        .badge-fair {
-            background: #f59e0b;
-            color: white;
-        }
-        
-        .badge-overpriced {
-            background: #ef4444;
-            color: white;
-        }
-        
-        .price-section {
-            margin: 1rem 0;
-        }
-        
-        .price-display {
-            font-size: 1.75rem;
+        .card .value {
+            font-size: 28px;
             font-weight: 700;
-            color: #c41e3a;
-            margin-bottom: 0.25rem;
+            color: #1e3c72;
         }
         
-        .price-note {
-            font-size: 0.85rem;
+        .card .detail {
+            font-size: 13px;
+            color: #999;
+            margin-top: 8px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #1e3c72;
+            border-bottom: 2px solid #e8eef5;
+            padding-bottom: 10px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        thead {
+            background: #f8fafc;
+            font-weight: 600;
+            font-size: 13px;
             color: #666;
-            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
         
-        .price-signal {
-            font-size: 0.85rem;
-            padding: 0.5rem;
+        th {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 2px solid #e8eef5;
+        }
+        
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #f0f4f8;
+        }
+        
+        tbody tr:hover {
+            background: #f9fbfd;
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
             border-radius: 4px;
-            margin-bottom: 0.5rem;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
         }
         
-        .price-signal.good {
-            background: #d1fae5;
-            color: #065f46;
+        .badge.buy-now {
+            background: #d4edda;
+            color: #155724;
         }
         
-        .price-signal.bad {
-            background: #fee2e2;
-            color: #7f1d1d;
+        .badge.great-deal {
+            background: #c3e6cb;
+            color: #0c5460;
         }
         
-        .car-details {
+        .badge.good {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+        
+        .badge.fair {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .badge.overpriced {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .badge.avoid {
+            background: #f5c6cb;
+            color: #721c24;
+        }
+        
+        .badge.new {
+            background: #e2e3e5;
+            color: #383d41;
+        }
+        
+        .badge.price-drop {
+            background: #d4edda;
+            color: #155724;
+            margin-left: 4px;
+        }
+        
+        .vs-expected {
+            font-size: 12px;
+            font-weight: 600;
+            padding: 2px 6px;
+            border-radius: 3px;
+            display: inline-block;
+        }
+        
+        .vs-expected.underpriced {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .vs-expected.overpriced {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .price {
+            font-weight: 700;
+            color: #1e3c72;
+            font-size: 14px;
+        }
+        
+        .price-history {
+            font-size: 11px;
+            color: #999;
+            margin-top: 4px;
+        }
+        
+        .sparkline-container {
+            margin-top: 6px;
+        }
+        
+        a {
+            color: #2a5298;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .pick-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+            border-left: 4px solid #22c55e;
+        }
+        
+        .pick-card h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #1e3c72;
+        }
+        
+        .pick-details {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 0.5rem;
-            margin: 1rem 0;
-            font-size: 0.95rem;
+            gap: 15px;
+            margin-bottom: 15px;
+            font-size: 13px;
         }
         
-        .detail-item {
-            background: #f9fafb;
-            padding: 0.5rem;
-            border-radius: 4px;
-        }
-        
-        .detail-label {
+        .pick-details strong {
             color: #666;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            font-weight: 600;
         }
         
-        .detail-value {
-            font-weight: 600;
-            color: #1f2937;
-            margin-top: 0.25rem;
-        }
-        
-        .monthly-payment {
-            background: #eff6ff;
-            border-left: 3px solid #3b82f6;
-            padding: 0.75rem;
+        .financing {
+            background: #f8fafc;
+            padding: 12px;
             border-radius: 4px;
-            margin: 1rem 0;
-            font-size: 0.9rem;
+            font-size: 13px;
+            margin-top: 12px;
         }
         
-        .tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-            margin: 1rem 0;
-        }
-        
-        .tag {
-            display: inline-block;
-            background: #e5e7eb;
-            color: #374151;
-            padding: 0.35rem 0.6rem;
-            border-radius: 3px;
-            font-size: 0.75rem;
-            font-weight: 600;
-        }
-        
-        .tag.promo {
-            background: #dbeafe;
-            color: #1e40af;
-        }
-        
-        .tag.new {
-            background: #dcfce7;
-            color: #166534;
-        }
-        
-        .tag.drop {
-            background: #fecaca;
-            color: #7f1d1d;
-        }
-        
-        .dealer-location {
-            font-size: 0.9rem;
-            color: #666;
-            margin: 0.75rem 0;
-        }
-        
-        .dealer-link {
-            color: #c41e3a;
-            text-decoration: none;
-            font-weight: 600;
-        }
-        
-        .dealer-link:active {
-            opacity: 0.8;
-        }
-        
-        details {
-            margin-top: 0.75rem;
-        }
-        
-        summary {
-            cursor: pointer;
-            font-weight: 600;
-            color: #c41e3a;
-            font-size: 0.95rem;
-            padding: 0.5rem 0;
-            user-select: none;
-        }
-        
-        summary:active {
-            opacity: 0.8;
-        }
-        
-        .details-content {
-            background: #f9fafb;
-            padding: 0.75rem;
-            border-radius: 4px;
-            margin-top: 0.5rem;
-            font-size: 0.9rem;
-            line-height: 1.6;
-        }
-        
-        .details-content ul {
-            margin-left: 1.25rem;
-        }
-        
-        .details-content li {
-            margin-bottom: 0.35rem;
-        }
-        
-        .avoid-section {
-            border-left: 4px solid #ef4444;
-            background: #fef2f2;
-            padding: 1rem;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-        }
-        
-        .comparison-section {
-            background: white;
-            padding: 1rem;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-        }
-        
-        .comparison-section h3 {
-            font-size: 1.05rem;
-            font-weight: 700;
-            margin-bottom: 0.75rem;
-            color: #1f2937;
-        }
-        
-        .comparison-section p {
-            font-size: 0.95rem;
-            margin-bottom: 0.5rem;
-            line-height: 1.6;
-        }
-        
-        .final-answer {
-            background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%);
-            color: white;
-            padding: 1.25rem;
-            border-radius: 8px;
-            margin: 1.5rem 0;
-            font-size: 0.95rem;
-            line-height: 1.7;
-        }
-        
-        .final-answer strong {
+        .financing strong {
             display: block;
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
+            margin-bottom: 6px;
+            color: #1e3c72;
         }
         
-        .final-answer .answer-item {
-            margin-bottom: 0.75rem;
-            padding-left: 1rem;
+        .avoid-card {
+            background: #fff5f5;
+            padding: 15px;
+            border-left: 4px solid #e53e3e;
+            border-radius: 4px;
+            margin-bottom: 12px;
+            font-size: 13px;
+        }
+        
+        .avoid-card strong {
+            display: block;
+            color: #721c24;
+            margin-bottom: 4px;
+        }
+        
+        .highlight {
+            background: #fffacd;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .stat-box {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 3px solid #2a5298;
+            font-size: 13px;
+        }
+        
+        .stat-box strong {
+            display: block;
+            font-size: 18px;
+            color: #1e3c72;
+            margin-top: 8px;
+        }
+        
+        .disclaimer {
+            background: #f0f4f8;
+            padding: 15px;
+            border-radius: 6px;
+            font-size: 12px;
+            color: #666;
+            margin-top: 30px;
         }
         
         footer {
-            background: #f3f4f6;
-            padding: 1rem;
-            margin-top: 2rem;
-            font-size: 0.8rem;
-            color: #666;
-            border-top: 1px solid #e5e7eb;
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #999;
+            margin-top: 40px;
+            border-top: 1px solid #e8eef5;
         }
         
-        footer strong {
-            display: block;
-            color: #1f2937;
-            margin-bottom: 0.5rem;
+        .used-vs-new {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 20px;
+        }
+        
+        .used-vs-new h3 {
+            color: #1e3c72;
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+        
+        .used-vs-new p {
+            font-size: 13px;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 10px;
+        }
+        
+        .decision {
+            background: #e7f3ff;
+            border-left: 3px solid #2196f3;
+            padding: 12px;
+            margin-top: 12px;
+            font-size: 13px;
+            font-weight: 600;
+            color: #0c3d8f;
+        }
+        
+        .dealer-table {
+            font-size: 13px;
+        }
+        
+        .dealer-table td, .dealer-table th {
+            padding: 10px 15px;
+        }
+        
+        .yes {
+            color: #155724;
+            font-weight: 600;
+        }
+        
+        .sometimes {
+            color: #856404;
+            font-weight: 600;
+        }
+        
+        .rarely {
+            color: #999;
+            font-weight: 600;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>🏎 Mazda CX-5 Deal Tracker</h1>
-        <div class="meta">Run #1 — 2026-04-26 | 475 listings found</div>
-    </header>
-    
-    <div class="summary-cards">
-        <div class="summary-card">
-            <strong>Used Target</strong>
-            <small>2024–2025 CX-5</small>
-        </div>
-        <div class="summary-card">
-            <strong>New Target</strong>
-            <small>2026 CX-5 GS/GT</small>
-        </div>
-        <div class="summary-card">
-            <strong>Price Range</strong>
-            <small>$27.9K–$51.4K</small>
-        </div>
-        <div class="summary-card">
-            <strong>Best Opportunity</strong>
-            <small>Used 2024 GS</small>
-        </div>
-    </div>
-    
     <div class="container">
-        <!-- TOP 10 SECTION -->
-        <h2 class="section-title">Top 10 Best Deals</h2>
+        <header>
+            <h1>🚗 Mazda CX-5 Deal Tracker</h1>
+            <div class="meta">
+                <strong>Run #1</strong> — May 4, 2026 — Ontario Dealer Inventory
+            </div>
+        </header>
         
-        <!-- Card 1: 2024 GS, 16k km, $33,285 -->
-        <div class="listing-card great">
-            <div class="rating-badge badge-great">Great Deal</div>
-            <div class="price-section">
-                <div class="price-display">$33,285</div>
-                <div class="detail-value" style="font-size: 0.9rem; color: #666;">2024 GS w/o CD Low Km</div>
+        <div class="promo-banner" id="promoBanner">
+            ⚡ <strong>Agincourt Mazda</strong> is offering 0.99% financing rates on select 2026 models. Act fast — rates like this don't last.
+        </div>
+        
+        <div class="summary-cards">
+            <div class="card">
+                <h3>Listings Tracked</h3>
+                <div class="value">525</div>
+                <div class="detail">Used + New inventory</div>
             </div>
-            <div class="price-signal good">
-                ✓ Priced 2% below expected for mileage — strong value signal.
+            <div class="card">
+                <h3>Market Trend</h3>
+                <div class="value">Stable</div>
+                <div class="detail">First run — baseline established</div>
             </div>
-            <div class="car-details">
-                <div class="detail-item">
-                    <div class="detail-label">Mileage</div>
-                    <div class="detail-value">16,007 km</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Condition</div>
-                    <div class="detail-value">Used</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Dealer</div>
-                    <div class="detail-value">GYRO MAZDA</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Location</div>
-                    <div class="detail-value">Toronto</div>
-                </div>
+            <div class="card">
+                <h3>Best Opportunity</h3>
+                <div class="value">Used 2024</div>
+                <div class="detail">Strong value signals present</div>
             </div>
-            <div class="monthly-payment">
-                <strong>Est. Monthly (72mo, 6.5% used rate):</strong> ~$523
-            </div>
-            <div class="tags">
-                <span class="tag new">Low Mileage</span>
-                <span class="tag">Apple CarPlay</span>
-                <span class="tag">GS Trim</span>
-            </div>
-            <details>
-                <summary>📋 Details & Notes</summary>
-                <div class="details-content">
-                    <ul>
-                        <li>Backup camera required — confirmed on trim</li>
-                        <li>One-owner likely based on low mileage</li>
-                        <li>Apple CarPlay strongly preferred feature present</li>
-                        <li>Below-market pricing signals dealer moving inventory</li>
-                        <li>GS trim is preferred baseline — no GX compromise</li>
-                    </ul>
-                </div>
-            </details>
-            <div class="dealer-location">
-                <a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-w-o-cd-low-km--apple-carplay--gs-gasoline-blue-934cbc5b-adf6-45de-9fb0-b801960afdaf" class="dealer-link" target="_blank">View on AutoTrader →</a>
+            <div class="card">
+                <h3>BUY NOW Count</h3>
+                <div class="value">2</div>
+                <div class="detail">Listings below key thresholds</div>
             </div>
         </div>
         
-        <!-- Card 2: 2025 GS AWD, 4.2k km, $31,990 -->
-        <div class="listing-card great">
-            <div class="rating-badge badge-great">Great Deal</div>
-            <div class="price-section">
-                <div class="price-display">$31,990</div>
-                <div class="detail-value" style="font-size: 0.9rem; color: #666;">2025 GS AWD Low KM</div>
-            </div>
-            <div class="price-signal good">
-                ✓ Priced 6% below expected — genuine demo/trade-in value.
-            </div>
-            <div class="car-details">
-                <div class="detail-item">
-                    <div class="detail-label">Mileage</div>
-                    <div class="detail-value">4,200 km</div>
+        <div class="section">
+            <h2>📊 Market Snapshot</h2>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <strong>Used 2024 Average</strong>
+                    $32,150
                 </div>
-                <div class="detail-item">
-                    <div class="detail-label">Condition</div>
-                    <div class="detail-value">Used</div>
+                <div class="stat-box">
+                    <strong>Used 2025 Average</strong>
+                    $33,420
                 </div>
-                <div class="detail-item">
-                    <div class="detail-label">Dealer</div>
-                    <div class="detail-value">AutoPark Brampton</div>
+                <div class="stat-box">
+                    <strong>New 2026 Average</strong>
+                    $45,680
                 </div>
-                <div class="detail-item">
-                    <div class="detail-label">Location</div>
-                    <div class="detail-value">Brampton</div>
+                <div class="stat-box">
+                    <strong>New 2025 Average</strong>
+                    $40,150
                 </div>
             </div>
-            <div class="monthly-payment">
-                <strong>Est. Monthly (72mo, 6.5% used rate):</strong> ~$500
-            </div>
-            <div class="tags">
-                <span class="tag new">Demo/Low KM</span>
-                <span class="tag">Leather</span>
-                <span class="tag">Heated Seats</span>
-            </div>
-            <details>
-                <summary>📋 Details & Notes</summary>
-                <div class="details-content">
-                    <ul>
-                        <li>2025 near-new with exceptional mileage — dealer demo or early return</li>
-                        <li>AWD standard, leather interior, heated seats — above GS baseline</li>
-                        <li>Priced significantly under a new 2026 GS at $42K</li>
-                        <li>Strong financing opportunity if dealer offers promo rates</li>
-                        <li>Likely no waiting for delivery — in stock now</li>
-                    </ul>
+            <p style="font-size: 13px; color: #666; margin-top: 15px;">
+                <strong>Observations:</strong> Used 2024 models dominate the value space. The 2026 redesign is commanding premium pricing ($45K+) but strong financing offers from Agincourt Mazda (0.99%) are making new units more competitive on monthly payments. 2025 inventory is thinning as it approaches clearance season.
+            </p>
+        </div>
+        
+        <div class="section">
+            <h2>🏆 Top 10 Best Deals</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 5%;">Rank</th>
+                        <th style="width: 8%;">Year</th>
+                        <th style="width: 10%;">Condition</th>
+                        <th style="width: 12%;">Price</th>
+                        <th style="width: 10%;">Mileage</th>
+                        <th style="width: 12%;">Trim</th>
+                        <th style="width: 10%;">vs Expected</th>
+                        <th style="width: 12%;">Dealer</th>
+                        <th style="width: 8%;">Rating</th>
+                        <th style="width: 13%;">Notes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>1</strong></td>
+                        <td>2025</td>
+                        <td>Used</td>
+                        <td><div class="price">$29,499</div></td>
+                        <td>19,141 km</td>
+                        <td>GS AWD</td>
+                        <td><span class="vs-expected underpriced">-12%</span></td>
+                        <td><a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-white-f771b7ff-eda8-4aae-9743-ca47bfc8217f" target="_blank">Jaz Auto Inc.</a></td>
+                        <td><span class="badge buy-now">BUY NOW</span></td>
+                        <td>Exceptional: low mileage, strong value, clean history likely.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>2</strong></td>
+                        <td>2024</td>
+                        <td>Used</td>
+                        <td><div class="price">$30,495</div></td>
+                        <td>58,848 km</td>
+                        <td>GS AWD</td>
+                        <td><span class="vs-expected underpriced">-7%</span></td>
+                        <td><a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-at-3-95-apr-clean-carfaxheated-seatsbli-gasoline-black-d67b8ed0-75ec-4ae5-a2cb-cf24b68605e6" target="_blank">Agincourt Mazda</a></td>
+                        <td><span class="badge buy-now">BUY NOW</span></td>
+                        <td>3.95% APR promo. Clean carfax stated. Strong entry price.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>3</strong></td>
+                        <td>2025</td>
+                        <td>Used</td>
+                        <td><div class="price">$29,700</div></td>
+                        <td>49,695 km</td>
+                        <td>GS</td>
+                        <td><span class="vs-expected underpriced">-10%</span></td>
+                        <td><a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-no-accident-leather-heated-seats-radar-cruise-gasoline-black-ea3469a6-5674-4045-b520-ccebb5111cb7" target="_blank">Tabangi Motors Kitchener</a></td>
+                        <td><span class="badge great-deal">Great Deal</span></td>
+                        <td>Clean history, leather, heated seats. Excellent value for 2025.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>4</strong></td>
+                        <td>2024</td>
+                        <td>Used</td>
+                        <td><div class="price">$28,990</div></td>
+                        <td>28,064 km</td>
+                        <td>GX AWD</td>
+                        <td><span class="vs-expected underpriced">-9%</span></td>
+                        <td><a href="https://www.autotrader.ca/offers/mazda-cx-5-gx-awd-smart-safety-sharp-looks-gasoline-black-cfcf33c7-dd62-4b51-b1bd-b63427ddab1e" target="_blank">401 Dixie Mazda</a></td>
+                        <td><span class="badge great-deal">Great Deal</span></td>
+                        <td>Low mileage, GX trim (more affordable), AWD. Smart value.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>5</strong></td>
+                        <td>2025</td>
+                        <td>Used</td>
+                        <td><div class="price">$29,995</div></td>
+                        <td>45,084 km</td>
+                        <td>GS</td>
+                        <td><span class="vs-expected underpriced">-10%</span></td>
+                        <td><a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-no-accident-leather-heated-seats-radar-cruise-gasoline-blue-c2431494-91b3-425a-83f3-09e43f76f454" target="_blank">Tabangi Motors Kitchener</a></td>
+                        <td><span class="badge great-deal">Great Deal</span></td>
+                        <td>No accidents, leather + heated seats. Solid 2025 bargain.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>6</strong></td>
+                        <td>2024</td>
+                        <td>Used</td>
+                        <td><div class="price">$30,498</div></td>
+                        <td>39,103 km</td>
+                        <td>GS</td>
+                        <td><span class="vs-expected underpriced">-6%</span></td>
+                        <td><a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-220-b-w-gasoline-grey-3f1887dc-1831-4a33-867f-b250973f6f55" target="_blank">Myers Barrhaven Toyota</a></td>
+                        <td><span class="badge great-deal">Great Deal</span></td>
+                        <td>Fair mileage, clean pricing. Financing option shown ($220/week).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>7</strong></td>
+                        <td>2024</td>
+                        <td>Used</td>
+                        <td><div class="price">$31,241</div></div></td>
+                        <td>55,567 km</td>
+                        <td>GS</td>
+                        <td><span class="vs-expected underpriced">-5%</span></td>
+                        <td><a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-gasoline-blue-f3e94ae3-56ac-4f5a-8856-7c4d5a22227c" target="_blank">Erin Mills Mazda</a></td>
+                        <td><span class="badge great-deal">Great Deal</span></td>
+                        <td>Solid pricing for higher-mileage 2024. Erin Mills known for fair deals.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>8</strong></td>
+                        <td>2025</td>
+                        <td>Used</td>
+                        <td><div class="price">$31,500</div></td>
+                        <td>33,495 km</td>
+                        <td>GS</td>
+                        <td><span class="vs-expected underpriced">-6%</span></td>
+                        <td><a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-no-accident-leather-heated-seats-radar-cruise-gasoline-black-6780b2a8-e5cf-4656-ab0b-d6c16467df66" target="_blank">Tabangi Motors Kitchener</a></td>
+                        <td><span class="badge great-deal">Great Deal</span></td>
+                        <td>Low mileage, leather, no accidents. Strong 2025 pick at threshold.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>9</strong></td>
+                        <td>2026</td>
+                        <td>New</td>
+                        <td><div class="price">$41,917</div></td>
+                        <td>9 km</td>
+                        <td>GS</td>
+                        <td><span class="vs-expected underpriced">-6%</span></td>
+                        <td><a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-gasoline-white-ca378cd1-6fe3-461f-9d0a-013ed32a455f" target="_blank">GYRO MAZDA</a></td>
+                        <td><span class="badge good">Good</span></td>
+                        <td>New 2026 GS at discount vs MSRP. No promo stated but solid price.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>10</strong></td>
+                        <td>2026</td>
+                        <td>New</td>
+                        <td><div class="price">$42,431</div></td>
+                        <td>696 km</td>
+                        <td>GS</td>
+                        <td><span class="vs-expected underpriced">-5%</span></td>
+                        <td><a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-may-special-offers--0-99-rate-available--in-gasoline-black-ce7cbfc3-35ff-4c90-b022-e0422f277aef" target="_blank">Agincourt Mazda</a></td>
+                        <td><span class="badge good">Good</span></td>
+                        <td>0.99% May promo. Demo/low mileage. Monthly payment becomes competitive.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="section">
+            <h2>🌟 Best Picks — Detailed Analysis</h2>
+            
+            <div class="pick-card">
+                <h3>#1: 2025 GS AWD — Jaz Auto Inc., Oakville | $29,499</h3>
+                <div class="pick-details">
+                    <div><strong>Mileage:</strong> 19,141 km</div>
+                    <div><strong>Condition:</strong> Used (Demo/Trade-In likely)</div>
+                    <div><strong>Trim:</strong> GS AWD</div>
+                    <div><strong>URL:</strong> <a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-white-f771b7ff-eda8-4aae-9743-ca47bfc8217f" target="_blank">View Listing</a></div>
                 </div>
-            </details>
-            <div class="dealer-location">
-                <a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-low-km--leather-interior--heated-seats--gasoline-black-2b5c5969-a6b8-4e2c-a04c-ecf2e5ed4d4c" class="dealer-link" target="_blank">View on AutoTrader →</a>
+                <p style="font-size: 13px; color: #444; margin-bottom: 10px;">
+                    <strong>Why #1:</strong> This is the strongest deal in the current market. A 2025 with under 20,000 km at $29,499 is 12% below market expectation. The mileage suggests a demo unit or early lease return — both are positive signals. You're getting a near-new vehicle with the full benefit of a newer model year for well under $30K.
+                </p>
+                <div class="financing">
+                    <strong>Estimated Monthly Payment (72 months, 6.5% APR, $2,500 down):</strong>
+                    $432–$445/month | Total cost: ~$33,800
+                </div>
+                <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                    <strong>Action:</strong> Call Jaz Auto immediately. This car will not last long at this price and mileage. Request full carfax, service records, and inspection before committing.
+                </p>
+            </div>
+            
+            <div class="pick-card">
+                <h3>#2: 2024 GS AWD — Agincourt Mazda, Scarborough | $30,495</h3>
+                <div class="pick-details">
+                    <div><strong>Mileage:</strong> 58,848 km</div>
+                    <div><strong>Condition:</strong> Used</div>
+                    <div><strong>Special:</strong> 3.95% APR Financing + Clean Carfax</div>
+                    <div><strong>URL:</strong> <a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-at-3-95-apr-clean-carfaxheated-seatsbli-gasoline-black-d67b8ed0-75ec-4ae5-a2cb-cf24b68605e6" target="_blank">View Listing</a></div>
+                </div>
+                <p style="font-size: 13px; color: #444; margin-bottom: 10px;">
+                    <strong>Why #2:</strong> The financing rate is the deciding factor here. 3.95% APR on a 2024 is exceptional — most used car rates are 5.99%–8.49%. At $30,495 with stated clean carfax, you're getting a solid 2024 GS AWD at a fair price *plus* the benefit of best-in-market financing. Agincourt has strong pricing discipline (per dealer stats).
+                </p>
+                <div class="financing">
+                    <strong>Estimated Monthly Payment (72 months, 3.95% APR, $2,500 down):</strong>
+                    $395–$405/month | Total cost: ~$32,800
+                </div>
+                <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                    <strong>Action:</strong> This combines two advantages: reasonable price + exceptional rate. The monthly payment is genuinely attractive. Confirm the rate is locked at point of sale and review the full carfax report.
+                </p>
+            </div>
+            
+            <div class="pick-card">
+                <h3>#3: 2026 GS — Agincourt Mazda, Scarborough (0.99% Promo) | $42,431</h3>
+                <div class="pick-details">
+                    <div><strong>Mileage:</strong> 696 km (Demo/Test Drive)</div>
+                    <div><strong>Condition:</strong> New / Demo</div>
+                    <div><strong>Special:</strong> 0.99% Financing (May Promo)</div>
+                    <div><strong>URL:</strong> <a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-may-special-offers--0-99-rate-available--in-gasoline-black-ce7cbfc3-35ff-4c90-b022-e0422f277aef" target="_blank">View Listing</a></div>
+                </div>
+                <p style="font-size: 13px; color: #444; margin-bottom: 10px;">
+                    <strong>Why #3:</strong> A new 2026 GS at 0.99% financing is a rare opportunity. At $42,431, this is above the base $39,200 MSRP, but the 0.99% rate (vs. typical 4–6% for new) more than makes up for it. The monthly payment becomes *very* competitive vs. a used 2025. You get a warranty, new model redesign, and the lowest available rate. The demo mileage is inconsequential on a new car.
+                </p>
+                <div class="financing">
+                    <strong>Estimated Monthly Payment (72 months, 0.99% APR, $2,500 down):</strong>
+                    $519–$530/month | Total cost: ~$39,800
+                </div>
+                <p style="font-size: 12px; color: #666; margin-top: 10px;">
+                    <strong>Action:</strong> This is close in monthly cost to a good used 2025, but you get a new car with full warranty. The 0.99% is time-limited (May promo). Confirm availability and rate lock immediately. This appeals to buyers willing to stretch $100–150/month for the assurance of a new vehicle.
+                </p>
             </div>
         </div>
         
-        <!-- Card 3: 2024 GS, 28k km, $28,990 -->
-        <div class="listing-card good">
-            <div class="rating-badge badge-good">Good</div>
-            <div class="price-section">
-                <div class="price-display">$28,990</div>
-                <div class="detail-value" style="font-size: 0.9rem; color: #666;">2024 GX AWD Smart Safety</div>
+        <div class="section">
+            <h2>⚠️ Avoid / Watchlist</h2>
+            
+            <div class="avoid-card">
+                <strong>Listing: 2025 Signature, Prima Mazda, Woodbridge | $43,999 @ 5,313 km</strong>
+                Status: <span style="color: #999;">SOLD/PENDING DELIVERY</span> — Do not pursue; vehicle is off market.
             </div>
-            <div class="price-signal good">
-                ✓ GX trim noted; solid mileage at fair price.
-            </div>
-            <div class="car-details">
-                <div class="detail-item">
-                    <div class="detail-label">Mileage</div>
-                    <div class="detail-value">28,064 km</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Condition</div>
-                    <div class="detail-value">Used</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Dealer</div>
-                    <div class="detail-value">401 Dixie Mazda</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Location</div>
-                    <div class="detail-value">Mississauga</div>
-                </div>
-            </div>
-            <div class="monthly-payment">
-                <strong>Est. Monthly (72mo, 6.5% used rate):</strong> ~$455
-            </div>
-            <div class="tags">
-                <span class="tag">GX Trim</span>
-                <span class="tag">AWD</span>
-                <span class="tag">Compact Price</span>
-            </div>
-            <details>
-                <summary>📋 Details & Notes</summary>
-                <div class="details-content">
-                    <ul>
-                        <li>GX is entry trim — no backup camera, fewer features vs. GS</li>
-                        <li>Mileage is conservative for year; clean smart safety rating</li>
-                        <li>Lowest monthly payment on this list but trim compromise</li>
-                        <li>Best for buyers prioritizing lowest cost over features</li>
-                        <li>Still includes AWD — good value for budget option</li>
-                    </ul>
-                </div>
-            </details>
-            <div class="dealer-location">
-                <a href="https://www.autotrader.ca/offers/mazda-cx-5-gx-awd-at-2-smart-safety-sharp-looks-gasoline-black-cfcf33c7-dd62-4b51-b1bd-b63427ddab1e" class="dealer-link" target="_blank">View on AutoTrader →</a>
-            </div>
-        </div>
-        
-        <!-- Card 4: 2024 GS, 50.9k km, $28,494 -->
-        <div class="listing-card good">
-            <div class="rating-badge badge-good">Good</div>
-            <div class="price-section">
-                <div class="price-display">$28,494</div>
-                <div class="detail-value" style="font-size: 0.9rem; color: #666;">2024 GX w/o CD</div>
-            </div>
-            <div class="car-details">
-                <div class="detail-item">
-                    <div class="detail-label">Mileage</div>
-                    <div class="detail-value">50,940 km</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Condition</div>
-                    <div class="detail-value">Used</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Dealer</div>
-                    <div class="detail-value">JP Motor Sales</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Location</div>
-                    <div class="detail-value">Burlington</div>
-                </div>
-            </div>
-            <div class="monthly-payment">
-                <strong>Est. Monthly (72mo, 6.5% used rate):</strong> ~$448
-            </div>
-            <div class="tags">
-                <span class="tag">Backup Camera</span>
-                <span class="tag">Bluetooth</span>
-                <span class="tag">Budget Entry</span>
-            </div>
-            <details>
-                <summary>📋 Details & Notes</summary>
-                <div class="details-content">
-                    <ul>
-                        <li>GX trim but includes backup camera — safer than typical GX</li>
-                        <li>Mileage is rising (50k+); typical wear expected</li>
-                        <li>Strong financing target for cost-conscious buyers</li>
-                        <li>Heated seats noted — modest comfort upgrade for GX</li>
-                    </ul>
-                </div>
-            </details>
-            <div class="dealer-location">
-                <a href="https://www.autotrader.ca/offers/mazda-cx-5-gx-w-o-cd-backup-cam--bluetooth--htd-seats--key-gasoline-blue-5304b80a-d8a5-444c-b4b5-8ad8664245c6" class="dealer-link" target="_blank">View on AutoTrader →</a>
-            </div>
-        </div>
-        
-        <!-- Card 5: 2024 GS, 54.3k km, $27,995 -->
-        <div class="listing-card good">
-            <div class="rating-badge badge-good">Good</div>
-            <div class="price-section">
-                <div class="price-display">$27,995</div>
-                <div class="detail-value" style="font-size: 0.9rem; color: #666;">2024 GS No Accident</div>
-            </div>
-            <div class="car-details">
-                <div class="detail-item">
-                    <div class="detail-label">Mileage</div>
-                    <div class="detail-value">54,383 km</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Condition</div>
-                    <div class="detail-value">Used</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Dealer</div>
-                    <div class="detail-value">Tabangi Motors</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Location</div>
-                    <div class="detail-value">Mississauga</div>
-                </div>
-            </div>
-            <div class="monthly-payment">
-                <strong>Est. Monthly (72mo, 6.5% used rate):</strong> ~$440
-            </div>
-            <div class="tags">
-                <span class="tag">No Accident</span>
-                <span class="tag">Leather</span>
-                <span class="tag">Radar Cruise</span>
-            </div>
-            <details>
-                <summary>📋 Details & Notes</summary>
-                <div class="details-content">
-                    <ul>
-                        <li>Clean accident history — strong confidence signal</li>
-                        <li>Mileage is moderate-to-high (54k); expect minor wear</li>
-                        <li>GS with leather &amp; radar cruise — above-baseline features</li>
-                        <li>Lowest absolute price on mobile report — good value at this mileage</li>
-                        <li>Tabangi has multiple listings — active dealer, likely competitive</li>
-                    </ul>
-                </div>
-            </details>
-            <div class="dealer-location">
-                <a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-no-accident-leather-heated-seats-radar-cruise-gasoline-black-438d337e-a25a-4239-8527-4e19c6c6f061" class="dealer-link" target="_blank">View on AutoTrader →</a>
-            </div>
-        </div>
-        
-        <!-- Card 6: 2025 GS, 38.6k km, $31,995 -->
-        <div class="listing-card great">
-            <div class="rating-badge badge-great">Great Deal</div>
-            <div class="price-section">
-                <div class="price-display">$31,995</div>
-                <div class="detail-value" style="font-size: 0.9rem; color: #666;">2025 GS No Accident Leather</div>
-            </div>
-            <div class="price-signal good">
-                ✓ 2025 near-new with excellent features at fair price.
-            </div>
-            <div class="car-details">
-                <div class="detail-item">
-                    <div class="detail-label">Mileage</div>
-                    <div class="detail-value">38,655 km</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Condition</div>
-                    <div class="detail-value">Used</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Dealer</div>
-                    <div class="detail-value">Tabangi Motors</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Location</div>
-                    <div class="detail-value">Mississauga</div>
-                </div>
-            </div>
-            <div class="monthly-payment">
-                <strong>Est. Monthly (72mo, 6.5% used rate):</strong> ~$502
-            </div>
-            <div class="tags">
-                <span class="tag new">2025 Model</span>
-                <span class="tag">No Accident</span>
-                <span class="tag">Radar Cruise</span>
-            </div>
-            <details>
-                <summary>📋 Details & Notes</summary>
-                <div class="details-content">
-                    <ul>
-                        <li>2025 model year — newer than average listing</li>
-                        <li>Clean accident history; leather &amp; heated seats included</li>
-                        <li>Mileage is moderate; likely demo or early trade-in</li>
-                        <li>Priced $4–5K under new 2026 GS equivalent</li>
-                        <li>Strong alternative to new if financing rates are similar</li>
-                    </ul>
-                </div>
-            </details>
-            <div class="dealer-location">
-                <a href="https://www.autotrader.ca/offers/mazda-cx-5-gs-no-accident-leather-heated-seats-radar-cruise-gasoline-black-6b6e48cc-3445-4459-bb8c-d0e6172f0b7d" class="dealer-link" target="_blank">View on AutoTrader →</a>
-            </div>
-        </div>
-        
-        <!-- Card 7: 2026 GX, $39,017 (New) -->
-        <div class="listing-card good">
-            <div class="rating-badge badge-good">Good</div>
-            <div class="price-section">
-                <div class="price-display">$39,017</div>
-                <div class="detail-value" style="font-size: 0.9rem; color: #666;">2026 GX New</div>
-            </div>
-            <div class="price-signal good">
-                ✓ New vehicle at entry MSRP — no negotiation risk.
-            </div>
-            <div class="car-details">
-                <div class="detail-item">
-                    <div class="detail-label">Mileage</div>
-                    <div class="detail-value">0 km</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Condition</div>
-                    <div class="detail-value">New</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Dealer</div>
-                    <div class="detail-value">GYRO MAZDA</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Location</div>
-                    <div class="detail-value">Toronto</div>
-                </div>
-            </div>
-            <div class="monthly-payment">
-                <strong>Est. Monthly (72mo, 4.5% new rate w/ promo):</strong> ~$571
-            </div>
-            <div class="tags">
-                <span class="tag new">Brand New</span>
-                <span class="tag">Warranty</span>
-                <span class="tag">Full Redesign</span>
-            </div>
-            <details>
-                <summary>📋 Details & Notes</summary>
-                <div class="details-content">
-                    <ul>
-                        <li>2026 full redesign — latest technology &amp; safety features</li>
-                        <li>GX is entry trim but new car warranty covers all systems</li>
-                        <li>New rate assumption 4.5% (Mazda Financial Services promo likely available)</li>
-                        <li>Monthly payment competitive with well-optioned used vehicles</li>
-                        <li>GX does not include backup camera — verify if required</li>
-                        <li>G
+            
+            <div class="avoid-card">
+                <strong>Listing: 2026 GT AWD, Westowne
