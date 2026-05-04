@@ -11,11 +11,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 31025,
       "vs_expected_pct": 7.3,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -57,11 +57,11 @@
       "dealer": "YORKDALE DUFFERIN MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -80,11 +80,11 @@
       "dealer": "PRIMA MAZDA",
       "location": "WOODBRIDGE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -126,11 +126,11 @@
       "dealer": "Mazda of Toronto",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -176,11 +176,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -199,11 +199,11 @@
       "dealer": "401 Dixie Hyundai",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -222,11 +222,11 @@
       "dealer": "Volkswagen Villa",
       "location": "THORNHILL",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -268,11 +268,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -314,11 +314,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -337,11 +337,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -360,11 +360,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -383,11 +383,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -429,11 +429,11 @@
       "dealer": "AIRPORT MAZDA OF TORONTO",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -452,11 +452,11 @@
       "dealer": "Tabangi Motors",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -479,11 +479,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -502,11 +502,11 @@
       "dealer": "AutoPark Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 35526,
       "vs_expected_pct": -10.0,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -548,11 +548,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -594,11 +594,11 @@
       "dealer": "MORNINGSIDE NISSAN",
       "location": "Toronto",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -644,11 +644,11 @@
       "dealer": "Tabangi Motors",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -713,11 +713,11 @@
       "dealer": "Tabangi Motors",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -736,11 +736,11 @@
       "dealer": "Mazda of Richmond Hill",
       "location": "RICHMOND HILL",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -759,11 +759,11 @@
       "dealer": "Tabangi Motors",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -805,11 +805,11 @@
       "dealer": "Tabangi Motors",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -851,11 +851,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -874,11 +874,11 @@
       "dealer": "AIRPORT MAZDA OF TORONTO",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -897,11 +897,11 @@
       "dealer": "Tabangi Motors",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 23725,
       "vs_expected_pct": 18.0,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -943,11 +943,11 @@
       "dealer": "Volkswagen DowntownToronto",
       "location": "Toronto",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -966,11 +966,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -989,11 +989,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1058,11 +1058,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1081,11 +1081,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1104,11 +1104,11 @@
       "dealer": "MAPLE MAZDA",
       "location": "VAUGHAN",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1127,11 +1127,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 31025,
       "vs_expected_pct": 24.8,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1196,11 +1196,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1219,11 +1219,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1242,11 +1242,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1288,11 +1288,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1334,11 +1334,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1357,11 +1357,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1380,11 +1380,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1403,11 +1403,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1426,11 +1426,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1449,11 +1449,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1472,11 +1472,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1518,11 +1518,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1541,11 +1541,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1587,11 +1587,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1633,11 +1633,11 @@
       "dealer": "Markham Mazda",
       "location": "MARKHAM",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1656,11 +1656,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1679,11 +1679,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1702,11 +1702,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1766,20 +1766,24 @@
       "year": 2025,
       "trim": "GS AWD",
       "condition": "used",
-      "price": 31588,
+      "price": 30688,
       "km": 52840,
       "dealer": "AJAX NISSAN",
       "location": "AJAX",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
           "price": 31588
+        },
+        {
+          "date": "2026-05-04",
+          "price": 30688
         }
       ]
     },
@@ -1794,11 +1798,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 20805,
       "vs_expected_pct": 49.0,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1817,11 +1821,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1840,11 +1844,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1932,11 +1936,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1955,11 +1959,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 23725,
       "vs_expected_pct": 30.7,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -1978,11 +1982,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2001,11 +2005,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2024,11 +2028,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2070,11 +2074,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2093,11 +2097,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2162,11 +2166,11 @@
       "dealer": "WHITBY MAZDA",
       "location": "WHITBY",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2185,11 +2189,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2212,11 +2216,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2262,11 +2266,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 20805,
       "vs_expected_pct": 49.0,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2285,11 +2289,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2400,11 +2404,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2469,11 +2473,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2492,11 +2496,11 @@
       "dealer": "Curve Motors",
       "location": "North York",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2515,11 +2519,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2561,11 +2565,11 @@
       "dealer": "Agincourt Mazda",
       "location": "SCARBOROUGH",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 23725,
       "vs_expected_pct": 28.5,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2611,11 +2615,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2634,11 +2638,11 @@
       "dealer": "WHITBY MAZDA",
       "location": "WHITBY",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 20805,
       "vs_expected_pct": 43.8,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2680,11 +2684,11 @@
       "dealer": "ERIN DODGE CHRYSLER JEEP RAM",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2707,11 +2711,11 @@
       "dealer": "WHITBY MAZDA",
       "location": "WHITBY",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2730,11 +2734,11 @@
       "dealer": "AIRPORT MAZDA OF TORONTO",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2753,11 +2757,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2799,11 +2803,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2868,11 +2872,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2891,11 +2895,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2914,11 +2918,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -2960,11 +2964,11 @@
       "dealer": "JP Motors Sales",
       "location": "BURLINGTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3033,11 +3037,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 20805,
       "vs_expected_pct": 46.6,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3083,11 +3087,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 23725,
       "vs_expected_pct": 31.9,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3225,11 +3229,11 @@
       "dealer": "Agincourt Mazda",
       "location": "SCARBOROUGH",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 23725,
       "vs_expected_pct": 30.6,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3275,11 +3279,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3321,11 +3325,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3344,11 +3348,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3436,11 +3440,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 35526,
       "vs_expected_pct": 9.4,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3459,11 +3463,11 @@
       "dealer": "401 Dixie Mazda",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3482,11 +3486,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 20805,
       "vs_expected_pct": 52.6,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3528,11 +3532,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3551,11 +3555,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3620,11 +3624,11 @@
       "dealer": "MENZIES CHRYSLER",
       "location": "WHITBY",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3647,11 +3651,11 @@
       "dealer": "Auto Planet Durham",
       "location": "Clarington",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3693,11 +3697,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3716,11 +3720,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3785,11 +3789,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3808,11 +3812,11 @@
       "dealer": "Mark Wilsons Better Used Cars",
       "location": "Guelph",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3831,11 +3835,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3946,11 +3950,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -3992,11 +3996,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4130,11 +4134,11 @@
       "dealer": "WHITBY MAZDA",
       "location": "WHITBY",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4157,11 +4161,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4171,20 +4175,20 @@
     },
     "319b3769-7eb5-4bb3-92f7-0f2bf657c690": {
       "listing_id": "319b3769-7eb5-4bb3-92f7-0f2bf657c690",
-      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs--awd--heated-seats--blind-spot--spring-spec-gasoline-grey-319b3769-7eb5-4bb3-92f7-0f2bf657c690",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs--awd--sold-by-jason-thank-you--gasoline-grey-319b3769-7eb5-4bb3-92f7-0f2bf657c690",
       "year": 2025,
-      "trim": "GS | AWD | HEATED SEATS | BLIND SPOT | SPRING SPEC",
+      "trim": "GS | AWD | SOLD BY JASON, THANK YOU!!! |",
       "condition": "used",
       "price": 30995,
       "km": 36675,
       "dealer": "NIAGARA CHRYSLER DODGE JEEP",
       "location": "NIAGARA FALLS",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4203,11 +4207,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4345,11 +4349,11 @@
       "dealer": "Subaru of Hamilton",
       "location": "Hamilton",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4368,11 +4372,11 @@
       "dealer": "AIRPORT MAZDA OF TORONTO",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 35526,
       "vs_expected_pct": 4.8,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4391,11 +4395,11 @@
       "dealer": "Tabangi Motors Kitchener",
       "location": "Kitchener",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4441,11 +4445,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4537,11 +4541,11 @@
       "dealer": "Tabangi Motors Kitchener",
       "location": "Kitchener",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4583,11 +4587,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4606,11 +4610,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4652,11 +4656,11 @@
       "dealer": "Tabangi Motors Kitchener",
       "location": "Kitchener",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4679,11 +4683,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4752,11 +4756,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4798,11 +4802,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4844,11 +4848,11 @@
       "dealer": "Mark Wilsons Better Used Cars",
       "location": "Guelph",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4871,11 +4875,11 @@
       "dealer": "Tabangi Motors Kitchener",
       "location": "Kitchener",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4898,11 +4902,11 @@
       "dealer": "Tabangi Motors Kitchener",
       "location": "Kitchener",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4921,11 +4925,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4942,13 +4946,13 @@
       "price": 42511,
       "km": 150,
       "dealer": "Motion Mazda",
-      "location": "Orangeville",
+      "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -4958,24 +4962,28 @@
     },
     "792cc59a-42f3-426e-88ab-5fe6837062ec": {
       "listing_id": "792cc59a-42f3-426e-88ab-5fe6837062ec",
-      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd--heated-seats--carplay-gasoline-blue-792cc59a-42f3-426e-88ab-5fe6837062ec",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-gasoline-blue-792cc59a-42f3-426e-88ab-5fe6837062ec",
       "year": 2025,
-      "trim": "GS AWD | HEATED SEATS | CARPLAY",
+      "trim": "GS",
       "condition": "used",
-      "price": 30000,
+      "price": 29500,
       "km": 56661,
-      "dealer": "Kitchener AUTOMART",
+      "dealer": "Kitchener Automart",
       "location": "Kitchener",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
           "price": 30000
+        },
+        {
+          "date": "2026-05-04",
+          "price": 29500
         }
       ]
     },
@@ -4990,11 +4998,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5013,11 +5021,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5036,11 +5044,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5059,11 +5067,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5082,11 +5090,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5125,14 +5133,14 @@
       "condition": "new",
       "price": 39988,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5174,11 +5182,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5194,14 +5202,14 @@
       "condition": "new",
       "price": 40088,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5217,14 +5225,14 @@
       "condition": "new",
       "price": 39988,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5240,14 +5248,14 @@
       "condition": "new",
       "price": 39988,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5263,14 +5271,14 @@
       "condition": "new",
       "price": 42488,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5286,14 +5294,14 @@
       "condition": "new",
       "price": 42488,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5309,14 +5317,14 @@
       "condition": "new",
       "price": 42488,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5332,14 +5340,14 @@
       "condition": "new",
       "price": 42788,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5378,14 +5386,14 @@
       "condition": "new",
       "price": 42488,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5401,14 +5409,14 @@
       "condition": "new",
       "price": 42888,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5424,14 +5432,14 @@
       "condition": "new",
       "price": 42988,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5542,11 +5550,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5631,14 +5639,14 @@
       "condition": "new",
       "price": 47488,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5654,14 +5662,14 @@
       "condition": "new",
       "price": 47488,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5700,14 +5708,14 @@
       "condition": "new",
       "price": 47988,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5749,11 +5757,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5769,14 +5777,14 @@
       "condition": "new",
       "price": 47888,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5792,14 +5800,14 @@
       "condition": "new",
       "price": 47788,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5818,11 +5826,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5910,11 +5918,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5930,14 +5938,14 @@
       "condition": "new",
       "price": 49988,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -5976,14 +5984,14 @@
       "condition": "new",
       "price": 50288,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6002,11 +6010,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6025,11 +6033,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6045,14 +6053,14 @@
       "condition": "new",
       "price": 50238,
       "km": 200,
-      "dealer": "AJAX MAZDA",
+      "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6117,11 +6125,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6140,11 +6148,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6163,11 +6171,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6209,11 +6217,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6232,11 +6240,11 @@
       "dealer": "Stratford Kia",
       "location": "Stratford",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6269,24 +6277,28 @@
     },
     "a4b5e5e4-1f4f-4e81-9dbb-4308af95c878": {
       "listing_id": "a4b5e5e4-1f4f-4e81-9dbb-4308af95c878",
-      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-gasoline-blue-a4b5e5e4-1f4f-4e81-9dbb-4308af95c878",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5--awd--2-5l--apple--android--north-bay--gasoline-blue-a4b5e5e4-1f4f-4e81-9dbb-4308af95c878",
       "year": 2025,
-      "trim": "GT",
+      "trim": "| AWD | 2.5L | Apple | Android | North Bay |",
       "condition": "used",
-      "price": 33999,
+      "price": 33777,
       "km": 47708,
       "dealer": "North Bay Chrysler",
       "location": "North Bay",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
           "price": 33999
+        },
+        {
+          "date": "2026-05-04",
+          "price": 33777
         }
       ]
     },
@@ -6351,11 +6363,11 @@
       "dealer": "MOFFATT'S MAZDA",
       "location": "BARRIE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 23725,
       "vs_expected_pct": 34.9,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6397,11 +6409,11 @@
       "dealer": "Guelph Hyundai",
       "location": "Guelph",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6420,11 +6432,11 @@
       "dealer": "MOFFATT'S MAZDA",
       "location": "BARRIE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 23725,
       "vs_expected_pct": 34.9,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6484,20 +6496,24 @@
       "year": 2025,
       "trim": "GS  LEATHERETTE - AWD - HEATED STEERING WHEEL",
       "condition": "used",
-      "price": 33495,
+      "price": 33995,
       "km": 45048,
       "dealer": "MOFFATT'S MAZDA",
-      "location": "Barrie",
+      "location": "BARRIE",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
           "price": 33495
+        },
+        {
+          "date": "2026-05-04",
+          "price": 33995
         }
       ]
     },
@@ -6558,11 +6574,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6581,11 +6597,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6650,11 +6666,11 @@
       "dealer": "Waterloo Honda",
       "location": "Waterloo",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6696,11 +6712,11 @@
       "dealer": "MOFFATT'S MAZDA",
       "location": "BARRIE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6769,11 +6785,11 @@
       "dealer": "417 Nissan",
       "location": "OTTAWA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 31324,
       "vs_expected_pct": 6.6,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -6934,11 +6950,11 @@
       "dealer": "Agincourt Mazda",
       "location": "SCARBOROUGH",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -7026,11 +7042,11 @@
       "dealer": "ROSE CITY CHRYSLER DODGE JEEP",
       "location": "WELLAND",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -7254,13 +7270,13 @@
       "price": 50236,
       "km": 89,
       "dealer": "401 Dixie Mazda",
-      "location": "Mississauga",
+      "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-04-26",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-04-26",
-      "last_seen": "2026-04-26",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-04-26",
@@ -7532,11 +7548,11 @@
       "dealer": "MAPLE MAZDA",
       "location": "VAUGHAN",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7555,11 +7571,11 @@
       "dealer": "Golden Mile Chrysler",
       "location": "Toronto",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7578,11 +7594,11 @@
       "dealer": "Tabangi Motors",
       "location": "MISSISSAUGA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 23725,
       "vs_expected_pct": 18.0,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7647,11 +7663,11 @@
       "dealer": "GOOD FELLOW'S AUTO WHOLESALERS",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7670,11 +7686,11 @@
       "dealer": "Agincourt Mazda",
       "location": "SCARBOROUGH",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7693,11 +7709,11 @@
       "dealer": "GOOD FELLOW'S AUTO WHOLESALERS",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7716,11 +7732,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7739,11 +7755,11 @@
       "dealer": "YORKDALE DUFFERIN MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7762,11 +7778,11 @@
       "dealer": "Mazda of Richmond Hill",
       "location": "RICHMOND HILL",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7785,11 +7801,11 @@
       "dealer": "MAPLE MAZDA",
       "location": "VAUGHAN",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7808,11 +7824,11 @@
       "dealer": "Mazda of Toronto",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7854,11 +7870,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7877,11 +7893,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7900,11 +7916,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7923,11 +7939,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7969,11 +7985,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -7992,11 +8008,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8038,11 +8054,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8061,11 +8077,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8084,11 +8100,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8153,11 +8169,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8199,11 +8215,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8222,11 +8238,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8245,11 +8261,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8268,11 +8284,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8314,11 +8330,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8383,11 +8399,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8406,11 +8422,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8429,11 +8445,11 @@
       "dealer": "GYRO MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8452,11 +8468,11 @@
       "dealer": "427/QEW KIA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8475,11 +8491,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8498,11 +8514,11 @@
       "dealer": "WESTOWNE MAZDA",
       "location": "ETOBICOKE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8544,11 +8560,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8567,11 +8583,11 @@
       "dealer": "WHITBY MAZDA",
       "location": "WHITBY",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8682,11 +8698,11 @@
       "dealer": "Achilles Mazda of Milton",
       "location": "MILTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8705,11 +8721,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8728,11 +8744,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8843,11 +8859,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8866,11 +8882,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8889,11 +8905,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8912,11 +8928,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -8958,11 +8974,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9004,11 +9020,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9027,11 +9043,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9050,11 +9066,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9096,11 +9112,11 @@
       "dealer": "Mazda Of Brampton",
       "location": "BRAMPTON",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9142,11 +9158,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9165,11 +9181,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9211,11 +9227,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9234,11 +9250,11 @@
       "dealer": "MOFFATT'S MAZDA",
       "location": "BARRIE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9257,11 +9273,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9280,11 +9296,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9303,11 +9319,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9326,11 +9342,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9349,11 +9365,11 @@
       "dealer": "AIRPORT MAZDA OF TORONTO",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9372,11 +9388,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9487,11 +9503,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9579,11 +9595,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9602,11 +9618,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9625,11 +9641,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9648,11 +9664,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9671,11 +9687,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9717,11 +9733,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9740,11 +9756,11 @@
       "dealer": "Erin Mills Mazda",
       "location": "Mississauga",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9786,11 +9802,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9809,11 +9825,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9832,11 +9848,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9855,11 +9871,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9878,11 +9894,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9901,11 +9917,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9924,11 +9940,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9947,11 +9963,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9970,11 +9986,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -9993,11 +10009,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10016,11 +10032,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10039,11 +10055,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10062,11 +10078,11 @@
       "dealer": "Ajax Mazda",
       "location": "Ajax",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10085,11 +10101,11 @@
       "dealer": "Car-On Auto Sales",
       "location": "OTTAWA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": 33616,
       "vs_expected_pct": 3.9,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10108,11 +10124,11 @@
       "dealer": "MOFFATT'S MAZDA",
       "location": "BARRIE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10131,11 +10147,11 @@
       "dealer": "AIRPORT MAZDA OF TORONTO",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10154,11 +10170,11 @@
       "dealer": "MOFFATT'S MAZDA",
       "location": "BARRIE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10177,11 +10193,11 @@
       "dealer": "Waterloo Honda",
       "location": "Waterloo",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10200,11 +10216,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10223,11 +10239,11 @@
       "dealer": "Waterloo Honda",
       "location": "Waterloo",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10269,11 +10285,11 @@
       "dealer": "MOFFATT'S MAZDA",
       "location": "BARRIE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10292,11 +10308,11 @@
       "dealer": "ROSE CITY CHRYSLER DODGE JEEP",
       "location": "WELLAND",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10315,11 +10331,11 @@
       "dealer": "Mazda of Toronto",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10338,11 +10354,11 @@
       "dealer": "YORKDALE DUFFERIN MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10384,11 +10400,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10407,11 +10423,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10430,11 +10446,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10453,11 +10469,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10476,11 +10492,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10499,11 +10515,11 @@
       "dealer": "Motion Mazda",
       "location": "ORANGEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10545,11 +10561,11 @@
       "dealer": "Car-On Auto Sales",
       "location": "OTTAWA",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10568,11 +10584,11 @@
       "dealer": "Bayview Auto Sales",
       "location": "BELLEVILLE",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10614,11 +10630,11 @@
       "dealer": "YORKDALE DUFFERIN MAZDA",
       "location": "TORONTO",
       "is_cpo": false,
-      "scraped_at": "2026-05-02",
+      "scraped_at": "2026-05-04",
       "expected_value": null,
       "vs_expected_pct": null,
       "first_seen": "2026-05-02",
-      "last_seen": "2026-05-02",
+      "last_seen": "2026-05-04",
       "price_history": [
         {
           "date": "2026-05-02",
@@ -10740,15 +10756,1740 @@
           "price": 32995
         }
       ]
+    },
+    "cadfd98d-76ab-4644-ac61-f97693db65c3": {
+      "listing_id": "cadfd98d-76ab-4644-ac61-f97693db65c3",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-no-accident-leather-heated-seats-radar-cruise-gasoline-grey-cadfd98d-76ab-4644-ac61-f97693db65c3",
+      "year": 2024,
+      "trim": "GS  No Accident Leather Heated Seats Radar Cruise",
+      "condition": "used",
+      "price": 27995,
+      "km": 58130,
+      "dealer": "Tabangi Motors",
+      "location": "MISSISSAUGA",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": 23725,
+      "vs_expected_pct": 18.0,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 27995
+        }
+      ]
+    },
+    "75c5550b-23a5-4d7c-8ad0-9f3bd457afa9": {
+      "listing_id": "75c5550b-23a5-4d7c-8ad0-9f3bd457afa9",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-signature-sold-pending-delivery-gasoline-grey-75c5550b-23a5-4d7c-8ad0-9f3bd457afa9",
+      "year": 2025,
+      "trim": "SIGNATURE/ SOLD/ PENDING DELIVERY",
+      "condition": "used",
+      "price": 43999,
+      "km": 5313,
+      "dealer": "PRIMA MAZDA",
+      "location": "WOODBRIDGE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 43999
+        }
+      ]
+    },
+    "27f45186-8524-4431-9cab-df30c8bceaf0": {
+      "listing_id": "27f45186-8524-4431-9cab-df30c8bceaf0",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-black-27f45186-8524-4431-9cab-df30c8bceaf0",
+      "year": 2025,
+      "trim": "GS AWD",
+      "condition": "used",
+      "price": 33999,
+      "km": 27727,
+      "dealer": "MAPLE MAZDA",
+      "location": "VAUGHAN",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": 31324,
+      "vs_expected_pct": 8.5,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 33999
+        }
+      ]
+    },
+    "b95798d3-c80d-49a9-b03d-4870fb27ac32": {
+      "listing_id": "b95798d3-c80d-49a9-b03d-4870fb27ac32",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-automatic-headlights-power-seats-remo-gasoline-blue-b95798d3-c80d-49a9-b03d-4870fb27ac32",
+      "year": 2025,
+      "trim": "GS AWD - Automatic Headlights - Power Seats - Remo",
+      "condition": "used",
+      "price": 31690,
+      "km": 62003,
+      "dealer": "Golden Mile Chrysler",
+      "location": "Toronto",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 31690
+        }
+      ]
+    },
+    "78317583-3a5d-4fbc-b6d1-88f47bddab57": {
+      "listing_id": "78317583-3a5d-4fbc-b6d1-88f47bddab57",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-signature-awd-low-km-one-owner-gasoline-grey-78317583-3a5d-4fbc-b6d1-88f47bddab57",
+      "year": 2024,
+      "trim": "SIGNATURE AWD! LOW KM! ONE OWNER!",
+      "condition": "used",
+      "price": 38990,
+      "km": 23667,
+      "dealer": "Mazda of Toronto",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 38990
+        }
+      ]
+    },
+    "d22285fc-2107-4cf0-b1df-c3a36d28981a": {
+      "listing_id": "d22285fc-2107-4cf0-b1df-c3a36d28981a",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-sport-design-awd-sunroof-bluetooth-and-more-gasoline-black-d22285fc-2107-4cf0-b1df-c3a36d28981a",
+      "year": 2025,
+      "trim": "Sport Design AWD SUNROOF , BLUETOOTH AND MORE",
+      "condition": "used",
+      "price": 43188,
+      "km": 18714,
+      "dealer": "WESTOWNE MAZDA",
+      "location": "ETOBICOKE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 43188
+        }
+      ]
+    },
+    "452d2aca-187c-49bf-bb1d-2e620d90e6da": {
+      "listing_id": "452d2aca-187c-49bf-bb1d-2e620d90e6da",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-extended-warranty-no-accidents-leather-seat-gasoline-black-452d2aca-187c-49bf-bb1d-2e620d90e6da",
+      "year": 2025,
+      "trim": "GS/AWD/EXTENDED WARRANTY/NO ACCIDENTS/LEATHER SEAT",
+      "condition": "used",
+      "price": 33999,
+      "km": 48558,
+      "dealer": "MAPLE MAZDA",
+      "location": "VAUGHAN",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 33999
+        }
+      ]
+    },
+    "ebe55c79-e9eb-4703-ad17-2914eed74677": {
+      "listing_id": "ebe55c79-e9eb-4703-ad17-2914eed74677",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-signature-gasoline-grey-ebe55c79-e9eb-4703-ad17-2914eed74677",
+      "year": 2025,
+      "trim": "Signature",
+      "condition": "new",
+      "price": 43492,
+      "km": 16592,
+      "dealer": "WESTOWNE MAZDA",
+      "location": "ETOBICOKE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 43492
+        }
+      ]
+    },
+    "5ff8e4f9-ee29-4366-8733-5c9eaf466b64": {
+      "listing_id": "5ff8e4f9-ee29-4366-8733-5c9eaf466b64",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-sport-loaded-and-more-gasoline-grey-5ff8e4f9-ee29-4366-8733-5c9eaf466b64",
+      "year": 2025,
+      "trim": "GT SPORT LOADED AND MORE",
+      "condition": "used",
+      "price": 37588,
+      "km": 56721,
+      "dealer": "WESTOWNE MAZDA",
+      "location": "ETOBICOKE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 37588
+        }
+      ]
+    },
+    "260f2bbb-9266-49fa-ba17-06e69d310033": {
+      "listing_id": "260f2bbb-9266-49fa-ba17-06e69d310033",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-blue-260f2bbb-9266-49fa-ba17-06e69d310033",
+      "year": 2026,
+      "trim": "GS AWD",
+      "condition": "new",
+      "price": 42586,
+      "km": 89,
+      "dealer": "401 Dixie Mazda",
+      "location": "MISSISSAUGA",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 42586
+        }
+      ]
+    },
+    "e81f96b3-702c-4624-b632-308731df57d2": {
+      "listing_id": "e81f96b3-702c-4624-b632-308731df57d2",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gsawdcarplayheated-seats-gasoline-blue-e81f96b3-702c-4624-b632-308731df57d2",
+      "year": 2025,
+      "trim": "GS|AWD|CarPlay|Heated Seats",
+      "condition": "used",
+      "price": 30985,
+      "km": 50242,
+      "dealer": "PICKERING HONDA",
+      "location": "PICKERING",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 30985
+        }
+      ]
+    },
+    "122f03c5-da1d-4222-8799-dea5c96f55ed": {
+      "listing_id": "122f03c5-da1d-4222-8799-dea5c96f55ed",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-gasoline-blue-122f03c5-da1d-4222-8799-dea5c96f55ed",
+      "year": 2025,
+      "trim": "GS",
+      "condition": "used",
+      "price": 31803,
+      "km": 55137,
+      "dealer": "Erin Mills Mazda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 31803
+        }
+      ]
+    },
+    "ca378cd1-6fe3-461f-9d0a-013ed32a455f": {
+      "listing_id": "ca378cd1-6fe3-461f-9d0a-013ed32a455f",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-gasoline-white-ca378cd1-6fe3-461f-9d0a-013ed32a455f",
+      "year": 2026,
+      "trim": "GS",
+      "condition": "new",
+      "price": 41917,
+      "km": 0,
+      "dealer": "GYRO MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 41917
+        }
+      ]
+    },
+    "2e303b7c-2280-45e2-a4ba-09757a60a1aa": {
+      "listing_id": "2e303b7c-2280-45e2-a4ba-09757a60a1aa",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gx-gasoline-black-2e303b7c-2280-45e2-a4ba-09757a60a1aa",
+      "year": 2026,
+      "trim": "GX",
+      "condition": "new",
+      "price": 38617,
+      "km": 0,
+      "dealer": "GYRO MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 38617
+        }
+      ]
+    },
+    "377b98b5-fc90-45d4-b89e-9804d92c1ff0": {
+      "listing_id": "377b98b5-fc90-45d4-b89e-9804d92c1ff0",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gx-gasoline-white-377b98b5-fc90-45d4-b89e-9804d92c1ff0",
+      "year": 2026,
+      "trim": "GX",
+      "condition": "new",
+      "price": 39017,
+      "km": 150,
+      "dealer": "GYRO MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 39017
+        }
+      ]
+    },
+    "05d5662a-8392-469f-bb42-04d8e3bf7ffe": {
+      "listing_id": "05d5662a-8392-469f-bb42-04d8e3bf7ffe",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-gasoline-blue-05d5662a-8392-469f-bb42-04d8e3bf7ffe",
+      "year": 2026,
+      "trim": "GS",
+      "condition": "new",
+      "price": 43150,
+      "km": 9,
+      "dealer": "WESTOWNE MAZDA",
+      "location": "ETOBICOKE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 43150
+        }
+      ]
+    },
+    "ae864234-933a-4281-bd7c-3a17b936cbde": {
+      "listing_id": "ae864234-933a-4281-bd7c-3a17b936cbde",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-low-km--apple-carplay--gt-awd-gasoline-white-ae864234-933a-4281-bd7c-3a17b936cbde",
+      "year": 2024,
+      "trim": "GT Low Km | Apple Carplay | GT AWD",
+      "condition": "used",
+      "price": 36885,
+      "km": 25322,
+      "dealer": "GYRO MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 36885
+        }
+      ]
+    },
+    "7294c8f9-c09e-4ad2-abeb-c0fb94ce9276": {
+      "listing_id": "7294c8f9-c09e-4ad2-abeb-c0fb94ce9276",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gx-awd--cloth--heated-seats--accident-free-gasoline-white-7294c8f9-c09e-4ad2-abeb-c0fb94ce9276",
+      "year": 2025,
+      "trim": "GX Awd | Cloth | Heated Seats | Accident Free",
+      "condition": "used",
+      "price": 35721,
+      "km": 9139,
+      "dealer": "401 Dixie Hyundai",
+      "location": "MISSISSAUGA",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 35721
+        }
+      ]
+    },
+    "56c919de-bbca-4bfc-99da-d20c20876627": {
+      "listing_id": "56c919de-bbca-4bfc-99da-d20c20876627",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gx-gasoline-grey-56c919de-bbca-4bfc-99da-d20c20876627",
+      "year": 2026,
+      "trim": "GX",
+      "condition": "new",
+      "price": 39017,
+      "km": 150,
+      "dealer": "GYRO MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 39017
+        }
+      ]
+    },
+    "38b84175-f824-41ee-b38e-4dcf2ab1640d": {
+      "listing_id": "38b84175-f824-41ee-b38e-4dcf2ab1640d",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-gasoline-black-38b84175-f824-41ee-b38e-4dcf2ab1640d",
+      "year": 2026,
+      "trim": "GT",
+      "condition": "new",
+      "price": 44517,
+      "km": 0,
+      "dealer": "GYRO MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 44517
+        }
+      ]
+    },
+    "0fff1a78-af8b-4239-9b5e-48c3d8841d1d": {
+      "listing_id": "0fff1a78-af8b-4239-9b5e-48c3d8841d1d",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-signature-gasoline-white-0fff1a78-af8b-4239-9b5e-48c3d8841d1d",
+      "year": 2024,
+      "trim": "Signature",
+      "condition": "used",
+      "price": 38529,
+      "km": 44712,
+      "dealer": "Erin Mills Mazda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 38529
+        }
+      ]
+    },
+    "ac2fd489-1ad2-4329-b592-9c61c51f28cf": {
+      "listing_id": "ac2fd489-1ad2-4329-b592-9c61c51f28cf",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-gasoline-grey-ac2fd489-1ad2-4329-b592-9c61c51f28cf",
+      "year": 2026,
+      "trim": "GT",
+      "condition": "new",
+      "price": 46200,
+      "km": null,
+      "dealer": "WESTOWNE MAZDA",
+      "location": "ETOBICOKE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 46200
+        }
+      ]
+    },
+    "f3e94ae3-56ac-4f5a-8856-7c4d5a22227c": {
+      "listing_id": "f3e94ae3-56ac-4f5a-8856-7c4d5a22227c",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-gasoline-blue-f3e94ae3-56ac-4f5a-8856-7c4d5a22227c",
+      "year": 2024,
+      "trim": "GS",
+      "condition": "used",
+      "price": 31241,
+      "km": 55567,
+      "dealer": "Erin Mills Mazda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": 23725,
+      "vs_expected_pct": 31.7,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 31241
+        }
+      ]
+    },
+    "83b02a00-1bcd-465d-ba7b-71b5e27d45b8": {
+      "listing_id": "83b02a00-1bcd-465d-ba7b-71b5e27d45b8",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gx-awd-gasoline-white-83b02a00-1bcd-465d-ba7b-71b5e27d45b8",
+      "year": 2026,
+      "trim": "GX AWD",
+      "condition": "new",
+      "price": 39836,
+      "km": 89,
+      "dealer": "401 Dixie Mazda",
+      "location": "MISSISSAUGA",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 39836
+        }
+      ]
+    },
+    "6d719cbe-a94a-4d49-9f39-7efa351831a9": {
+      "listing_id": "6d719cbe-a94a-4d49-9f39-7efa351831a9",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-gasoline-red-6d719cbe-a94a-4d49-9f39-7efa351831a9",
+      "year": 2026,
+      "trim": "GT",
+      "condition": "new",
+      "price": 45017,
+      "km": 150,
+      "dealer": "GYRO MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 45017
+        }
+      ]
+    },
+    "14761204-d17e-4d6a-bdbe-47cfb66b1487": {
+      "listing_id": "14761204-d17e-4d6a-bdbe-47cfb66b1487",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-gasoline-black-14761204-d17e-4d6a-bdbe-47cfb66b1487",
+      "year": 2026,
+      "trim": "GS",
+      "condition": "new",
+      "price": 41517,
+      "km": 150,
+      "dealer": "GYRO MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 41517
+        }
+      ]
+    },
+    "0d36f8c7-fda4-4fe5-b6b2-baac05c96079": {
+      "listing_id": "0d36f8c7-fda4-4fe5-b6b2-baac05c96079",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gx-awd-gasoline-white-0d36f8c7-fda4-4fe5-b6b2-baac05c96079",
+      "year": 2026,
+      "trim": "GX AWD",
+      "condition": "new",
+      "price": 39836,
+      "km": 89,
+      "dealer": "401 Dixie Mazda",
+      "location": "MISSISSAUGA",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 39836
+        }
+      ]
+    },
+    "d81a58d5-3453-4e4b-a3b0-b0521827246e": {
+      "listing_id": "d81a58d5-3453-4e4b-a3b0-b0521827246e",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-white-d81a58d5-3453-4e4b-a3b0-b0521827246e",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 50236,
+      "km": 89,
+      "dealer": "401 Dixie Mazda",
+      "location": "MISSISSAUGA",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 50236
+        }
+      ]
+    },
+    "4d3aa047-fa0d-4b4a-8ced-02c85a67a2b8": {
+      "listing_id": "4d3aa047-fa0d-4b4a-8ced-02c85a67a2b8",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-gasoline-white-4d3aa047-fa0d-4b4a-8ced-02c85a67a2b8",
+      "year": 2026,
+      "trim": "GT",
+      "condition": "new",
+      "price": 50800,
+      "km": 8,
+      "dealer": "WESTOWNE MAZDA",
+      "location": "ETOBICOKE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 50800
+        }
+      ]
+    },
+    "abe2f722-53e8-4d5c-b297-956690ef787c": {
+      "listing_id": "abe2f722-53e8-4d5c-b297-956690ef787c",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gx-awd-gasoline-grey-abe2f722-53e8-4d5c-b297-956690ef787c",
+      "year": 2026,
+      "trim": "GX AWD",
+      "condition": "new",
+      "price": 39836,
+      "km": 89,
+      "dealer": "401 Dixie Mazda",
+      "location": "MISSISSAUGA",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 39836
+        }
+      ]
+    },
+    "8a59eae3-dbc3-4293-9e3b-3c4dab9c0d15": {
+      "listing_id": "8a59eae3-dbc3-4293-9e3b-3c4dab9c0d15",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-gasoline-white-8a59eae3-dbc3-4293-9e3b-3c4dab9c0d15",
+      "year": 2026,
+      "trim": "GT",
+      "condition": "new",
+      "price": 46917,
+      "km": 150,
+      "dealer": "GYRO MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 46917
+        }
+      ]
+    },
+    "80228b6b-c34a-4220-8171-1ae92b76bd92": {
+      "listing_id": "80228b6b-c34a-4220-8171-1ae92b76bd92",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-gasoline-white-80228b6b-c34a-4220-8171-1ae92b76bd92",
+      "year": 2026,
+      "trim": "GT",
+      "condition": "new",
+      "price": 49417,
+      "km": 0,
+      "dealer": "GYRO MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 49417
+        }
+      ]
+    },
+    "9a800f3e-7d13-4e31-a66e-9ecb1c1b8a7a": {
+      "listing_id": "9a800f3e-7d13-4e31-a66e-9ecb1c1b8a7a",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-gasoline-black-9a800f3e-7d13-4e31-a66e-9ecb1c1b8a7a",
+      "year": 2026,
+      "trim": "GT",
+      "condition": "new",
+      "price": 49017,
+      "km": 9,
+      "dealer": "GYRO MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 49017
+        }
+      ]
+    },
+    "8e9c3abe-c1ca-468f-abca-98b4f4814e04": {
+      "listing_id": "8e9c3abe-c1ca-468f-abca-98b4f4814e04",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-blue-8e9c3abe-c1ca-468f-abca-98b4f4814e04",
+      "year": 2025,
+      "trim": "GS AWD",
+      "condition": "used",
+      "price": 32522,
+      "km": 58143,
+      "dealer": "WHITBY MAZDA",
+      "location": "WHITBY",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 32522
+        }
+      ]
+    },
+    "8956a0dd-e485-4d04-bcb7-743bc2458f8e": {
+      "listing_id": "8956a0dd-e485-4d04-bcb7-743bc2458f8e",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-red-8956a0dd-e485-4d04-bcb7-743bc2458f8e",
+      "year": 2026,
+      "trim": "GS AWD",
+      "condition": "new",
+      "price": 43193,
+      "km": 150,
+      "dealer": "Mazda Of Brampton",
+      "location": "BRAMPTON",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 43193
+        }
+      ]
+    },
+    "f771b7ff-eda8-4aae-9743-ca47bfc8217f": {
+      "listing_id": "f771b7ff-eda8-4aae-9743-ca47bfc8217f",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-white-f771b7ff-eda8-4aae-9743-ca47bfc8217f",
+      "year": 2025,
+      "trim": "GS AWD",
+      "condition": "used",
+      "price": 29499,
+      "km": 19141,
+      "dealer": "Jaz Auto Inc.",
+      "location": "OAKVILLE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": 33616,
+      "vs_expected_pct": -12.2,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 29499
+        }
+      ]
+    },
+    "d3af9444-3ad6-42a0-9c9c-a171f601e337": {
+      "listing_id": "d3af9444-3ad6-42a0-9c9c-a171f601e337",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gx-gasoline-black-d3af9444-3ad6-42a0-9c9c-a171f601e337",
+      "year": 2026,
+      "trim": "GX",
+      "condition": "new",
+      "price": 40000,
+      "km": 8,
+      "dealer": "WESTOWNE MAZDA",
+      "location": "ETOBICOKE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 40000
+        }
+      ]
+    },
+    "f1c7d9be-d432-4961-85e3-398060bc1376": {
+      "listing_id": "f1c7d9be-d432-4961-85e3-398060bc1376",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-gasoline-red-f1c7d9be-d432-4961-85e3-398060bc1376",
+      "year": 2026,
+      "trim": "GT",
+      "condition": "new",
+      "price": 46400,
+      "km": 8,
+      "dealer": "WESTOWNE MAZDA",
+      "location": "ETOBICOKE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 46400
+        }
+      ]
+    },
+    "16e2a24c-8101-4825-946e-5b90c5fc79d5": {
+      "listing_id": "16e2a24c-8101-4825-946e-5b90c5fc79d5",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-gasoline-black-16e2a24c-8101-4825-946e-5b90c5fc79d5",
+      "year": 2026,
+      "trim": "GT",
+      "condition": "new",
+      "price": 50650,
+      "km": 8,
+      "dealer": "WESTOWNE MAZDA",
+      "location": "ETOBICOKE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 50650
+        }
+      ]
+    },
+    "7a00bd79-749a-4794-8147-aed379cf9505": {
+      "listing_id": "7a00bd79-749a-4794-8147-aed379cf9505",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-grey-7a00bd79-749a-4794-8147-aed379cf9505",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 50493,
+      "km": 150,
+      "dealer": "Mazda Of Brampton",
+      "location": "BRAMPTON",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 50493
+        }
+      ]
+    },
+    "cbf99083-165e-46e7-83fc-4c9475aaa934": {
+      "listing_id": "cbf99083-165e-46e7-83fc-4c9475aaa934",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-grey-cbf99083-165e-46e7-83fc-4c9475aaa934",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 51367,
+      "km": 89,
+      "dealer": "401 Dixie Mazda",
+      "location": "MISSISSAUGA",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 51367
+        }
+      ]
+    },
+    "00e2a051-a5f9-4932-b26f-743cdb5e74e8": {
+      "listing_id": "00e2a051-a5f9-4932-b26f-743cdb5e74e8",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-blue-00e2a051-a5f9-4932-b26f-743cdb5e74e8",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 50086,
+      "km": 89,
+      "dealer": "401 Dixie Mazda",
+      "location": "MISSISSAUGA",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 50086
+        }
+      ]
+    },
+    "841c0d9c-5c69-49f4-ae66-750486c8910f": {
+      "listing_id": "841c0d9c-5c69-49f4-ae66-750486c8910f",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-red-841c0d9c-5c69-49f4-ae66-750486c8910f",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 50693,
+      "km": 150,
+      "dealer": "Mazda Of Brampton",
+      "location": "BRAMPTON",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 50693
+        }
+      ]
+    },
+    "8146423a-e5a1-4523-995d-c0d26517a302": {
+      "listing_id": "8146423a-e5a1-4523-995d-c0d26517a302",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-grey-8146423a-e5a1-4523-995d-c0d26517a302",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 50343,
+      "km": 150,
+      "dealer": "Mazda Of Brampton",
+      "location": "BRAMPTON",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 50343
+        }
+      ]
+    },
+    "f30163f7-cd89-43d2-915a-03496a8367b9": {
+      "listing_id": "f30163f7-cd89-43d2-915a-03496a8367b9",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gx-awd-gasoline-black-f30163f7-cd89-43d2-915a-03496a8367b9",
+      "year": 2026,
+      "trim": "GX AWD",
+      "condition": "new",
+      "price": 39543,
+      "km": 150,
+      "dealer": "Mazda Of Brampton",
+      "location": "BRAMPTON",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 39543
+        }
+      ]
+    },
+    "c035e11e-22f2-489c-902a-52cbc5476dd8": {
+      "listing_id": "c035e11e-22f2-489c-902a-52cbc5476dd8",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-gasoline-black-c035e11e-22f2-489c-902a-52cbc5476dd8",
+      "year": 2024,
+      "trim": "GS",
+      "condition": "used",
+      "price": 33990,
+      "km": 37351,
+      "dealer": "Roam Auto Sales & Leasing",
+      "location": "Bolton",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": 27375,
+      "vs_expected_pct": 24.2,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 33990
+        }
+      ]
+    },
+    "32b002b8-c2b8-4c5c-9207-61e71f843385": {
+      "listing_id": "32b002b8-c2b8-4c5c-9207-61e71f843385",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-grey-32b002b8-c2b8-4c5c-9207-61e71f843385",
+      "year": 2026,
+      "trim": "GS AWD",
+      "condition": "new",
+      "price": 42743,
+      "km": 150,
+      "dealer": "Mazda Of Brampton",
+      "location": "BRAMPTON",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 42743
+        }
+      ]
+    },
+    "b640da31-3b18-4522-aa02-90ad835c4768": {
+      "listing_id": "b640da31-3b18-4522-aa02-90ad835c4768",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-grey-b640da31-3b18-4522-aa02-90ad835c4768",
+      "year": 2026,
+      "trim": "GS AWD",
+      "condition": "new",
+      "price": 42743,
+      "km": 150,
+      "dealer": "Mazda Of Brampton",
+      "location": "BRAMPTON",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 42743
+        }
+      ]
+    },
+    "69c32c86-94ce-4619-8a60-510a7458a50f": {
+      "listing_id": "69c32c86-94ce-4619-8a60-510a7458a50f",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-blue-69c32c86-94ce-4619-8a60-510a7458a50f",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 50193,
+      "km": 150,
+      "dealer": "Mazda Of Brampton",
+      "location": "BRAMPTON",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 50193
+        }
+      ]
+    },
+    "5c0bd5f4-311a-4d97-99d7-bbaa12e576fb": {
+      "listing_id": "5c0bd5f4-311a-4d97-99d7-bbaa12e576fb",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-grey-5c0bd5f4-311a-4d97-99d7-bbaa12e576fb",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 50243,
+      "km": 150,
+      "dealer": "Mazda Of Brampton",
+      "location": "BRAMPTON",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 50243
+        }
+      ]
+    },
+    "1b384394-9f1e-476f-b367-d25d28fadc3b": {
+      "listing_id": "1b384394-9f1e-476f-b367-d25d28fadc3b",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-black-1b384394-9f1e-476f-b367-d25d28fadc3b",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 51114,
+      "km": 90,
+      "dealer": "Erin Mills Mazda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 51114
+        }
+      ]
+    },
+    "36b84e72-f261-4d4d-8273-51a8a42f1ba0": {
+      "listing_id": "36b84e72-f261-4d4d-8273-51a8a42f1ba0",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-grey-36b84e72-f261-4d4d-8273-51a8a42f1ba0",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 47788,
+      "km": 200,
+      "dealer": "Ajax Mazda",
+      "location": "Ajax",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 47788
+        }
+      ]
+    },
+    "cb705859-7cd8-4050-8b75-382caabd8f13": {
+      "listing_id": "cb705859-7cd8-4050-8b75-382caabd8f13",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-blue-cb705859-7cd8-4050-8b75-382caabd8f13",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 47488,
+      "km": 200,
+      "dealer": "Ajax Mazda",
+      "location": "Ajax",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 47488
+        }
+      ]
+    },
+    "0f0bb638-7360-43cb-b781-8708a3272ed4": {
+      "listing_id": "0f0bb638-7360-43cb-b781-8708a3272ed4",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-grey-0f0bb638-7360-43cb-b781-8708a3272ed4",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 47014,
+      "km": 90,
+      "dealer": "Erin Mills Mazda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 47014
+        }
+      ]
+    },
+    "573acfc4-21f8-4ca2-b5b8-e7c1ff6efcb4": {
+      "listing_id": "573acfc4-21f8-4ca2-b5b8-e7c1ff6efcb4",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-in-transit-gasoline-white-573acfc4-21f8-4ca2-b5b8-e7c1ff6efcb4",
+      "year": 2026,
+      "trim": "IN TRANSIT",
+      "condition": "new",
+      "price": 49014,
+      "km": 90,
+      "dealer": "Erin Mills Mazda",
+      "location": "Mississauga",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 49014
+        }
+      ]
+    },
+    "c35719ea-4f32-4b92-a036-37a7bae00914": {
+      "listing_id": "c35719ea-4f32-4b92-a036-37a7bae00914",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd--leather--heated-seats-steering-wheel-gasoline-red-c35719ea-4f32-4b92-a036-37a7bae00914",
+      "year": 2025,
+      "trim": "GS AWD | Leather | Heated Seats & Steering Wheel",
+      "condition": "used",
+      "price": 33400,
+      "km": 35874,
+      "dealer": "MILBURN AUTO",
+      "location": "GUELPH",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 33400
+        }
+      ]
+    },
+    "9ebf88ee-9b3a-48e6-984a-4edac49a4bfc": {
+      "listing_id": "9ebf88ee-9b3a-48e6-984a-4edac49a4bfc",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-grey-9ebf88ee-9b3a-48e6-984a-4edac49a4bfc",
+      "year": 2026,
+      "trim": "GS AWD",
+      "condition": "new",
+      "price": 42911,
+      "km": 150,
+      "dealer": "Motion Mazda",
+      "location": "ORANGEVILLE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 42911
+        }
+      ]
+    },
+    "5de1e617-ebf6-4e5d-9aa0-19dfd2f5fb26": {
+      "listing_id": "5de1e617-ebf6-4e5d-9aa0-19dfd2f5fb26",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-red-5de1e617-ebf6-4e5d-9aa0-19dfd2f5fb26",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 50761,
+      "km": 150,
+      "dealer": "Motion Mazda",
+      "location": "ORANGEVILLE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 50761
+        }
+      ]
+    },
+    "2a1e124f-f68a-4dcb-8ecf-867937e75522": {
+      "listing_id": "2a1e124f-f68a-4dcb-8ecf-867937e75522",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-preferred-awd--accident-free--serviced-well-gasoline-blue-2a1e124f-f68a-4dcb-8ecf-867937e75522",
+      "year": 2025,
+      "trim": "Preferred AWD | ACCIDENT-FREE | SERVICED WELL",
+      "condition": "used",
+      "price": 34200,
+      "km": 43565,
+      "dealer": "Guelph Hyundai",
+      "location": "Guelph",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 34200
+        }
+      ]
+    },
+    "f518a67d-e82e-4e56-8c6e-e2d043535b91": {
+      "listing_id": "f518a67d-e82e-4e56-8c6e-e2d043535b91",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gx-awd-gasoline-black-f518a67d-e82e-4e56-8c6e-e2d043535b91",
+      "year": 2026,
+      "trim": "GX AWD",
+      "condition": "new",
+      "price": 39588,
+      "km": 200,
+      "dealer": "Ajax Mazda",
+      "location": "Ajax",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 39588
+        }
+      ]
+    },
+    "bd4b1ccb-8ab4-402c-bc9c-dea24e2a1742": {
+      "listing_id": "bd4b1ccb-8ab4-402c-bc9c-dea24e2a1742",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gx-awd-at-gasoline-white-bd4b1ccb-8ab4-402c-bc9c-dea24e2a1742",
+      "year": 2026,
+      "trim": "GX AWD at",
+      "condition": "new",
+      "price": 39988,
+      "km": 200,
+      "dealer": "Ajax Mazda",
+      "location": "Ajax",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 39988
+        }
+      ]
+    },
+    "e2f2bd48-c154-441e-8681-53e6c3ce23ea": {
+      "listing_id": "e2f2bd48-c154-441e-8681-53e6c3ce23ea",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-blue-e2f2bd48-c154-441e-8681-53e6c3ce23ea",
+      "year": 2026,
+      "trim": "GS AWD",
+      "condition": "new",
+      "price": 42488,
+      "km": 200,
+      "dealer": "Ajax Mazda",
+      "location": "Ajax",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 42488
+        }
+      ]
+    },
+    "301b82bc-f663-4f3e-85b3-f544004c47ea": {
+      "listing_id": "301b82bc-f663-4f3e-85b3-f544004c47ea",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-grey-301b82bc-f663-4f3e-85b3-f544004c47ea",
+      "year": 2026,
+      "trim": "GS AWD",
+      "condition": "new",
+      "price": 42788,
+      "km": 200,
+      "dealer": "Ajax Mazda",
+      "location": "Ajax",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 42788
+        }
+      ]
+    },
+    "ea9acdac-1b79-4b41-b708-fa45d6771d99": {
+      "listing_id": "ea9acdac-1b79-4b41-b708-fa45d6771d99",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-black-ea9acdac-1b79-4b41-b708-fa45d6771d99",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 45488,
+      "km": 200,
+      "dealer": "Ajax Mazda",
+      "location": "Ajax",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 45488
+        }
+      ]
+    },
+    "6422bf83-2c0d-4a55-b9c1-7551555f0b59": {
+      "listing_id": "6422bf83-2c0d-4a55-b9c1-7551555f0b59",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gt-awd-gasoline-white-6422bf83-2c0d-4a55-b9c1-7551555f0b59",
+      "year": 2026,
+      "trim": "GT AWD",
+      "condition": "new",
+      "price": 45888,
+      "km": 200,
+      "dealer": "Ajax Mazda",
+      "location": "Ajax",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 45888
+        }
+      ]
+    },
+    "420c85a9-ba41-4daf-9c8c-15950eb24656": {
+      "listing_id": "420c85a9-ba41-4daf-9c8c-15950eb24656",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-preferred-awd--no-reported-accidents-gasoline-blue-420c85a9-ba41-4daf-9c8c-15950eb24656",
+      "year": 2025,
+      "trim": "Preferred AWD | NO REPORTED ACCIDENTS",
+      "condition": "used",
+      "price": 34200,
+      "km": 56407,
+      "dealer": "Guelph Hyundai",
+      "location": "Guelph",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 34200
+        }
+      ]
+    },
+    "2a1184ee-1349-4467-a817-043e65d2aac4": {
+      "listing_id": "2a1184ee-1349-4467-a817-043e65d2aac4",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gasoline-black-2a1184ee-1349-4467-a817-043e65d2aac4",
+      "year": 2026,
+      "trim": "Not listed",
+      "condition": "new",
+      "price": 47662,
+      "km": 99,
+      "dealer": "YORKDALE DUFFERIN MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 47662
+        }
+      ]
+    },
+    "8ce14317-8542-4c2f-bc5f-96fb82e074e4": {
+      "listing_id": "8ce14317-8542-4c2f-bc5f-96fb82e074e4",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gasoline-grey-8ce14317-8542-4c2f-bc5f-96fb82e074e4",
+      "year": 2026,
+      "trim": "Not listed",
+      "condition": "new",
+      "price": 42812,
+      "km": 99,
+      "dealer": "YORKDALE DUFFERIN MAZDA",
+      "location": "TORONTO",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 42812
+        }
+      ]
+    },
+    "0d3ede02-7f09-447c-9aa1-acc4646d530c": {
+      "listing_id": "0d3ede02-7f09-447c-9aa1-acc4646d530c",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-back-up-cam-power-liftgate-gasoline-blue-0d3ede02-7f09-447c-9aa1-acc4646d530c",
+      "year": 2025,
+      "trim": "GS- Back-up Cam - Power Liftgate",
+      "condition": "used",
+      "price": 30980,
+      "km": 61120,
+      "dealer": "Georgian Chevrolet Buick GMC",
+      "location": "Barrie",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 30980
+        }
+      ]
+    },
+    "870c0bb6-cced-4a2d-8eb0-04d5851c82af": {
+      "listing_id": "870c0bb6-cced-4a2d-8eb0-04d5851c82af",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-blue-870c0bb6-cced-4a2d-8eb0-04d5851c82af",
+      "year": 2026,
+      "trim": "GS AWD",
+      "condition": "new",
+      "price": 42761,
+      "km": 150,
+      "dealer": "Motion Mazda",
+      "location": "ORANGEVILLE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 42761
+        }
+      ]
+    },
+    "4703535d-4025-41ee-8e33-7727579e35af": {
+      "listing_id": "4703535d-4025-41ee-8e33-7727579e35af",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-awd-gasoline-white-4703535d-4025-41ee-8e33-7727579e35af",
+      "year": 2026,
+      "trim": "GS AWD",
+      "condition": "new",
+      "price": 42911,
+      "km": 150,
+      "dealer": "Motion Mazda",
+      "location": "ORANGEVILLE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 42911
+        }
+      ]
+    },
+    "48ca9b74-268a-47bc-ad70-8fc4ba11f70e": {
+      "listing_id": "48ca9b74-268a-47bc-ad70-8fc4ba11f70e",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-cx-5-awd--leather--heat-seat-steer--power-trunk-gasoline-black-48ca9b74-268a-47bc-ad70-8fc4ba11f70e",
+      "year": 2025,
+      "trim": "CX-5 AWD | LEATHER | HEAT SEAT/STEER | POWER TRUNK",
+      "condition": "used",
+      "price": 32621,
+      "km": 50849,
+      "dealer": "Peterborough Subaru",
+      "location": "Peterborough",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 32621
+        }
+      ]
+    },
+    "d31f4e5a-3914-4e89-9c70-fe308282f49f": {
+      "listing_id": "d31f4e5a-3914-4e89-9c70-fe308282f49f",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-vdpurlen-gasoline-white-d31f4e5a-3914-4e89-9c70-fe308282f49f",
+      "year": 2024,
+      "trim": "VdpUrlEn",
+      "condition": "used",
+      "price": 29998,
+      "km": 69202,
+      "dealer": "Tillsonburg KIA",
+      "location": "Tillsonburg",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 29998
+        }
+      ]
+    },
+    "2592722f-f802-4d31-acad-063f2986a279": {
+      "listing_id": "2592722f-f802-4d31-acad-063f2986a279",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-signature-awd--upscale-options--mazda-reliabilit-gasoline-grey-2592722f-f802-4d31-acad-063f2986a279",
+      "year": 2024,
+      "trim": "Signature AWD | Upscale Options | Mazda Reliabilit",
+      "condition": "used",
+      "price": 36495,
+      "km": 50857,
+      "dealer": "Midland Honda",
+      "location": "MIDLAND",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": null,
+      "vs_expected_pct": null,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 36495
+        }
+      ]
+    },
+    "c57cf779-5db7-49b5-939e-45deb0ec8f5b": {
+      "listing_id": "c57cf779-5db7-49b5-939e-45deb0ec8f5b",
+      "url": "https://www.autotrader.ca/offers/mazda-cx-5-gs-sunroof-comfort-package-gasoline-grey-c57cf779-5db7-49b5-939e-45deb0ec8f5b",
+      "year": 2024,
+      "trim": "GS  SUNROOF - COMFORT PACKAGE",
+      "condition": "used",
+      "price": 32995,
+      "km": 59450,
+      "dealer": "MOFFATT'S MAZDA",
+      "location": "BARRIE",
+      "is_cpo": false,
+      "scraped_at": "2026-05-04",
+      "expected_value": 23725,
+      "vs_expected_pct": 39.1,
+      "first_seen": "2026-05-04",
+      "last_seen": "2026-05-04",
+      "price_history": [
+        {
+          "date": "2026-05-04",
+          "price": 32995
+        }
+      ]
     }
   },
   "dealer_stats": {
     "GYRO MAZDA": {
-      "listings_seen": 59,
-      "avg_days_on_lot": 2.6,
+      "listings_seen": 70,
+      "avg_days_on_lot": 3.2,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 1.1,
-      "relists_detected": 3
+      "relists_detected": 20
     },
     "Trento Kia": {
       "listings_seen": 1,
@@ -10758,15 +12499,15 @@
       "relists_detected": 0
     },
     "YORKDALE DUFFERIN MAZDA": {
-      "listings_seen": 9,
-      "avg_days_on_lot": 1.3,
+      "listings_seen": 11,
+      "avg_days_on_lot": 1.8,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
-      "relists_detected": 1
+      "relists_detected": 2
     },
     "PRIMA MAZDA": {
-      "listings_seen": 6,
-      "avg_days_on_lot": 1.0,
+      "listings_seen": 7,
+      "avg_days_on_lot": 1.1,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
@@ -10779,85 +12520,85 @@
       "relists_detected": 0
     },
     "Mazda of Toronto": {
-      "listings_seen": 5,
-      "avg_days_on_lot": 1.2,
+      "listings_seen": 6,
+      "avg_days_on_lot": 2.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
-      "relists_detected": 1
+      "relists_detected": 2
     },
     "WESTOWNE MAZDA": {
-      "listings_seen": 32,
-      "avg_days_on_lot": 4.3,
+      "listings_seen": 41,
+      "avg_days_on_lot": 4.4,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 1.1,
-      "relists_detected": 6
+      "relists_detected": 11
     },
     "401 Dixie Hyundai": {
-      "listings_seen": 2,
-      "avg_days_on_lot": 3.0,
+      "listings_seen": 3,
+      "avg_days_on_lot": 2.7,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "Volkswagen Villa": {
       "listings_seen": 1,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 8.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "Tabangi Motors": {
-      "listings_seen": 8,
-      "avg_days_on_lot": 4.5,
+      "listings_seen": 9,
+      "avg_days_on_lot": 5.6,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 1.7,
       "relists_detected": 1
     },
     "AIRPORT MAZDA OF TORONTO": {
       "listings_seen": 6,
-      "avg_days_on_lot": 4.0,
+      "avg_days_on_lot": 6.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "401 Dixie Mazda": {
-      "listings_seen": 35,
-      "avg_days_on_lot": 3.6,
+      "listings_seen": 42,
+      "avg_days_on_lot": 4.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
-      "relists_detected": 12
+      "relists_detected": 16
     },
     "AutoPark Brampton": {
       "listings_seen": 1,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 8.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "MORNINGSIDE NISSAN": {
       "listings_seen": 1,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 8.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "Agincourt Mazda": {
       "listings_seen": 7,
-      "avg_days_on_lot": 3.4,
+      "avg_days_on_lot": 4.6,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 10.2,
-      "relists_detected": 0
+      "relists_detected": 1
     },
     "Mazda of Richmond Hill": {
       "listings_seen": 3,
-      "avg_days_on_lot": 2.0,
+      "avg_days_on_lot": 3.3,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "Volkswagen DowntownToronto": {
       "listings_seen": 1,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 8.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
@@ -10870,39 +12611,39 @@
       "relists_detected": 0
     },
     "MAPLE MAZDA": {
-      "listings_seen": 3,
-      "avg_days_on_lot": 2.0,
+      "listings_seen": 5,
+      "avg_days_on_lot": 2.4,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "AJAX NISSAN": {
       "listings_seen": 2,
-      "avg_days_on_lot": 3.0,
-      "price_drop_rate": 0.0,
-      "avg_price_drop_pct": 0.0,
+      "avg_days_on_lot": 4.0,
+      "price_drop_rate": 1.0,
+      "avg_price_drop_pct": 2.8,
       "relists_detected": 0
     },
     "Markham Mazda": {
       "listings_seen": 2,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 7.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "Mazda Of Brampton": {
-      "listings_seen": 39,
-      "avg_days_on_lot": 2.5,
+      "listings_seen": 48,
+      "avg_days_on_lot": 2.8,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
-      "relists_detected": 8
+      "relists_detected": 17
     },
     "Erin Mills Mazda": {
-      "listings_seen": 37,
-      "avg_days_on_lot": 1.3,
+      "listings_seen": 43,
+      "avg_days_on_lot": 2.2,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 6.3,
-      "relists_detected": 0
+      "relists_detected": 11
     },
     "Whitby Mazda": {
       "listings_seen": 2,
@@ -10912,35 +12653,35 @@
       "relists_detected": 0
     },
     "WHITBY MAZDA": {
-      "listings_seen": 5,
-      "avg_days_on_lot": 4.8,
+      "listings_seen": 6,
+      "avg_days_on_lot": 5.7,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 1.2,
       "relists_detected": 0
     },
     "Curve Motors": {
       "listings_seen": 1,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 8.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "ERIN DODGE CHRYSLER JEEP RAM": {
       "listings_seen": 1,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 8.0,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 2.8,
       "relists_detected": 0
     },
     "JP Motors Sales": {
       "listings_seen": 1,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 8.0,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 0.9,
       "relists_detected": 0
     },
     "AJAX MAZDA": {
-      "listings_seen": 32,
+      "listings_seen": 13,
       "avg_days_on_lot": 0.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
@@ -10948,7 +12689,7 @@
     },
     "Auto Planet Durham": {
       "listings_seen": 2,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 7.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
@@ -10962,7 +12703,7 @@
     },
     "Achilles Mazda of Milton": {
       "listings_seen": 2,
-      "avg_days_on_lot": 0.0,
+      "avg_days_on_lot": 1.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
@@ -10983,21 +12724,21 @@
     },
     "MENZIES CHRYSLER": {
       "listings_seen": 1,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 8.0,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 0.3,
       "relists_detected": 0
     },
     "Ajax Mazda": {
-      "listings_seen": 44,
-      "avg_days_on_lot": 4.2,
+      "listings_seen": 71,
+      "avg_days_on_lot": 5.7,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
-      "relists_detected": 0
+      "relists_detected": 9
     },
     "Mark Wilsons Better Used Cars": {
       "listings_seen": 2,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 8.0,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 0.3,
       "relists_detected": 0
@@ -11010,25 +12751,25 @@
       "relists_detected": 0
     },
     "MOFFATT'S MAZDA": {
-      "listings_seen": 14,
-      "avg_days_on_lot": 1.7,
+      "listings_seen": 15,
+      "avg_days_on_lot": 3.1,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "NIAGARA CHRYSLER DODGE JEEP": {
       "listings_seen": 1,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 8.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "Motion Mazda": {
-      "listings_seen": 20,
-      "avg_days_on_lot": 1.8,
+      "listings_seen": 24,
+      "avg_days_on_lot": 3.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
-      "relists_detected": 3
+      "relists_detected": 5
     },
     "SUBARU OF HAMILTON": {
       "listings_seen": 1,
@@ -11046,17 +12787,17 @@
     },
     "Subaru of Hamilton": {
       "listings_seen": 1,
-      "avg_days_on_lot": 6.0,
+      "avg_days_on_lot": 8.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "Tabangi Motors Kitchener": {
       "listings_seen": 10,
-      "avg_days_on_lot": 5.4,
+      "avg_days_on_lot": 6.4,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 1.3,
-      "relists_detected": 1
+      "relists_detected": 3
     },
     "Performance Chrysler Dodge Jeep": {
       "listings_seen": 1,
@@ -11079,16 +12820,16 @@
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
-    "Kitchener AUTOMART": {
+    "Kitchener Automart": {
       "listings_seen": 1,
-      "avg_days_on_lot": 0.0,
-      "price_drop_rate": 0.0,
-      "avg_price_drop_pct": 0.0,
+      "avg_days_on_lot": 8.0,
+      "price_drop_rate": 1.0,
+      "avg_price_drop_pct": 1.7,
       "relists_detected": 0
     },
     "Stratford Kia": {
       "listings_seen": 2,
-      "avg_days_on_lot": 0.0,
+      "avg_days_on_lot": 4.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
@@ -11102,9 +12843,9 @@
     },
     "North Bay Chrysler": {
       "listings_seen": 1,
-      "avg_days_on_lot": 0.0,
-      "price_drop_rate": 0.0,
-      "avg_price_drop_pct": 0.0,
+      "avg_days_on_lot": 8.0,
+      "price_drop_rate": 1.0,
+      "avg_price_drop_pct": 0.7,
       "relists_detected": 0
     },
     "North Bay Mazda": {
@@ -11122,8 +12863,8 @@
       "relists_detected": 0
     },
     "Guelph Hyundai": {
-      "listings_seen": 1,
-      "avg_days_on_lot": 6.0,
+      "listings_seen": 3,
+      "avg_days_on_lot": 2.7,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
@@ -11144,14 +12885,14 @@
     },
     "Waterloo Honda": {
       "listings_seen": 3,
-      "avg_days_on_lot": 2.0,
+      "avg_days_on_lot": 4.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "417 Nissan": {
       "listings_seen": 2,
-      "avg_days_on_lot": 3.0,
+      "avg_days_on_lot": 4.0,
       "price_drop_rate": 1.0,
       "avg_price_drop_pct": 1.1,
       "relists_detected": 0
@@ -11200,7 +12941,7 @@
     },
     "ROSE CITY CHRYSLER DODGE JEEP": {
       "listings_seen": 2,
-      "avg_days_on_lot": 3.0,
+      "avg_days_on_lot": 5.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
@@ -11304,22 +13045,22 @@
       "relists_detected": 0
     },
     "Golden Mile Chrysler": {
-      "listings_seen": 1,
-      "avg_days_on_lot": 0.0,
+      "listings_seen": 2,
+      "avg_days_on_lot": 1.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "GOOD FELLOW'S AUTO WHOLESALERS": {
       "listings_seen": 2,
-      "avg_days_on_lot": 0.0,
+      "avg_days_on_lot": 2.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "427/QEW KIA": {
       "listings_seen": 1,
-      "avg_days_on_lot": 0.0,
+      "avg_days_on_lot": 2.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
@@ -11333,14 +13074,14 @@
     },
     "Car-On Auto Sales": {
       "listings_seen": 2,
-      "avg_days_on_lot": 0.0,
+      "avg_days_on_lot": 2.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
     },
     "Bayview Auto Sales": {
       "listings_seen": 1,
-      "avg_days_on_lot": 0.0,
+      "avg_days_on_lot": 2.0,
       "price_drop_rate": 0.0,
       "avg_price_drop_pct": 0.0,
       "relists_detected": 0
@@ -11353,6 +13094,62 @@
       "relists_detected": 0
     },
     "Kitchener Chrysler Dodge Jeep Ram": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "PICKERING HONDA": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Jaz Auto Inc.": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Roam Auto Sales & Leasing": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "MILBURN AUTO": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Georgian Chevrolet Buick GMC": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Peterborough Subaru": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Tillsonburg KIA": {
+      "listings_seen": 1,
+      "avg_days_on_lot": 0.0,
+      "price_drop_rate": 0.0,
+      "avg_price_drop_pct": 0.0,
+      "relists_detected": 0
+    },
+    "Midland Honda": {
       "listings_seen": 1,
       "avg_days_on_lot": 0.0,
       "price_drop_rate": 0.0,
