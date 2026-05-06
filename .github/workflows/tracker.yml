@@ -1,7 +1,7 @@
 name: AutoDealTracker
 
 on:
-  schedule:
+  #schedule:
 #    - cron: '0 12 */3 * *'   # every 3 days at noon UTC (8am EDT)
   workflow_dispatch:           # manual trigger from GitHub mobile app
 
